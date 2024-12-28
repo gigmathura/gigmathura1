@@ -115,7 +115,7 @@ const BhooteshwarMahadev = () => {
                                 <h2>Why Visit Bhooteshwar Mahadev?</h2>
                                 <p>
                                     Whether you&apos;re seeking spiritual solace, architectural marvels, or a deeper connection with mythology,
-                                    Bhooteshwar Mahadev Temple offers it all. The chants of "Har Har Mahadev" resonate through the air, filling
+                                    Bhooteshwar Mahadev Temple offers it all. The chants of &quot;Har Har Mahadev&quot; resonate through the air, filling
                                     your heart with peace and devotion. For us Mathura locals, visiting this temple feels like a homecoming—a
                                     journey back to our roots and faith.
                                 </p>

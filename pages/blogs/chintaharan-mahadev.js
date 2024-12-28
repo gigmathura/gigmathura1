@@ -61,7 +61,7 @@ const ChintaharanMahadev = () => {
                                 <h2>Historical Significance</h2>
                                 <p>This ghat lies on the bank of Shree Yamuna near BrahmandGhat to its east. Chintaharan Mahadev, who is worshipped by the Brijwasis, is present here. When Mother Yashoda saw the universes in Kanhaiya&apos;s mouth, she became extremely anxious for His welfare and prayed to ChintaharanMahadev for Krishna&apos;s safety. Chintaharan means “removing anxieties”.
                                     Chintaharan Mahadev Temple has a profound history intertwined with faith and devotion. It is believed that Lord Shiva
-                                    appeared here to relieve the people of their worries ("Chinta" in Sanskrit). The temple is an ancient site, serving
+                                    appeared here to relieve the people of their worries (&quot;Chinta&quot; in Sanskrit). The temple is an ancient site, serving
                                     as a beacon of hope and tranquility for centuries. The temple&apos;s origins are rooted in mythological lore, with devotees
                                     recounting tales of Lord Shiva&apos;s divine interventions.
                                 </p>

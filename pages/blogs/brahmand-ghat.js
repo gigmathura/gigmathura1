@@ -66,7 +66,7 @@ const BrahmandGateGokul = () => {
                                     mouth, she witnessed the entire cosmos:- the universe, celestial bodies, and realms of existence within Krishna&apos;s
                                     tiny mouth. This divine vision overwhelmed Yashoda with awe and love.
                                     <br />
-                                    #Trivia: This episode of "Brahmand Darshan" is the inspiration behind the name of this magnificent gate.
+                                    #Trivia: This episode of &quot;Brahmand Darshan&quot; is the inspiration behind the name of this magnificent gate.
                                     Visitors come to experience the palpable divinity and connect with Krishna&apos;s playful and mystical nature.
                                 </p>
 
@@ -96,7 +96,7 @@ const BrahmandGateGokul = () => {
                                 </p>
                                 <p>
                                     <strong>Gokulashtami:</strong> Unique to Gokul, this festival celebrates Krishna&apos;s childhood days with fervor.
-                                    Devotees gather to offer prayers and participate in the "Brahmand Leela" enactments.
+                                    Devotees gather to offer prayers and participate in the &quot;Brahmand Leela&quot; enactments.
                                 </p>
 
                                 <h2>Visiting Information</h2>

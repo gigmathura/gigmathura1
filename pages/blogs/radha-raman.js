@@ -69,7 +69,7 @@ const ShriRadhaRamanTemple = () => {
                                     Gopala Bhatta Gosvami discovered a total of twelve such Shaligrama Shilas. Legend has it that a wealthy man once came to Vrindavan and donated various clothing and jewellery for Gopala Bhatta&apos;s Shaligramas. Gopala Bhatta, on the other hand, couldn&apos;t employ them for his round-shaped Shaligramas. Thus, he asked the donor to donate them to someone else. However, the donor refused, and Gopala Bhatta kept them with his Shilas.
                                     After administering naivedya to his Shaligrama shilas on the day of Purnima, Gopala Bhatta laid them to rest in the evening, covering them with a wicker basket. Gopala Bhatta took a short nap late in the evening. He went to the Yamuna river in the early morning to bathe. When he returned from his bath, he revealed the Shaligramas to conduct puja, and among them was a Krishna Deity playing the flute. Only eleven shilas and a Deity remained.
 
-                                    The magnificent three-fold bending shape of tri-bhangananda Krishna had emerged as the "Damodara Shila."
+                                    The magnificent three-fold bending shape of tri-bhangananda Krishna had emerged as the &quot;Damodara Shila.&quot;
 
                                     As a result, the Lord fulfilled his desire and turned the stone into the murti of Sri Krishna. Thus, Radharamana&apos;s apparition story, as a narrative description of Krishna-bhakti, emphasises the divine-human relationship of love as the ontologically essential category of ultimate reality.
 
