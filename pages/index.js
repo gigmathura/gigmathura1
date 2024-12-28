@@ -26,8 +26,8 @@ export default function Home({ allBlog }) {
   return (
     <>
       <Head>
-        <title>GIG Ayodhya</title>
-        <meta name="description" content="Ayodhya Destination Management Company" />
+        <title>GIG Mathura</title>
+        <meta name="description" content="Mathura Travel Management Company" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
