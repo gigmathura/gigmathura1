@@ -6,13 +6,13 @@ import Image from "next/image";
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import Head from 'next/head';
-import packageObjectData from '../../data/moksha-yatra.json';
+import packageObjectData from '../../data/tirth-essentials.json';
 import placesData from '../../data/placestovisit.json';
 import hotelData from '../../data/hotels.json'
 import cabData from '../../data/cabs.json'
 import activityData from '../../data/activity.json'
 import poojaData from '../../data/pooja.json'
-import connectDb from '../../lib/mongodb';
+import connectDb from '../../lib/mongodb.js';
 
 
 
@@ -34,7 +34,7 @@ export async function getStaticProps() {
         };
     }
 }
-export default function Mokshayatra() {
+export default function Tirthessentials() {
     const [packageObject, setPackageObject] = useState(packageObjectData);
     const [isOverlayVisible, setIsOverlayVisible] = useState(false);
     const [isMobileOverlayVisible, setIsMobileOverlayVisible] = useState(false)
@@ -418,6 +418,7 @@ export default function Mokshayatra() {
     };
 
 
+
     // Move place back to unassigned
     const handleMoveToUnassigned = (place, sourceDayIndex) => {
         const updatedTempItinerary = [...tempItinerary];
@@ -449,7 +450,6 @@ export default function Mokshayatra() {
         }
     };
 
-
     // Handle down arrow movement
     const handleDownArrow = (place, targetDayIndex) => {
         // Check if the targetDayIndex is valid and within the limits
@@ -463,6 +463,7 @@ export default function Mokshayatra() {
             handleMoveToDay(place, targetDayIndex + 1, true);
         }
     };
+
 
     const handleViewHotel = (hotelId) => {
         // Find the specific hotel by hotelId
@@ -1167,7 +1168,7 @@ export default function Mokshayatra() {
                 <div className={`${styles.overlay}`} style={{ zIndex: "1800" }}>
                     <div className={styles.fullhoteloverlayContentContainer}>
                         <div className={`${styles.overlayContent} ${styles.fhoverlayContent}`}  >
-                        <div className='w-100' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
+                            <div className='w-100' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
                                 <button className=" btn btn-outline-secondary mb-2 px-2 py-1" onClick={() => setShowFullHotelOverlay(false)}>Back <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
                             <div className={styles.fhImageDescription}  >
@@ -1259,6 +1260,9 @@ export default function Mokshayatra() {
                     <div className='w-100 mt-5 px-3' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
                                 <button className=" btn btn-outline-secondary mb-2 px-2 py-1" onClick={() => setShowAllHotelsOverlay(false)}>Back <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
+                        {/* <div className='w-100 pt-4 px-2' style={{ cursor: "pointer" }}>
+                            <button className=" btn btn-secondary  mt-2" onClick={() => setShowAllHotelsOverlay(false)}> <i className="fa fa-arrow-left" aria-hidden="true"></i> Back</button>
+                        </div> */}
                         <h2 className='text-dark m-0 p-0'>Available Hotels</h2>
                         <div className={`${styles.overlayContent} ${styles.allhoverlaycontent}`} style={{ width: "98%" }}>
 

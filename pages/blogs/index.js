@@ -42,64 +42,121 @@ export default function Allblogs() {
     // All Blogs Data
     const allBlogs = [
         {
-            id: 1,
-            title: "Ram Mandir Ayodhya",
-            topic: "Places",
-            imageUrl: "https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F026e37da-89b9-4b8e-bdf8-8d3c3ba1ab0a?alt=media&token=47ed0118-b9bd-4496-a714-e805ec65df37",
-            description: "India's cultural tapestry is woven with threads of history, spirituality, and architectural marvels that reflect its diverse heritage. One such emblematic structure is the Ram Mandir, a place of worship....",
-            link: "/blogs/ram-mandir"
+            "id": 1,
+            "title": "Bhooteshwar Mahadev",
+            "topic": "Places",
+            "imageUrl": "https://mathuravrindavantourism.co.in/images/places-to-visit/headers/bhuteshwar-mahadev-temple-mathura-header-mathura-tourism.jpg.jpg",
+            "description": ` Nestled in the heart of Mathura, the Bhooteshwar Mahadev Temple stands as a sacred abode of Lord Shiva.
+                                    Revered by locals and pilgrims alike, this temple is steeped in mythology and offers a serene escape
+                                    into spirituality`,
+            "link": "/blogs/bhooteshwar-mahadev"
         },
         {
-            id: 2,
-            title: "Kanak Bhawan Ayodhya",
-            topic: "Places",
-            imageUrl: "https://www.onindianpath.com/wp-content/uploads/2024/03/1000062210-1024x581.jpg",
-            description: `Nestled in the sacred city of Ayodhya, Kanak Bhawan stands as a testament to the profound devotion and
-                  cultural heritage that define India. This magnificent abode of Lord Ram and Goddess Sita weaves
-                  together a tapestry of `,
-            link: "/blogs/kanak-bhawan"
-        }, {
-            id: 3,
-            title: "Hanuman Gadhi Ayodhya",
-            topic: "Places",
-            imageUrl: "https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2Fdb99d622-6205-45af-889c-39512ec96104?alt=media&token=1185d350-5568-4efe-9d46-544de8ce6af9",
-            description: ` In the enchanting town of Ayodhya, amidst the divine resonance of ancient legends, stands Hanuman
-                  Garhi—a place that encapsulates the essence of devotion and the awe-inspiring miracles associated with
-                  Lord Hanuman`,
-            link: "/blogs/hanuman-gadhi"
+            "id": 2,
+            "title": "Shri Krishna Janmbhoomi",
+            "topic": "Places",
+            "imageUrl": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+            "description": "Discover Shri Krishna Janmbhoomi, the birthplace of Lord Krishna, and immerse yourself in the rich cultural and spiritual heritage of Mathura...",
+            "link": "/blogs/krishna-janmbhoomi"
         },
         {
-            id: 4,
-            title: "Naya Ghat Ayodhya",
-            topic: "Places",
-            imageUrl: "https://asoulwindow.com/wp-content/uploads/2019/09/ram-ki-pairi-bhavya-deepawali-mahotsav-ayodhya-deepotsav-sarayu-uttar-pradesh-ramayan-26.jpg",
-            description: ` Ayodhya, a city steeped in ancient history and spirituality, boasts numerous sites of significance. Among these, Naya Ghat stands out as a symbol of the city's rich heritage, spiritual devotion, and cultural celebrations. With a history that dates back centuries and a role in modern festivals, Naya Ghat is a place where the past and present intertwine seamlessly.`,
-            link: "/blogs/naya-ghat"
-        }, {
-            id: 5,
-            title: "Dashrath Mahal Ayodhya",
-            topic: "Places",
-            imageUrl: "https://cdn1.prayagsamagam.com/media/2023/05/08153547/rtboqaz-768x432.webp",
-            description: `  Ayodhya, a city steeped in mythology and history, is home to several iconic structures that tell the
-                  tales of ancient India. Among these stands the remarkable Dashrath Mahal, a monument that weaves
-                  together history, `,
-            link: "/blogs/dashrath-mahal"
-        }, {
-            id: 6,
-            title: " Surya Kund Ayodhya",
-            topic: "Places",
-            imageUrl: "https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F8bb72f77-bb08-4f6d-abfd-b747f38830c9?alt=media&token=86116896-d686-405e-a007-a91a94c47b8e",
-            description: ` Ayodhya, a city renowned for its spiritual heritage, is home to a hidden gem known as Suraj Kund. This ancient reservoir, steeped in history and mythological significance, offers a tranquil escape from the bustling world and provides a space for both reflection and devotion. With its rich legacy, serene ambiance, and spiritual importance, Suraj Kund stands as a testament to Ayodhya's timeless`,
-            link: "/blogs/surya-kund"
-        }, {
-            id: 7,
-            title: "Mani Parvat Ayodhya",
-            topic: "Places",
-            imageUrl: "https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F64830f08-fc2b-43b3-893e-f3f799243953?alt=media&token=857c11a2-7260-4fac-9485-15c5cd5a2221",
-            description: ` In the ancient city of Ayodhya, where every stone resonates with the essence of spirituality, Mani Parvat stands as a sacred pinnacle. With its rich history, spiritual significance, and the contemporary allure of its laser show, Mani Parvat offers a unique blend of tradition and modernity, drawing pilgrims and see`,
-            link: "/blogs/mani-parvat"
+            "id": 3,
+            "title": "Raman Reti",
+            "topic": "Places",
+            "imageUrl": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+            "description": "Raman Reti is a tranquil spot where Lord Krishna is believed to have played in his childhood, offering a peaceful and divine experience...",
+            "link": "/blogs/raman-reti"
         },
-    ];
+        {
+            "id": 4,
+            "title": "84 Khamba Mandir",
+            "topic": "Places",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH-6WB-K4MiveXQRrZA5vK2yWZbLus912wgZj9Udgz6uguiiDNwwBnpIHgK__2gbYhbk5gsLxXtlgIv9FIvNCDmb8CQlqaz1hS2m67oKOQIWxDNxnyHjsVCAOKaHq2-OPkUMr8tnUE_5iP/",
+            "description": "Explore the fascinating 84 Khamba Mandir, a historical and spiritual marvel symbolizing divine significance in Mathura...",
+            "link": "/blogs/chaurasi-khamba"
+        },
+        {
+            "id": 5,
+            "title": "Nand Bhawan Temple",
+            "topic": "Places",
+            "imageUrl": "https://www.brijwale.com/wp-content/uploads/2021/01/DSC_0143.jpg",
+            "description": "Nand Bhawan Temple holds immense importance as the residence of Nanda Maharaj, where Lord Krishna spent his childhood...",
+            "link": "/blogs/nand-bhawan"
+        },
+        {
+            "id": 6,
+            "title": "Chintaharan Mahadev",
+            "topic": "Places",
+            "imageUrl": "https://www.jagranimages.com/images/newimg/17072022/17_07_2022-chinta_harn_mandir_mathura_22899486.webp",
+            "description": "Visit Chintaharan Mahadev Temple, a sacred place where devotees come to rid themselves of worries and find solace...",
+            "link": "/blogs/chintaharan-mahadev"
+        },
+        {
+            "id": 7,
+            "title": "Brahmand Ghat",
+            "topic": "Places",
+            "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/images.brajrasik.org/630f410176f34f0009b100fa.jpeg",
+            "description": "Brahmand Ghat is a spiritually significant site where Lord Krishna revealed the universe within his mouth to Yashoda Mata...",
+            "link": "/blogs/brahmand-ghat"
+        },
+        {
+            "id": 8,
+            "title": "Shri Dwarkadish Mandir",
+            "topic": "Places",
+            "imageUrl": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+            "description": "Shri Dwarkadish Mandir is a famous temple in Mathura, known for its intricate architecture and devotion to Lord Krishna...",
+            "link": "/blogs/dwarkadhish-mandir"
+        },
+        {
+            "id": 9,
+            "title": "Vishram Ghat",
+            "topic": "Places",
+            "imageUrl": "https://mathuravrindavantourism.co.in/images/places-to-visit/headers/vishram-ghat-mathura-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+            "description": "Vishram Ghat, located on the Yamuna River, is a revered place where Lord Krishna is said to have rested after defeating Kansa...",
+            "link": "/blogs/vishram-ghat"
+        },
+        {
+            "id": 10,
+            "title": "Shri Bankey Bihari",
+            "topic": "Places",
+            "imageUrl": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+            "description": "Visit Shri Bankey Bihari Temple, a beloved temple in Vrindavan dedicated to the playful form of Lord Krishna...",
+            "link": "/blogs/bankey-bihari"
+        },
+        {
+            "id": 11,
+            "title": "Shri Radha Raman Ji",
+            "topic": "Places",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Radha_Raman_Temple_2.jpg",
+            "description": "Shri Radha Raman Ji Temple is a spiritually enriching destination, showcasing the divine union of Radha and Krishna...",
+            "link": "/blogs/radha-raman"
+        },
+        {
+            "id": 12,
+            "title": "Shri Radha Vallabh Ji",
+            "topic": "Places",
+            "imageUrl": "https://cdn1.prayagsamagam.com/media/2023/05/06161805/Shri-Radha-Vallabh-Temple-Vrindavan-4.webp",
+            "description": "Explore Shri Radha Vallabh Ji Temple, an iconic Vrindavan temple highlighting the eternal love of Radha and Krishna...",
+            "link": "/blogs/radha-vallabh"
+        },
+        {
+            "id": 13,
+            "title": "Shri Rang Ji Maharaj",
+            "topic": "Places",
+            "imageUrl": "https://thetravelcurry.com/wp-content/uploads/2019/09/DSC_1249-polarr.jpg",
+            "description": "Visit Shri Rang Ji Maharaj Temple, a blend of North and South Indian architectural styles and dedicated to Lord Ranganatha...",
+            "link": "/blogs/rangji-maharaj"
+        },
+        {
+            "id": 14,
+            "title": "Nidhivan",
+            "topic": "Places",
+            "imageUrl": "https://anandamclarksinn.com/upload/96640.jpg",
+            "description": "Nidhivan, a sacred forest in Vrindavan, is believed to be the place where Radha and Krishna perform their divine Raas Lila every night...",
+            "link": "/blogs/nidhivan"
+        }
+    ]
+
     useEffect(() => {
         // Adjust the height of `abovemaincontainer` to match `maincontainer`
         if (mainContainerRef.current && aboveMainContainerRef.current) {
@@ -111,7 +168,7 @@ export default function Allblogs() {
         <div>
             <Head>
                 {/* Basic Meta Tags */}
-                <title>All Blogs - Explore Ayodhya&apos;s Treasures</title>
+                <title>All Blogs - Explore Mathura&apos;s Treasures</title>
                 <meta name="description" content="Discover everything you can do in Ayodhya! Explore captivating blogs about Ayodhya&apos;s sacred landmarks, history, and culture. Plan your darshan with our expert guidance as your Local Rishtedars." />
                 <meta name="keywords" content="Places to visit in ayodhya,Ayodhya blogs, Ram Mandir, Hanuman Garhi, Kanak Bhawan, spiritual travel, Indian culture, heritage places, Ayodhya tourism" />
                 <meta name="author" content="GIG Ayodhya" />
@@ -124,7 +181,7 @@ export default function Allblogs() {
                 <meta property="og:url" content="/logo.png" />
                 <meta property="og:type" content="website" />
 
-             
+
                 {/* Favicon */}
 
                 {/* Additional Resources (Optional) */}
@@ -162,7 +219,7 @@ export default function Allblogs() {
                             <div className={styles.allblogcarddesc}>
                                 <p className='text-muted mx-2 mb-1' style={{ border: "1px solid #9DC0E4", borderRadius: "3px", color: "#9DC0E4", fontSize: "13px", padding: "0 3px", height: "max-content", width: "max-content", marginLeft: "10px", background: "#EDF2F7" }}>{blog.topic}</p>
                                 <h3 className='mb-0 p-0 mx-2'>{blog.title}</h3>
-                                <p className='mt-1 text-muted mx-2'>{truncateDescription(blog.description,maxLength)}</p>
+                                <p className='mt-1 text-muted mx-2'>{truncateDescription(blog.description, maxLength)}</p>
                                 <Link href={blog.link} style={{ color: "rgb(62, 131, 192)" }}>Read More</Link>
                             </div>
                         </div>
@@ -225,7 +282,7 @@ export default function Allblogs() {
                         <h4 style={{ padding: "15px", color: "black", margin: "0" }}><span><i className="fa fa-comments"></i></span> Need help?</h4>
                         <div style={{ paddingLeft: "15px", paddingBottom: "15px" }}>
                             <a href="tel:7505866498" style={{ textDecoration: "none", color: "black" }}>Call Us At:7505866498</a><br />
-                            <a href="mailto:gigayodhya@gmail.com" style={{ textDecoration: "none", color: "black" }}>Mail Us At:gigayodhya@gmail.com</a>
+                            <a href="mailto:gigayodhya@gmail.com" style={{ textDecoration: "none", color: "black" }}>Mail Us At:gigmathuraa@gmail.com</a>
                         </div>
 
                     </div>

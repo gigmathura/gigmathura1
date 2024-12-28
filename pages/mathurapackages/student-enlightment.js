@@ -6,13 +6,13 @@ import Image from "next/image";
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import Head from 'next/head';
-import packageObjectData from '../../data/tirth-essentials.json';
+import packageObjectData from '../../data/student-enlightment.json';
 import placesData from '../../data/placestovisit.json';
 import hotelData from '../../data/hotels.json'
 import cabData from '../../data/cabs.json'
 import activityData from '../../data/activity.json'
 import poojaData from '../../data/pooja.json'
-import connectDb from '../../lib/mongodb';
+import connectDb from '../../lib/mongodb.js';
 
 
 
@@ -34,7 +34,7 @@ export async function getStaticProps() {
         };
     }
 }
-export default function Tirthessentials() {
+export default function Studentenlightenment() {
     const [packageObject, setPackageObject] = useState(packageObjectData);
     const [isOverlayVisible, setIsOverlayVisible] = useState(false);
     const [isMobileOverlayVisible, setIsMobileOverlayVisible] = useState(false)
@@ -418,7 +418,6 @@ export default function Tirthessentials() {
     };
 
 
-
     // Move place back to unassigned
     const handleMoveToUnassigned = (place, sourceDayIndex) => {
         const updatedTempItinerary = [...tempItinerary];
@@ -449,6 +448,7 @@ export default function Tirthessentials() {
             handleMoveToDay(place, sourceDayIndex - 1); // Move up to the previous day
         }
     };
+
 
     // Handle down arrow movement
     const handleDownArrow = (place, targetDayIndex) => {
@@ -644,6 +644,18 @@ export default function Tirthessentials() {
                         <span className={styles.menupackage} onClick={() => scrollToSection('additional-info')}>Additional Info</span>
                         <span className={`${styles.menupackage} ${styles.makequerymenu}`} onClick={() => scrollToSection('costdiv')}>Make Query</span>
 
+                    </div>
+                    <div className={`${styles.mobilecostdiv} ${scrolling ? styles.hidden : ''}`} >
+                        <div className='ml-4' style={{ width: "50%", padding: "13px", color: "black", borderBottom: "1px solid #2a9d8f", marginLeft: "16px" }}>
+                            <p className='m-0 text-muted' style={{ fontSize: "10px" }}>Starting From</p>
+                            <div className='d-flex justify-content-start align-items-center w-100'>
+                                <h5 style={{ textDecoration: "line-through", margin: "0" }}>{incprice(packageObject.price)}</h5>
+                                <h4 style={{ fontWeight: "bold", margin: "0", marginLeft: "7px" }}>₹{packageObject.price} <span style={{ fontSize: "10px" }}></span></h4>
+                            </div>
+                        </div>
+                        <div className='d-flex justify-content-center align-items-center w-50'>
+                            <button className="btn btn-outline-primary m-2 w-75" onClick={() => setShowFormOverlay(true)}>Make Query</button>
+                        </div>
                     </div>
                     <div className={`${styles.mobilecostdiv} ${scrolling ? styles.hidden : ''}`} >
                         <div className='ml-4' style={{ width: "50%", padding: "13px", color: "black", borderBottom: "1px solid #2a9d8f", marginLeft: "16px" }}>
@@ -996,19 +1008,19 @@ export default function Tirthessentials() {
                                 >
                                     {unassignedPlaces.map((place, index) => (
                                         <a key={index} href={place.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} className='initeraryitem'>
-                                        <div key={index}
-                                            draggable
-                                            onTouchStart={() => handleDragStart(place, 'unassigned', index)} // Start dragging on touch
-                                            onMouseDown={() => handleDragStart(place, 'unassigned', index)} // Start dragging on mouse down
-                                            onTouchEnd={handleDragEnd} // End dragging on touch end
-                                            onMouseUp={handleDragEnd}
-                                            className={styles.itinerarycirclediv} >
-                                            <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
-                                                <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
+                                            <div key={index}
+                                                draggable
+                                                onTouchStart={() => handleDragStart(place, 'unassigned', index)} // Start dragging on touch
+                                                onMouseDown={() => handleDragStart(place, 'unassigned', index)} // Start dragging on mouse down
+                                                onTouchEnd={handleDragEnd} // End dragging on touch end
+                                                onMouseUp={handleDragEnd}
+                                                className={styles.itinerarycirclediv} >
+                                                <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
+                                                    <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
+                                                </div>
+                                                <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`}>{place.name}</h6>
                                             </div>
-                                            <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`}>{place.name}</h6>
-                                        </div>
-                                         </a>
+                                        </a>
                                     ))}
                                 </div>
                             </div>
@@ -1025,19 +1037,19 @@ export default function Tirthessentials() {
                                         >
                                             {day.places.map((place, placeIndex) => (
                                                 <a key={placeIndex} href={place.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} className='initeraryitem'>
-                                                <div key={placeIndex}
-                                                    draggable
-                                                    onDragStart={() => handleDragStart(place, 'itinerary', index)}
-                                                    onTouchStart={() => handleDragStart(place, 'itinerary', index)}  // Touch start for mobile
-                                                    onTouchEnd={handleDragEnd}
-                                                    onMouseUp={handleDragEnd}
-                                                    className={styles.itinerarycirclediv} >
-                                                    <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
-                                                        <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
+                                                    <div key={placeIndex}
+                                                        draggable
+                                                        onDragStart={() => handleDragStart(place, 'itinerary', index)}
+                                                        onTouchStart={() => handleDragStart(place, 'itinerary', index)}  // Touch start for mobile
+                                                        onTouchEnd={handleDragEnd}
+                                                        onMouseUp={handleDragEnd}
+                                                        className={styles.itinerarycirclediv} >
+                                                        <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
+                                                            <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
+                                                        </div>
+                                                        <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`} >{place.name}</h6>
                                                     </div>
-                                                    <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`} >{place.name}</h6>
-                                                </div>
-                                                 </a>
+                                                </a>
 
                                             ))}
                                         </div>
@@ -1168,7 +1180,7 @@ export default function Tirthessentials() {
                 <div className={`${styles.overlay}`} style={{ zIndex: "1800" }}>
                     <div className={styles.fullhoteloverlayContentContainer}>
                         <div className={`${styles.overlayContent} ${styles.fhoverlayContent}`}  >
-                            <div className='w-100' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
+                        <div className='w-100' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
                                 <button className=" btn btn-outline-secondary mb-2 px-2 py-1" onClick={() => setShowFullHotelOverlay(false)}>Back <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
                             <div className={styles.fhImageDescription}  >
@@ -1260,9 +1272,6 @@ export default function Tirthessentials() {
                     <div className='w-100 mt-5 px-3' style={{ cursor: "pointer",display:"flex",justifyContent:"flex-end" }}>
                                 <button className=" btn btn-outline-secondary mb-2 px-2 py-1" onClick={() => setShowAllHotelsOverlay(false)}>Back <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
-                        {/* <div className='w-100 pt-4 px-2' style={{ cursor: "pointer" }}>
-                            <button className=" btn btn-secondary  mt-2" onClick={() => setShowAllHotelsOverlay(false)}> <i className="fa fa-arrow-left" aria-hidden="true"></i> Back</button>
-                        </div> */}
                         <h2 className='text-dark m-0 p-0'>Available Hotels</h2>
                         <div className={`${styles.overlayContent} ${styles.allhoverlaycontent}`} style={{ width: "98%" }}>
 

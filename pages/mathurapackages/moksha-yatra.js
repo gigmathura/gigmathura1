@@ -6,13 +6,13 @@ import Image from "next/image";
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import Head from 'next/head';
-import packageObjectData from '../../data/student-enlightment.json';
+import packageObjectData from '../../data/moksha-yatra.json';
 import placesData from '../../data/placestovisit.json';
 import hotelData from '../../data/hotels.json'
 import cabData from '../../data/cabs.json'
 import activityData from '../../data/activity.json'
 import poojaData from '../../data/pooja.json'
-import connectDb from '../../lib/mongodb';
+import connectDb from '../../lib/mongodb.js';
 
 
 
@@ -34,7 +34,7 @@ export async function getStaticProps() {
         };
     }
 }
-export default function Studentenlightenment() {
+export default function Mokshayatra() {
     const [packageObject, setPackageObject] = useState(packageObjectData);
     const [isOverlayVisible, setIsOverlayVisible] = useState(false);
     const [isMobileOverlayVisible, setIsMobileOverlayVisible] = useState(false)
@@ -464,7 +464,6 @@ export default function Studentenlightenment() {
         }
     };
 
-
     const handleViewHotel = (hotelId) => {
         // Find the specific hotel by hotelId
         const selectedHotel = hotelData.hotels.find(hotel => hotel.hotelId === hotelId);
@@ -644,18 +643,6 @@ export default function Studentenlightenment() {
                         <span className={styles.menupackage} onClick={() => scrollToSection('additional-info')}>Additional Info</span>
                         <span className={`${styles.menupackage} ${styles.makequerymenu}`} onClick={() => scrollToSection('costdiv')}>Make Query</span>
 
-                    </div>
-                    <div className={`${styles.mobilecostdiv} ${scrolling ? styles.hidden : ''}`} >
-                        <div className='ml-4' style={{ width: "50%", padding: "13px", color: "black", borderBottom: "1px solid #2a9d8f", marginLeft: "16px" }}>
-                            <p className='m-0 text-muted' style={{ fontSize: "10px" }}>Starting From</p>
-                            <div className='d-flex justify-content-start align-items-center w-100'>
-                                <h5 style={{ textDecoration: "line-through", margin: "0" }}>{incprice(packageObject.price)}</h5>
-                                <h4 style={{ fontWeight: "bold", margin: "0", marginLeft: "7px" }}>₹{packageObject.price} <span style={{ fontSize: "10px" }}></span></h4>
-                            </div>
-                        </div>
-                        <div className='d-flex justify-content-center align-items-center w-50'>
-                            <button className="btn btn-outline-primary m-2 w-75" onClick={() => setShowFormOverlay(true)}>Make Query</button>
-                        </div>
                     </div>
                     <div className={`${styles.mobilecostdiv} ${scrolling ? styles.hidden : ''}`} >
                         <div className='ml-4' style={{ width: "50%", padding: "13px", color: "black", borderBottom: "1px solid #2a9d8f", marginLeft: "16px" }}>
@@ -1008,19 +995,19 @@ export default function Studentenlightenment() {
                                 >
                                     {unassignedPlaces.map((place, index) => (
                                         <a key={index} href={place.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} className='initeraryitem'>
-                                            <div key={index}
-                                                draggable
-                                                onTouchStart={() => handleDragStart(place, 'unassigned', index)} // Start dragging on touch
-                                                onMouseDown={() => handleDragStart(place, 'unassigned', index)} // Start dragging on mouse down
-                                                onTouchEnd={handleDragEnd} // End dragging on touch end
-                                                onMouseUp={handleDragEnd}
-                                                className={styles.itinerarycirclediv} >
-                                                <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
-                                                    <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
-                                                </div>
-                                                <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`}>{place.name}</h6>
+                                        <div key={index}
+                                            draggable
+                                            onTouchStart={() => handleDragStart(place, 'unassigned', index)} // Start dragging on touch
+                                            onMouseDown={() => handleDragStart(place, 'unassigned', index)} // Start dragging on mouse down
+                                            onTouchEnd={handleDragEnd} // End dragging on touch end
+                                            onMouseUp={handleDragEnd}
+                                            className={styles.itinerarycirclediv} >
+                                            <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
+                                                <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
                                             </div>
-                                        </a>
+                                            <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`}>{place.name}</h6>
+                                        </div>
+                                         </a>
                                     ))}
                                 </div>
                             </div>
@@ -1037,19 +1024,19 @@ export default function Studentenlightenment() {
                                         >
                                             {day.places.map((place, placeIndex) => (
                                                 <a key={placeIndex} href={place.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} className='initeraryitem'>
-                                                    <div key={placeIndex}
-                                                        draggable
-                                                        onDragStart={() => handleDragStart(place, 'itinerary', index)}
-                                                        onTouchStart={() => handleDragStart(place, 'itinerary', index)}  // Touch start for mobile
-                                                        onTouchEnd={handleDragEnd}
-                                                        onMouseUp={handleDragEnd}
-                                                        className={styles.itinerarycirclediv} >
-                                                        <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
-                                                            <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
-                                                        </div>
-                                                        <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`} >{place.name}</h6>
+                                                <div key={placeIndex}
+                                                    draggable
+                                                    onDragStart={() => handleDragStart(place, 'itinerary', index)}
+                                                    onTouchStart={() => handleDragStart(place, 'itinerary', index)}  // Touch start for mobile
+                                                    onTouchEnd={handleDragEnd}
+                                                    onMouseUp={handleDragEnd}
+                                                    className={styles.itinerarycirclediv} >
+                                                    <div style={{ width: "70px", height: "70px", overflow: "hidden", background: "grey" }}>
+                                                        <Image src={place.img} alt={place.name} width={80} height={80} loading="lazy" objectFit='cover' />
                                                     </div>
-                                                </a>
+                                                    <h6 className={`mx-2 text-center ${styles.itinerarycircledivpara}`} >{place.name}</h6>
+                                                </div>
+                                                 </a>
 
                                             ))}
                                         </div>

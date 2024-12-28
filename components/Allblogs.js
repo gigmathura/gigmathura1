@@ -47,19 +47,83 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                     Explore <span style={{ color: "red" }}>Mathura</span> With G<span style={{ color: "#ff8134" }}>I</span>G!
                 </h4>
                 <p className="text-center" style={{ fontSize: "2vmin" }}>
-                    Unveil the Mystique of Shri Krishna Ki Nagri Mathura - Explore the <strong><span style={{ color: "orange" }}>Spiritual Essence</span></strong> with Us!
+                    Unveil the Mystique of Mathura, Vrindavan, Gokul - Explore the <strong><span style={{ color: "orange" }}>Spiritual Essence</span></strong> with Us!
                 </p>
                 <div className='w-100'>
                     <div className={styles.fullcontainer}>
                         {/* Blog Cards */}
                         <div className={`d-flex ${styles.blogcardContainer}`}>
-                            <Blogcard title="Ram Mandir" link="/blogs/ram-mandir" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F026e37da-89b9-4b8e-bdf8-8d3c3ba1ab0a?alt=media&token=47ed0118-b9bd-4496-a714-e805ec65df37" />
-                            <Blogcard title="Kanak Bhawan" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2Fb62ef1d4-647f-4a31-a5ed-c1d50387c868?alt=media&token=92e6e67c-0ea5-4e6d-a3ef-b804ef5c8230" />
-                            <Blogcard title="Hanuman Gadhi" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2Fdb99d622-6205-45af-889c-39512ec96104?alt=media&token=1185d350-5568-4efe-9d46-544de8ce6af9" />
-                            <Blogcard title="Dashrath Mahal" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F3e914480-489b-41cc-b222-717bf916effc?alt=media&token=55fa514c-42b2-44a1-a649-69c974ad1c51" />
-                            <Blogcard title="Naya Ghat" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F182b9ca2-26ab-4da2-a7ff-88702fcca83d?alt=media&token=455794f2-1cb5-4b83-ab69-9164f4faa918" />
-                            <Blogcard title="Mani Parvat" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F64830f08-fc2b-43b3-893e-f3f799243953?alt=media&token=857c11a2-7260-4fac-9485-15c5cd5a2221" />
-                            <Blogcard title="Surya Kund" images="https://firebasestorage.googleapis.com/v0/b/gig-storage.appspot.com/o/blogs%2F8bb72f77-bb08-4f6d-abfd-b747f38830c9?alt=media&token=86116896-d686-405e-a007-a91a94c47b8e" />
+                            <Blogcard
+                                title="Bhooteshwar Mahadev"
+                                link="/blogs/bhooteshwar-mahadev"
+                                images="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/bhuteshwar-mahadev-temple-mathura-header-mathura-tourism.jpg.jpg"
+                            />
+                            <Blogcard
+                                title="Shri Krishna Janmbhoomi"
+                                link="/blogs/krishna-janmbhoomi"
+                                images="https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg"
+                            />
+                            <Blogcard
+                                title="Raman Reti"
+                                link="/blogs/raman-reti"
+                                images="https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg"
+                            />
+                            <Blogcard
+                                title="84 Khamba Mandir"
+                                link="/blogs/chaurasi-khamba"
+                                images="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH-6WB-K4MiveXQRrZA5vK2yWZbLus912wgZj9Udgz6uguiiDNwwBnpIHgK__2gbYhbk5gsLxXtlgIv9FIvNCDmb8CQlqaz1hS2m67oKOQIWxDNxnyHjsVCAOKaHq2-OPkUMr8tnUE_5iP"
+                            />
+                            <Blogcard
+                                title="Nand Bhawan Temple"
+                                link="/blogs/nand-bhawan"
+                                images="https://www.brijwale.com/wp-content/uploads/2021/01/DSC_0143.jpg"
+                            />
+                            <Blogcard
+                                title="Chintaharan Mahadev"
+                                link="/blogs/chintaharan-mahadev"
+                                images="https://www.jagranimages.com/images/newimg/17072022/17_07_2022-chinta_harn_mandir_mathura_22899486.webp"
+                            />
+                            <Blogcard
+                                title="Brahmand Ghat"
+                                link="/blogs/brahmand-ghat"
+                                images="https://s3-ap-southeast-1.amazonaws.com/images.brajrasik.org/630f410176f34f0009b100fa.jpeg"
+                            />
+                            <Blogcard
+                                title="Shri Dwarkadish Mandir"
+                                link="/blogs/dwarkadhish-mandir"
+                                images="https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg"
+                            />
+                            <Blogcard
+                                title="Vishram Ghat"
+                                link="/blogs/vishram-ghat"
+                                images="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/vishram-ghat-mathura-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+                            />
+                            <Blogcard
+                                title="Shri Bankey Bihari"
+                                link="/blogs/bankey-bihari"
+                                images="https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg"
+                            />
+                            <Blogcard
+                                title="Shri Radha Raman Ji"
+                                link="/blogs/radha-raman"
+                                images="https://upload.wikimedia.org/wikipedia/commons/c/ce/Radha_Raman_Temple_2.jpg"
+                            />
+                            <Blogcard
+                                title="Shri Radha Vallabh Ji"
+                                link="/blogs/radha-vallabh"
+                                images="https://cdn1.prayagsamagam.com/media/2023/05/06161805/Shri-Radha-Vallabh-Temple-Vrindavan-4.webp"
+                            />
+                            <Blogcard
+                                title="Shri Rang Ji Maharaj"
+                                link="/blogs/rangji-maharaj"
+                                images="https://thetravelcurry.com/wp-content/uploads/2019/09/DSC_1249-polarr.jpg"
+                            />
+                            <Blogcard
+                                title="Nidhivan"
+                                link="/blogs/nidhivan"
+                                images="https://anandamclarksinn.com/upload/96640.jpg"
+                            />
+
                             {/* {allBlog.length > 0 ? (
                                 allBlog.map((blog) => (
                                     <Blogcard  title={blog.title} images={blog.imageUrlList} />
@@ -69,33 +133,33 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                             )} */}
                         </div>
                         <div className={styles.mobileheading}>
-                                {/* <h6 className={styles.headingexplore}>
+                            {/* <h6 className={styles.headingexplore}>
                                     Your One Stop <span style={{ color: "#670c0b" }}>Darshan Solution !</span>
                                 </h6> */}
-                                <h5 className={styles.typewriter2}>
-                                    <Typewriter
-                                        options={{
-                                            strings: [
-                                                'Your One Stop <span style="color: #670c0b;">Darshan Solution !</span>',
-                                                "Your <span style='color: red;'>Local Rishtedar </span>Of Ayodhya!",
-                                                " <span style='color: #334f74;'>Your Guide, Planner,</span> and Support!"
-                                            ],
-                                            autoStart: true,
-                                            loop: true,
-                                            deleteSpeed: 30,
-                                            typeSpeed: 290,
-                                        }}
-                                        style={{ lineHeight: "1" }}
+                            <h5 className={styles.typewriter2}>
+                                <Typewriter
+                                    options={{
+                                        strings: [
+                                            'Your One Stop <span style="color: #670c0b;">Darshan Solution !</span>',
+                                            "Your <span style='color: red;'>Local Rishtedar </span>Of Ayodhya!",
+                                            " <span style='color: #334f74;'>Your Guide, Planner,</span> and Support!"
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        deleteSpeed: 30,
+                                        typeSpeed: 290,
+                                    }}
+                                    style={{ lineHeight: "1" }}
 
-                                    />
-                                </h5>
-                                {/* <p className="text-center m-0 p-0 mb-4" style={{ fontSize: "2vmin",marginTop:"-8px" }}>
+                                />
+                            </h5>
+                            {/* <p className="text-center m-0 p-0 mb-4" style={{ fontSize: "2vmin",marginTop:"-8px" }}>
                                     Your One Stop <strong><span style={{ color: "orange" }}>Darshan Solution !</span></strong>
                                 </p> */}
-                            </div>
+                        </div>
                         <div className={styles.botcontainer}>
                             <div id="boy-waving-animation" className={styles.bot}></div>
-                           
+
                             <div className=' text-light w-100' style={{ maxHeight: "fit-content", marginLeft: "0px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                                 <h1 className={styles.typewriter}>
                                     <Typewriter
