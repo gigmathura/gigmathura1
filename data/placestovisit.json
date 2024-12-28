@@ -1,0 +1,120 @@
+{"places":[
+    {
+        "pid": 1,
+        "name": "Ram Mandir",
+        "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
+        "link": "/blogs/ram-mandir",
+        "area": 1,
+        "priority": "mustvisit",
+        "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 2,
+        "name": "Hanuman Garhi",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
+        "link": "/blogs/hanuman-garhi",
+        "area": 1,
+        "priority": "mustvisit",
+        "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 3,
+        "name": "Dashrath Mahal",
+        "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
+        "link": "/blogs/dashrath-mahal",
+        "area": 1,
+        "priority": "worthvisit",
+        "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 4,
+        "name": "Kanak Bhawan",
+        "img": "https://www.trawell.in/admin/images/upload/599531656Kanak_Bhawan.jpg",
+        "link": "/blogs/kanak-bhawan",
+        "area": 1,
+        "priority": "worthvisit",
+        "location": "Kanak Bhawan, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 5,
+        "name": "Saryu River Ghats",
+        "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
+        "link": "/blogs/saryu-ghat",
+        "area": 1,
+        "priority": "mustvisit",
+        "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 6,
+        "name": "Nageshwarnath Temple",
+        "img": "https://ayodhyadhaam.in/images/NAGESHWAR%20NATH%20TEMPLE.jpeg",
+        "link": "/blogs/nageshwarnath-temple",
+        "area": 1,
+        "priority": "worthvisit",
+        "location": "Nageshwarnath Temple, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 7,
+        "name": "Naya Ghat",
+        "img": "https://cdnimg.prabhatkhabar.com/wp-content/uploads/Prabhatkhabar/2024-01/1be85ee3-650e-476a-94db-dc94af5a8c2c/WhatsApp_Image_2024_01_03_at_2_37_43_PM__2_.jpeg",
+        "link": "/blogs/naya-ghat",
+        "area": 1,
+        "priority": "canvisit",
+        "location": "Naya Ghat, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 8,
+        "name": "Birla Mandir",
+        "img": "https://www.nativeplanet.com/photos/325x244x100/2019/01/photo-92-155031-1.jpg",
+        "link": "/blogs/birla-mandir",
+        "area": 1,
+        "priority": "canvisit",
+        "location": "Birla Mandir, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 9,
+        "name": "Valmiki Ramayana Bhavan",
+        "img": "https://images.news18.com/ibnkhabar/uploads/2022/08/Valmiki-Temple-1.jpg",
+        "link": "/blogs/valmiki-ramayana-bhavan",
+        "area": 2,
+        "priority": "mustvisit",
+        "location": "Valmiki Ramayana Bhavan, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 10,
+        "name": "Guptar Ghat",
+        "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Guptar-Ghat-Ayodhya-India.jpg",
+        "link": "/blogs/guptar-ghat",
+        "area": 2,
+        "priority": "mustvisit",
+        "location": "Guptar Ghat, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 11,
+        "name": "Mani Parvat",
+        "img": "https://nowayodhya.com/wp-content/uploads/2020/08/83885575_125422215640888_911637908434190336_o.jpg",
+        "link": "/blogs/mani-parvat",
+        "area": 2,
+        "priority": "worthvisit",
+        "location": "Mani Parvat, Ayodhya, Uttar Pradesh"
+    },
+    {
+        "pid": 12,
+        "name": "Military Mandir",
+        "img": "https://content3.jdmagicbox.com/comp/faizabad/f9/9999px527.x527.141221114031.l3f9/catalogue/military-temple-faizabad-railway-station-faizabad-temples-vhb98uxgc2.jpg",
+        "link": "/blogs/military-mandir",
+        "area": 3,
+        "priority": "canvisit",
+        "location": "Military Mandir, Faizabad, Uttar Pradesh"
+    },
+    {
+        "pid": 13,
+        "name": "Swaminarayan Mandir",
+        "img": "https://cdnbbsr.s3waas.gov.in/s3dc16622ddc767e6bc1200fe5df2fbdfb/uploads/2022/11/2022112318.jpg",
+        "link": "/blogs/swaminarayan-mandir",
+        "area": 3,
+        "priority": "canvisit",
+        "location": "Swaminarayan Mandir, Faizabad, Uttar Pradesh"
+    }
+]
+}

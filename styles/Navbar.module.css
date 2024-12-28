@@ -1,0 +1,147 @@
+.navbar {
+    width: 100%;
+}
+
+.desktopNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+.footerlink:hover{
+
+    color: #690b0b;
+    
+}
+.footerlink{
+    text-decoration: none;
+    color: #292929;
+    cursor: pointer;
+}
+.logo {
+    height: 80px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #CFD3D2;
+    font-weight: bold;
+
+}
+.inactive {
+    color: #CFD3D2;
+    cursor: pointer;
+     /* Example styling for inactive links */
+    font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.active {
+    color: #690b0b; /* Active color for selected link */
+    font-weight: bold;
+    cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+
+ 
+}
+
+.mobileNav {
+    display: none;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 0.5rem;
+    justify-content: space-around;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.mobileNav div {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center-align the icon and text */
+    text-align: center;
+}
+.mobileNav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #CFD3D2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Show mobileNav only for smaller screens */
+@media (max-width: 800px) {
+    .footerlinkcontainer{
+        width: 100%;
+
+    }
+    .footerdesc{
+        width: 100%;
+
+    }
+    .desktopNav {
+        display: none;
+    }
+    .footer{
+        /* position: relative;
+        bottom: 65px; */
+        margin-bottom: 60px;
+    }
+    .logomobile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .mobileNav {
+        transition: transform 0.3s ease-in-out;
+        display: flex;
+        padding: 0;
+        padding-top: 8px;
+        padding-bottom: 3px;
+    }
+    .mobileNav.hidden {
+  transform: translateY(100%); /* Move the navbar out of view */
+}
+    .mobileNav i{
+        font-size: 19px;
+    }
+    .mobileNav div{
+        font-size: 15px;
+    }
+}
+@media (min-width: 801px){
+    .footerlinkcontainer{
+        width: 50%;
+
+    }
+    .footerdesc{
+        width: 50%;
+    }
+    .logomobile{
+        display: none;
+    }
+    .footer{
+        margin-top: 20px;
+    }
+  
+}
+
+/* Optional: Style active links for both desktop and mobile */
+.active {
+    color: #690b0b; /* Red color when active */
+    text-decoration: none; /* Ensure no underline */
+    font-weight: bold; /* Optional: Bold for active links */
+  font-family: "Times New Roman", Times, serif;
+
+}

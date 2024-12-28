@@ -1,0 +1,889 @@
+/* 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1000;
+    overflow-y: auto;
+} */
+/* 
+
+.hotelGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hotelCard, .roomCard {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.roomContainer{
+    display: flex;
+} */
+
+.roomcard {
+    width: 350px;
+    height: max-content;
+    border: 1px solid #ccc;
+    /* padding: 5px; */
+    padding-bottom: 5px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+}
+
+.roomcard:hover {
+    transform: scale(1.02);
+}
+
+/* for Itinirary*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    color: white;
+}
+
+.overlayContent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 80%;
+    z-index: 10000;
+    overflow-y: auto;
+}
+
+.daySection {
+    margin: 8px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 10001;
+    height: auto;
+    /* Allow the section to expand based on content */
+}
+
+.daySection::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+    background-color: white;
+}
+
+.daySection::-webkit-scrollbar-thumb {
+    background-color: orange;
+    /* Scrollbar handle color */
+    border-radius: 10px;
+    /* Round edges for the thumb */
+    border: 2px solid #fff;
+    /* Optional: adds a white border around the thumb */
+}
+
+.overlayContent::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+    background-color: white;
+}
+
+.overlayContent::-webkit-scrollbar-thumb {
+
+    background-color: orange;
+    /* Scrollbar handle color */
+    border-radius: 10px;
+    /* Round edges for the thumb */
+    border: 2px solid #fff;
+    /* Optional: adds a white border around the thumb */
+}
+
+.unassignedPlacesSection {
+    margin: 8px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* Stack the items vertically */
+    flex: 1;
+    /* Take up the remaining space */
+    height: 100%;
+    /* Ensures it fills the available height */
+    z-index: 10001;
+    overflow-y: auto;
+    /* Ensure content is scrollable */
+}
+
+.unassignedcontainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+.daysectioncontainer {
+    width: 50%;
+}
+
+
+/* .itinerarycirclediv {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    cursor: grab;
+} */
+
+
+
+
+
+
+
+.itinerarycircledivpara {
+    font-size: 2.5vmin;
+    margin-top: 2px
+}
+
+
+
+
+
+
+/* Heading */
+.heading {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: #000;
+    padding-left: 20px;
+}
+
+.corousalcontainer {
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    height: max-content;
+}
+
+.imgcorousel {
+    height: 350px;
+    overflow: hidden;
+}
+
+.menupackage {
+    font-size: 15px;
+    height: max-content;
+    margin: 2px;
+    margin-top: 6px;
+    border: 1px solid #2a9d8f;
+    color: #2a9d8f;
+    background-color: #e7f7f9;
+    /* Optional for visibility */
+    padding: 1px 10px;
+    /* Space inside items */
+    border-radius: 25px;
+    /* Rounded corners for better look */
+    white-space: nowrap;
+    cursor: pointer;
+    /* Prevent text from breaking into multiple lines */
+}
+
+.overviewdiv {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/* Style for custom list */
+.customlist {
+    margin-top: 5px;
+    width: 100%;
+    list-style: none;
+    /* Remove default list style */
+    padding-left: 0;
+    /* Remove left padding */
+}
+
+.customlist li {
+    display: flex;
+    /* This ensures icon and text are aligned in one line */
+    align-items: flex-start;
+    /* Aligns the icon and text at the start */
+    margin-bottom: 10px;
+    /* Adds space between items */
+    font-size: 13px;
+    /* Adjust the text size */
+}
+
+.customlist li i {
+    margin-right: 10px;
+    /* Space between the icon and text */
+    flex-shrink: 0;
+    /* Prevents icon from shrinking */
+    font-size: 18px;
+    /* Adjust icon size if necessary */
+}
+
+.fhoverlayContent {
+    width: 100%;
+    align-items: center;
+    min-height: 95%;
+}
+
+.hotelGrid{
+    padding-bottom: 25px;
+}
+
+@media (min-width: 801px) {
+    .traveldetaildiv {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .allplacescontainer::-webkit-scrollbar {
+        background-color: white;
+        width: 4px !important;
+
+    }
+
+    .allplacescontainer::-webkit-scrollbar-thumb {
+        width: 1px !important;
+        background-color: orange;
+        /* Scrollbar handle color */
+        border-radius: 10px;
+        /* Round edges for the thumb */
+
+
+    }
+
+    .allhotelcarddesc {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        width: 60%
+    }
+
+    .allhotelcardcorosaldiv {
+        width: 40%;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .allhotelcard {
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        margin: 10px;
+        width: 90%;
+        height: 170px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .allhotelcard:hover {
+        transform: scale(1.03);
+    }
+
+    .allhoverlaycontent {
+        width: 90%;
+        align-items: center;
+        min-height: 90%;
+        /* background:#E8ECF0 */
+    }
+
+    .allhoverlaycontainer {
+        background: white;
+        height: 90%;
+        width: 60%;
+        overflow: hidden;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 3px;
+    }
+
+    .roomContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fhfacilitiesContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-inline: 40px;
+        margin-top: 20px;
+    }
+
+    .fhfacilities {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        border-radius: 20px;
+        width: 50%;
+        /* background:#f8f8f8; */
+    }
+
+    .fhImage {
+        width: 60%;
+        height: 400px;
+        border-radius: 25px;
+        overflow: hidden;
+        background-color: #bdbaba;
+
+    }
+
+    .fhdescription {
+        width: 40%;
+    }
+
+    .fhImageDescription {
+        height: max-content;
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    .abovemaincontainer {
+        min-height: 100vh;
+    }
+
+    .itinerarycirclediv:hover {
+        transform: scale(1.01);
+        color: red;
+    }
+.mobItenerybtn{
+    display: none;
+}
+    .itinerarycirclediv {
+        cursor: pointer;
+        height: max-content;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #2a9d8f;
+        color: #2a9d8f;
+        background-color: #e7f7f9;
+    }
+
+    .fullhoteloverlayContentContainer {
+        background: white;
+        height: 90%;
+        width: 90%;
+        /* border-radius:30px; */
+        /* margin-top: 30px; */
+
+    }
+
+    .accomodationimgdiv {
+        width: 30%;
+        margin-right: 10px;
+        height: 150px;
+
+    }
+
+    .traveldetaildiv {
+        width: 70%;
+    }
+
+    /* Main Container */
+    .maincontainer {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        top: 170px;
+        position: absolute;
+        /* Ensure it stays in the document flow */
+        min-height: calc(100vh - 100px);
+        /* Take up remaining space minus the heading height */
+        box-sizing: border-box;
+        /* Include padding in the height calculation */
+    }
+
+    /* Package Overview */
+    .packageoverview {
+        flex: 3;
+        color: white;
+        height: auto;
+        max-width: 900px;
+        /* Dynamic height */
+    }
+
+    /* Cost Div */
+    .costdiv {
+        flex: 1;
+        position: sticky;
+        /* Sticky behavior */
+        top: 50px;
+        /* Sticks below the heading */
+        padding: 20px;
+        color: black;
+        align-self: flex-start;
+        height: fit-content;
+        /* Dynamic height based on content */
+    }
+
+    .accomodationdiv {
+        display: flex;
+        color: black;
+    }
+
+    .packageImage {
+        object-fit: contain;
+    }
+
+    .formDiv {
+        width: 50%;
+        height: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .formclosebtn {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+
+    .makequerymenu {
+        display: none;
+    }
+
+    .fhdescriptionpara {
+        width: 90%;
+        margin-top: 14px;
+    }
+    .mobilecostdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+         border-top-left-radius:25px;
+         border-top-right-radius:25px;
+         overflow:hidden;
+         border:1px solid #2a9d8f;
+         color:#2a9d8f;
+         width:100%;
+         position:fixed;
+         bottom:0px;
+         right:0;
+         left:0;
+         background:#e7f7f9;
+         display: none;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .mobilecostdiv{
+        transition: transform 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+         border-top-left-radius:25px;
+         border-top-right-radius:25px;
+         overflow:hidden;
+         border:1px solid #2a9d8f;
+         width:100%;
+         position:fixed;
+         bottom:50px;
+         right:0;
+         left:0;
+         color:#2a9d8f;
+         background:#e7f7f9;
+    }
+    .mobilecostdiv.hidden {
+        transform: translateY(200%); /* Move the navbar out of view */
+      }
+    .daySection {
+        margin: 8px;
+        border: 1px dashed #ccc;
+        padding: 10px;
+        overflow-y: auto;
+        width: 95%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        /* Allow the section to expand based on content */
+    }
+
+    .daysectioncontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .unassignedcontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* background-color: #2a9d8f; */
+
+
+    }
+
+    .itineraryoverlayContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        background-color: white;
+        color: black;
+        /* padding: 10px; */
+        border-radius: 10px;
+        height: 95%;
+        z-index: 10000;
+        overflow-y: auto;
+    }
+
+    .allplacescontainer::-webkit-scrollbar-thumb {
+        background-color: orange;
+        /* Scrollbar handle color */
+        border-radius: 10px;
+        /* Round edges for the thumb */
+    }
+
+    .formclosebtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+
+    .formDiv {
+        width: 95%;
+        height: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itinerarycirclediv {
+        cursor: pointer;
+        height: max-content;
+        width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 3px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #2a9d8f;
+        color: #2a9d8f;
+        background-color: #e7f7f9;
+    }
+
+    .deskItenerybtn {
+        display: none;
+    }
+
+    .itinerarycircleoverlaymobdiv {
+        cursor: pointer;
+        height: max-content;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        margin: 3px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #2a9d8f;
+        color: #2a9d8f;
+        background-color: #e7f7f9;
+    }
+
+    .arrows {
+        display: flex;
+        flex-direction: column;
+        /* background:yellow; */
+        width: 20%;
+        border-left: 1px solid #2a9d8f;
+        font-weight: bolder;
+    }
+
+    .upArrow {
+        font-weight: 800;
+
+        background-color: #72b7af;
+        height: 50%;
+        border: 0;
+    }
+
+    .downArrow {
+        font-weight: 800;
+
+        background-color: #2a9d8f;
+        height: 50%;
+        border: 0;
+
+
+    }
+
+    .allhotelcarddesc {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 100%
+    }
+
+    .allhotelcardcorosaldiv {
+        width: 100%;
+        overflow: hidden;
+        height: 210px;
+
+    }
+
+    .allhotelcard {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 10px;
+        width: 90%;
+        height: max-content;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        overflow: hidden;
+    }
+
+    .allhoverlaycontent {
+        width: 100%;
+        align-items: center;
+        min-height: 90%;
+    }
+
+    .allhoverlaycontainer {
+        border-radius: 10px;
+        background: white;
+        height: 95%;
+        width: 95%;
+        overflow: hidden;
+        /* border-radius:8px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 35px; */
+    }
+
+    .fhfacilitiesContainer {
+
+        padding-inline: 10px;
+        width: 100%;
+    }
+
+    .fhfacilities {
+        /* background-color: #000; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fhdescriptionpara {
+        text-align: center;
+        width: 93%;
+    }
+
+    .roomContainer {
+        display: flex;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .fhImage {
+        width: 100%;
+        height: 400px;
+        border-radius: 25px;
+        overflow: hidden;
+        background-color: #bdbaba;
+
+
+    }
+
+    .fhdescription {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fhdescription h2 {
+        text-align: center;
+    }
+
+    .fhImageDescription {
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fullhoteloverlayContentContainer {
+        background: white;
+        height: 95%;
+        width: 95%;
+        border-radius: 10px;
+        overflow: hidden;
+        /* border-radius:30px;
+          margin-top: 30px; */
+    }
+
+    .itinerarycircledivpara {
+        font-size: 2.7vmin;
+        margin-top: 2px
+    }
+
+    .heading {
+        justify-content: space-between;
+    }
+
+    .heading div {
+        margin-right: 15px;
+    }
+
+    .imgcorousel {
+        height: 200px;
+    }
+
+    .packageImage {
+        height: 300px;
+        width: 500px;
+    }
+
+    .accomodationimgdiv {
+        width: 90%;
+        height: 180px;
+
+
+    }
+
+    .accomodationdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+
+    }
+
+    .accomodationdetaildiv {
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .abovemaincontainer {
+        display: none;
+    }
+
+  
+
+    /* Main Container */
+    .maincontainer {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Package Overview */
+    .packageoverview {
+        flex: 3;
+        color: white;
+        height: auto;
+        /* Dynamic height */
+    }
+
+    /* Cost Div */
+    .costdiv {
+        padding: 20px;
+        color: white;
+        align-self: flex-start;
+        height: fit-content;
+        width: 100%;
+        /* Dynamic height based on content */
+    }
+
+    .guidediv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pguide {
+        text-align: center;
+    }
+}

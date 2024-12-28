@@ -1,0 +1,35 @@
+.enquiry {
+    width: 100%;
+  }
+  
+  .enquiryContainer {
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .enquiryForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  .noarrow::-webkit-inner-spin-button,
+.noarrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.noarrow {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+  .enquiryForm input, .enquiryForm textarea {
+    font-size: 3vmin;
+  }
+  @media (min-width: 801px) {
+    .enquiry {
+        width: 100%;
+        padding-top: 17px;
+      }
+
+}

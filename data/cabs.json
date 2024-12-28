@@ -1,0 +1,59 @@
+{
+    "cabs": [
+        {
+            "cid": "1",
+            "name": "Private AC Sedan",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV8w40s0Yjw4SZwwaeCR_aMklIgmRFfxt3hw&s",
+            "cabPerson": "4",
+            "Owners": [
+                {"name": "ram", "number": "23232332"},
+                {"name": "shyam", "number": "23232332332"}
+            ],
+            "price": "1000"
+        },
+        {
+            "cid": "2",
+            "name": "Private AC MUV",
+            "img": "https://imgd.aeplcdn.com/1056x594/n/c6es93a_1572125.jpg?q=80",
+            "cabPerson": "6",
+            "Owners": [
+                {"name": "hari", "number": "12345678"},
+                {"name": "krishna", "number": "87654321"}
+            ],
+            "price": "4500"
+        },
+        {
+            "cid": "3",
+            "name": "Private Traveller",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQ7M90FPmi4cgYyL7I0hfPgj-eJD0NFjBmg&s",
+            "cabPerson": "12",
+            "Owners": [
+                {"name": "john", "number": "99887766"},
+                {"name": "doe", "number": "66778899"}
+            ],
+            "price": "7000"
+        },
+        {
+            "cid": "4",
+            "name": "Private E-Rickshaw",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_HUqlsiR1GuHOUzbzRLl2vNcNyX3Gb3HyA&s",
+            "cabPerson": "4",
+            "Owners": [
+                {"name": "mohit", "number": "33445566"},
+                {"name": "rohit", "number": "55667788"}
+            ],
+            "price": "500"
+        },
+        {
+            "cid": "5",
+            "name": "Private CNG Auto",
+            "img": "https://images.jdmagicbox.com/quickquotes/images_main/bajaj-maxima-z-cng-passenger-auto-rickshaw-golden-yellow-4-seater-2220097486-z6oeplru.png",
+            "cabPerson": "3",
+            "Owners": [
+                {"name": "vikram", "number": "11223344"},
+                {"name": "deepak", "number": "44332211"}
+            ],
+            "price": "1000"
+        }
+    ]
+}

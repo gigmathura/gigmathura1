@@ -1,0 +1,105 @@
+.whyuscontainer {
+    /* Add specific styles if necessary */
+    margin-top: -20px;
+}
+
+.aboutcardcontainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutcard {
+    width: 30%;
+    height: 220px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.headingabout {
+    text-align: center;
+    font-size: 2em; /* Adjust based on your preference */
+    color: #333; /* Replace with your desired color */
+}
+
+.paraabout {
+    font-size: 11px;
+    color: #555; /* Replace with your desired color */
+}
+
+.acard1 {
+    background-color: #e8f7f5;
+    color: #77c8ad;
+    padding: 20px;
+}
+
+.acard2 {
+    background-color: #fdecef;
+    color: #ef5b72;
+    padding: 20px;
+}
+
+.acard3 {
+    background-color: #eceffc;
+    color: #4481ea;
+    padding: 20px;
+}
+
+.acard4 {
+    background-color: #fef7e8;
+    color: #f8b72b;
+    padding: 20px;
+}
+
+.acard5 {
+    background-color: #fff0f5; /* Light pink */
+    color: #db7093; /* Pale violet red */
+    padding: 20px;
+}
+
+.acard6 {
+    background-color: #f3d9f2; /* Light green */
+    color: #ca18c4; /* Lime green */
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .headingabout{
+        text-align: center;
+    }
+    .aboutcard {
+        width: 90%;
+        height: max-content;
+    }
+    .paraabout {
+        font-size: 10px;
+        color: #555; /* Replace with your desired color */
+    }
+    .aboutcardcontainer {
+        width: 100%;
+    }
+
+    .acard1,
+    .acard2,
+    .acard3,
+    .acard4,
+    .acard5,
+    .acard6 {
+        padding: 15px;
+    }
+}
+.aboutcardlogo {
+    font-size: 50px;
+    border-radius: 50%; /* Ensure perfect circle */
+    width: 70px; /* Set explicit width */
+    height: 70px; /* Set explicit height */
+    display: flex; /* Center icon */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  

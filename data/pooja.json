@@ -1,0 +1,94 @@
+{
+    "pooja": [
+        {
+            "pid": "1",
+            "name": "Ram Abhishekam",
+            "img": "https://i.ytimg.com/vi/kdRvQ8yk0nw/sddefault.jpg",
+            "link": "/blogs/ram-abhishekam",
+            "location": "Ram Mandir, Ayodhya",
+            "contact": [
+                {
+                    "name": "Ram Pandit",
+                    "number": "9034343434"
+                },
+                {
+                    "name": "Shyam Pandit",
+                    "number": "9034343434"
+                }
+            ],
+            "price": "1500"
+        },
+        {
+            "pid": "2",
+            "name": "Sita Vivah Pooja",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8pcxySZSUxnFT9haELtnQQrg6Q9Wf6W3gA&s",
+            "link": "/blogs/sita-vivah-pooja",
+            "location": "Kanak Bhawan, Ayodhya",
+            "contact": [
+                {
+                    "name": "Ram Pandit",
+                    "number": "9034343434"
+                },
+                {
+                    "name": "Shyam Pandit",
+                    "number": "9034343434"
+                }
+            ],
+            "price": "1200"
+        },
+        {
+            "pid": "3",
+            "name": "Hanuman Chalisa Path",
+            "img": "https://cdn.exoticindia.com/images/products/original/books-2019-009/mzh727.jpg",
+            "link": "/blogs/hanuman-chalisa-path",
+            "location": "Hanuman Garhi, Ayodhya",
+            "contact": [
+                {
+                    "name": "Ram Pandit",
+                    "number": "9034343434"
+                },
+                {
+                    "name": "Shyam Pandit",
+                    "number": "9034343434"
+                }
+            ],
+            "price": "500"
+        },
+        {
+            "pid": "4",
+            "name": "Navagraha Shanti Pooja",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DW5WcPb_6A_S3A_gB1SU6lz8vN8jZ4rQQQ&s",
+            "link": "/blogs/navagraha-shanti",
+            "location": "Saryu Ghat, Ayodhya",
+            "contact": [
+                {
+                    "name": "Ram Pandit",
+                    "number": "9034343434"
+                },
+                {
+                    "name": "Shyam Pandit",
+                    "number": "9034343434"
+                }
+            ],
+            "price": "2000"
+        },
+        {
+            "pid": "5",
+            "name": "Griha Pravesh Pooja",
+            "img": "https://shivology.com/img/article239.jpg",
+            "link": "/blogs/griha-pravesh-pooja",
+            "location": "Ayodhya City",
+            "contact": [
+                {
+                    "name": "Ram Pandit",
+                    "number": "9034343434"
+                },
+                {
+                    "name": "Shyam Pandit",
+                    "number": "9034343434"
+                }
+            ],
+            "price": "1800"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "activities": [
+        {
+            "aid": 1,
+            "name": "Saryu Arti",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSaJ_ZqfcOu12Dp4PCQXaymakLnrsJ3ZYy8g&s",
+            "link": "/blogs/saryu-arti",
+            "location": "Ram Mandir, Ayodhya, Uttar Pradesh",
+            "price": "0"
+        },
+        {
+            "aid": 2,
+            "name": "River Saryu Boat Ride",
+            "img": "https://images.indianexpress.com/2023/05/ganga-vilas-cruise-1200.jpg",
+            "link": "/blogs/saryu-boat-ride",
+            "location": "Saryu Ghat, Ayodhya, Uttar Pradesh",
+            "price": "200"
+        },
+        {
+            "aid": 3,
+            "name": "Yoga at Saryu Banks",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSPrMsaoJ32huxHudDaZQ9hVmGFy6TO9wDg&s",
+            "link": "/blogs/yoga-saryu",
+            "location": "Naya Ghat, Ayodhya, Uttar Pradesh",
+            "price": "300"
+        },
+        {
+            "aid": 4,
+            "name": "Cooking Workshop on Ayodhya Cuisine",
+            "img": "https://images.squarespace-cdn.com/content/v1/578753d7d482e9c3a909de40/c33b5738-0445-4420-bd0d-07d213252c2f/Cooking+with+Friends%2C+a+workshop+by",
+            "link": "/blogs/ayodhya-cuisine-workshop",
+            "location": "Community Center, Ayodhya, Uttar Pradesh",
+            "price": "1000"
+        },
+        {
+            "aid": 5,
+            "name": "Cultural Dance Performances",
+            "img": "https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/92492/247821/1679390824900_Folk_dance_of_Rajasthan_2100_pixels__22335.1686997821.jpg?c=2",
+            "link": "/blogs/cultural-dance-ayodhya",
+            "location": "Ram Ki Paidi, Ayodhya, Uttar Pradesh",
+            "price": "600"
+        }
+    ]
+}

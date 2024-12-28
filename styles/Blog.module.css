@@ -1,0 +1,101 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+} */
+
+.firstSection {
+    padding-top: 3rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .user {
+    margin-top: 2rem;
+    background:#edf2f9
+  }
+  .container{
+    width:100%;
+    padding-right:35px;
+    padding-left:35px;
+    margin-right:auto;
+    margin-left:auto
+}
+  .user img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  
+  .blogSection {
+    margin-top: 2rem;
+  }
+  
+  .blogSection img {
+    margin-bottom: 1rem;
+    border-radius: 1rem !important;
+  }
+  
+  .blogSection p {
+    margin-bottom: 2rem;
+    color: #545b61;
+  }
+  
+  .blogSection h1,
+  .blogSection h2,
+  .blogSection h3,
+  .blogSection h4,
+  .blogSection h5,
+  .blogSection h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  .blogSection .blockquote-1 {
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .blogSection ul {
+    margin-bottom: 3rem;
+  }
+  
+  .blogSection ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .share {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .share i {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .bounceLittle {
+    -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .bounceLittle:hover {
+    -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.13), 0 3px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.13), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  

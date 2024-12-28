@@ -1,0 +1,249 @@
+{
+    "hotels": [
+      {
+        "hotelId": "1",
+        "name": "Ayodhya Residency",
+        "location": "Near Ram Mandir, Ayodhya",
+        "map":"https://maps.app.goo.gl/YZRyqKVPtx1ShG1Q8",
+        "ratingValue": "4.5",
+        "type": "3 Star Hotel",
+        "startprice":"1800",
+        "img": [
+          "https://pix10.agoda.net/hotelImages/1198493/-1/a6a5fb62c175cfb0338b00625f623a03.jpg?ca=7&ce=1&s=414x232",
+          "https://cdn2.advanceinfotech.org/kozhikode.directory/1200x675/business/1052/ayodhya-residencyyd-1641206522.webp"
+        ],
+        "description": "Located near the spiritual heart of Ayodhya, Ayodhya Residency combines modern comfort with serene surroundings. The hotel features well-appointed rooms, ideal for pilgrims and tourists looking for a peaceful retreat after exploring the city.",
+        "DistancefromMVP": "500m",
+        "AdditionalInfo": [
+            "Passport, Aadhar, and Govt. ID are accepted as ID proof(s)",
+            "Local IDs are not allowed",
+            "Outside food is allowed",
+            "Smoking within premises is allowed",
+            "Pets are not allowed",
+            "Unmarried couples are not allowed"
+        ],
+        "amenities": [
+            "AC",
+            "power backup",
+            "intercom",
+            "attached bathroom",
+            "laundry service",
+            "smoke detector",
+            "elevator/lift",
+            "doctor on call",
+            "free Wi-Fi",
+            "wake-up call"
+        ],
+        "ContactPerson": "Ramesh Gupta",
+        "Number": "+91-9876543210",
+        "rooms": [
+          {
+            "roomid": "101",
+            "roomName": "Deluxe Room",
+            "price": "1800",
+            "img": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4kj-b7ZGBgh2h-eQQ_p8cQ13rKLXWNJ8ScA&s",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/471618884.jpg?k=e84a53625f44d47fc70ac59851b1447a7bab39080a916927358f75ff64c938a6&o=&hp=1"
+            ],
+            "amenities": ["AC", "TV", "Attached Bathroom","TV", "Attached Bathroom","TV", "Attached Bathroom"],
+            "info": ["Max occupancy: 2", "No smoking","Max occupancy: 4", "Includes breakfast and dinner"]
+          },
+          {
+            "roomid": "102",
+            "roomName": "Super Deluxe Room",
+            "price": "2400",
+            "img": [
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/471618884.jpg?k=e84a53625f44d47fc70ac59851b1447a7bab39080a916927358f75ff64c938a6&o=&hp=1",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4kj-b7ZGBgh2h-eQQ_p8cQ13rKLXWNJ8ScA&s"
+            ],
+            "amenities": ["AC", "TV", "Balcony View"],
+            "info": ["Max occupancy: 3", "Includes breakfast"]
+          }
+        ]
+      },
+      {
+        "hotelId": "2",
+        "name": "Keys Hotel",
+        "location": "Civil Lines, Ayodhya",
+        "map":"https://maps.app.goo.gl/YZRyqKVPtx1ShG1Q8",
+        "ratingValue": "4.0",
+        "type": "4 Star Hotel",
+        "startprice":"6000",
+        "img": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/00/ca/2c/keys-select-hotel.jpg?w=1200&h=-1&s=1",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBYy0iCpiuE4_ua3VYxcRgid4TN3fJ9qxhuZ-q5OV9jyloHrc3azW1TdtVGT_aiUhsp8&usqp=CAU"
+        ],
+        "description": "Ram Heritage Inn blends traditional elegance with modern amenities, offering luxurious stays for those seeking to immerse themselves in Ayodhya's culture. With spacious suites and gourmet dining, it's a top choice for discerning guests.",
+        "DistancefromMVP": "1km",
+        "AdditionalInfo": [
+            "Pets are not allowed",
+            "Smoking within premises is allowed",
+            "Local IDs are not accepted",
+            "Unmarried couples are not allowed",
+            "24-hour security available",
+            "Fully refundable till check-in"
+        ],
+        "amenities": [
+            "restaurant",
+            "dining area",
+            "conference room",
+            "banquet",
+            "CCTV",
+            "safety and security",
+            "smoke alarms",
+            "private entrance",
+            "paid airport transfers",
+            "elevator/lift"
+        ],
+        "ContactPerson": "Suresh Yadav",
+        "Number": "+91-9123456789",
+        "rooms": [
+          {
+            "roomid": "201",
+            "roomName": "Suite Room",
+            "price": "5000",
+            "img": [
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/a2/d2/getlstd-property-photo.jpg?w=700&h=-1&s=1",
+              "https://www.kayak.com/rimg/himg/48/c6/d0/expediav2-375399-1e0ffc-358285.jpg?width=968&height=607&crop=true"
+            ],
+            "amenities": ["King Bed", "AC", "Mini Bar"],
+            "info": ["Max occupancy: 4", "Includes breakfast and dinner","Max occupancy: 4", "Includes breakfast and dinner"]
+          },
+          {
+            "roomid": "202",
+            "roomName": "Executive Room",
+            "price": "4000",
+            "img": [
+              "https://www.kayak.com/rimg/himg/48/c6/d0/expediav2-375399-1e0ffc-358285.jpg?width=968&height=607&crop=true",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8f/a2/d2/getlstd-property-photo.jpg?w=700&h=-1&s=1"
+            ],
+            "amenities": ["Queen Bed", "TV", "Work Desk"],
+            "info": ["Max occupancy: 2", "No pets allowed"]
+          }
+        ]
+      },
+      {
+        "hotelId": "3",
+        "name": "Bhakt Niwas Dharamshala",
+        "location": "Faizabad Road, Ayodhya",
+        "map":"https://maps.app.goo.gl/YZRyqKVPtx1ShG1Q8",
+        "ratingValue": "4.2",
+        "type": "Dharamshala",
+        "startprice":"500",
+        "img": [
+          "https://content.jdmagicbox.com/comp/pune/x2/020pxx20.xx20.181011204502.e9x2/catalogue/dnyandarshan-dharmashala-alandi-phata-pune-dharamshalas-4t6dlp71r6-250.jpg",
+          "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Gujarati-Dharamshala-in-Ayodhya-India.jpg"
+        ],
+        "description": "A peaceful and affordable dharamshala offering comfortable rooms with basic amenities for spiritual seekers and pilgrims. A quiet and clean place to rest and rejuvenate, with a serene atmosphere for those on their spiritual journey.",
+        "DistancefromMVP": "2km",
+        "AdditionalInfo": [
+          "Strictly vegetarian meals",
+          "Separate prayer hall",
+          "Non-smoking environment",
+          "No alcohol allowed on premises",
+          "Wheelchair accessible rooms",
+          "Parking available"
+        ],
+        "amenities": [
+          "Shared Bathrooms",
+          "Canteen",
+          "24/7 Water Supply",
+          "Power Backup",
+          "Elevator",
+          "Housekeeping",
+          "Torch",
+          "24-hour Security",
+          "Fire Extinguishers",
+          "First-aid Services"
+        ],
+        "ContactPerson": "Mahesh Tiwari",
+        "Number": "+91-9456781234",
+        "rooms": [
+          {
+            "roomid": "301",
+            "roomName": "Single Room",
+            "price": "500",
+            "img": [
+              "https://content.jdmagicbox.com/comp/pune/x3/020pxx20.xx20.150129173108.v5x3/catalogue/sarka-dharamshala-alandi-devachi-alandi-banquet-halls-oakp6ux8ff-250.jpg",
+              "https://yatradham.org/media/catalog/product/cache/1/small_image/420x400/040ec09b1e35df139433887a97daa66f/d/i/digambar_jain_dharamshala_talwandi_kota_7_.jpg"
+            ],
+            "amenities": ["Fan", "Bed", "Shared Bathroom"],
+            "info": ["Max occupancy: 1", "Non-AC"]
+          },
+          {
+            "roomName": "302",
+            "name": "Family Room",
+            "price": "1000",
+            "img": [
+              "https://yatradham.org/media/catalog/product/cache/1/small_image/420x400/040ec09b1e35df139433887a97daa66f/d/i/digambar_jain_dharamshala_talwandi_kota_7_.jpg",
+              "https://content.jdmagicbox.com/comp/pune/x3/020pxx20.xx20.150129173108.v5x3/catalogue/sarka-dharamshala-alandi-devachi-alandi-banquet-halls-oakp6ux8ff-250.jpg"
+            ],
+            "amenities": ["Fan", "Multiple Beds"],
+            "info": ["Max occupancy: 4", "Non-AC"]
+          }
+        ]
+      },
+      {
+        "hotelId": "4",
+        "name": "Sita Dormitory",
+        "location": "Near Hanuman Garhi, Ayodhya",
+        "map":"https://maps.app.goo.gl/YZRyqKVPtx1ShG1Q8",
+        "ratingValue": "3.8",
+        "type": "Dormitory",
+        "startprice":"700",
+        "img": [
+          "https://r1imghtlak.ibcdn.com/57b2588a513f11efbebd0a58a9feac02.jpg?&downsize=400:200&crop=400:200;0,2&output-format=webp",
+          "https://cf.bstatic.com/xdata/images/hotel/max500/501461500.jpg?k=cfb03ad45a70360c36562612c6dd4a94668745808ce8cf59a562668b2d49e17f&o=&hp=1"
+        ],
+        "description": "A budget-friendly dormitory offering clean, comfortable, and shared accommodations for travelers looking for a simple stay. Convenient for group stays, with separate dorms for men and women, offering essential amenities for a restful stopover.",
+        "DistancefromMVP": "1.5km",
+        "AdditionalInfo": [
+          "Locker facility available",
+          "Separate dorms for men and women",
+          "Food delivery service available",
+          "No pets allowed",
+          "Group bookings allowed",
+          "24-hour reception"
+        ],
+        "amenities": [
+          "Bunk Beds",
+          "Shared Bathrooms",
+          "WiFi",
+          "Power Backup",
+          "CCTV",
+          "Housekeeping",
+          "24-hour Security",
+          "Wake-up Call",
+          "Fire Extinguishers",
+          "Concierge"
+        ],
+        "ContactPerson": "Anil Kumar",
+        "Number": "+91-9109876543",
+        "rooms": [
+          {
+            "roomid": "401",
+            "roomName": "Male Dormitory",
+            "price": "300",
+            "img": [
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/5a/41/28/getlstd-property-photo.jpg?w=700&h=-1&s=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236666761.jpg?k=15afc9b312417adb21eb9c931abbd5c9e0f94c7a294ec79f5bd99b55a07ddbbe&o=&hp=1"
+            ],
+            "amenities": ["Fan", "Locker", "Shared Bathroom"],
+            "info": ["Max occupancy: 10", "Non-AC"]
+          },
+          {
+            "roomid": "402",
+            "roomName": "Female Dormitory",
+            "price": "300",
+            "img": [
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236666761.jpg?k=15afc9b312417adb21eb9c931abbd5c9e0f94c7a294ec79f5bd99b55a07ddbbe&o=&hp=1",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/5a/41/28/getlstd-property-photo.jpg?w=700&h=-1&s=1"
+            ],
+            "amenities": ["Fan", "Locker", "Shared Bathroom"],
+            "info": ["Max occupancy: 10", "Non-AC"]
+          }
+        ]
+      }
+    ]
+  }
+  
