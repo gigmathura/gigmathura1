@@ -65,7 +65,7 @@ const ShriKrishnaJanmabhoomi = () => {
                                     was born to Queen Devaki and King Vasudeva, imprisoned by the tyrant King Kansa. The prison cell, now known as the
                                     Garbha Griha, remains a focal point for devotees. Over centuries, the site has witnessed numerous reconstructions
                                     and stands today as a symbol of devotion and resilience.
-                                    Shri Krishna Janmasthan Temple, also known as Shri Krishna Janmabhoomi temple, is centred on the prison cell where Lord Krishna's parents, Mata Devaki and Vasudeva, were imprisoned by his uncle Kansa.
+                                    Shri Krishna Janmasthan Temple, also known as Shri Krishna Janmabhoomi temple, is centred on the prison cell where Lord Krishna&apos;s parents, Mata Devaki and Vasudeva, were imprisoned by his uncle Kansa.
 
                                     Aside from the prison cell, the Krishna Janmasthan Temple contains other temples devoted to the god. The holy ambience and purity of the temple infuse the heart with confidence that this is the spot where Lord Krishna revealed himself.
                                     <br />
@@ -73,25 +73,25 @@ const ShriKrishnaJanmabhoomi = () => {
 
                                     The Krishna Janmasthan Temple sees heavy footfall during holidays such as Janmashtami (The birthday of Lord Krishna), Basant Panchami, Holi, and Diwali.
                                     <br />
-                                    #Note: Cameras aren't allowed due to security purposes. Most Mathura temples prohibit cell phones and cameras, therefore try to avoid them when visiting any temple
+                                    #Note: Cameras aren&apos;t allowed due to security purposes. Most Mathura temples prohibit cell phones and cameras, therefore try to avoid them when visiting any temple
                                 </p>
 
                                 <h2>Architectural Grandeur</h2>
                                 <p>
                                     The temple complex is a masterpiece of Indian temple architecture. From the intricately carved pillars to the serene
-                                    sanctum, every corner of the temple exudes divine energy. The vibrant murals depicting scenes from Krishna's life
+                                    sanctum, every corner of the temple exudes divine energy. The vibrant murals depicting scenes from Krishna&apos;s life
                                     add to the spiritual ambiance.
                                     The Sri Krishna Janmasthan Temple houses the Keshavdev temple, the Garbha Griha shrine, and the Bhagavata Bhavan.
                                     <br />
                                     <strong>Keshavdev Temple:</strong> Ramkrishna Dalmia constructed the Keshavdev Temple south of the Shahi Eidgah in honour of his mother, Jathia Devi Dalmia. The construction began on June 29, 1957, and was dedicated on September 6, 1958, by Hanuman Prasad Poddar.
                                     <br />
-                                    <strong>Garbha Griha Shrine:</strong> It is the location of Krishna's prison cell, where he was born. You can see a marble pavilion and an underground prison cell with a large veranda on the site. A temple devoted to the eight-handed goddess Yogmaya stands nearby.
+                                    <strong>Garbha Griha Shrine:</strong> It is the location of Krishna&apos;s prison cell, where he was born. You can see a marble pavilion and an underground prison cell with a large veranda on the site. A temple devoted to the eight-handed goddess Yogmaya stands nearby.
                                     <br />
                                     <strong>Bhagvat Bhavan:</strong> The temple is dedicated to Srimad Bhagavata, built on February 11, 1965.
                                     <br />
                                     It has five shrines: the main shrine has six-foot-tall statues of Radha and Krishna, with the shrine of Balarama, Subhadra, and Jagannath on the right, the temple of Rama Lakshman and Sita on the left, Garuda Stambha and Chaitanya Mahaprabhu in front of Jagannatha shrine, and Hanuman in front of Ram shrine, the Durga temple, and the Shivalinga temple.
 
-                                    The paintings on the assembly hall's ceiling, walls, and pillars represent Krishna and his disciples. In addition, you can see inscriptions of the verses of the Bhagavad Gita on the walls of the circumambulation walkway.
+                                    The paintings on the assembly hall&apos;s ceiling, walls, and pillars represent Krishna and his disciples. In addition, you can see inscriptions of the verses of the Bhagavad Gita on the walls of the circumambulation walkway.
                                 </p>
                                 <Image
                                     src="https://uptourism.gov.in/images/I_201505021427133133.jpg"
@@ -108,21 +108,21 @@ const ShriKrishnaJanmabhoomi = () => {
                                     of Lord Krishna. The temple comes alive with kirtans, devotional songs, and grand rituals, drawing thousands of devotees
                                     from across the globe. Holi, the festival of colors, is another grand celebration that showcases the vibrant
                                     traditions of Mathura.
-                                    The celebration begins at midnight of Lord Krishna's birth when the Pujaris house the deity in the Garbha Griha, where it is ritualistically bathed with milk and curd, clothed in traditional attire put in the cradle.
+                                    The celebration begins at midnight of Lord Krishna&apos;s birth when the Pujaris house the deity in the Garbha Griha, where it is ritualistically bathed with milk and curd, clothed in traditional attire put in the cradle.
 
-                                    After that, the worshippers rock the cradle and sing prayers and devotional songs. People believe that any wish made while swinging the cradle comes true. Then, the devotees offer the lord 'panchamrit' and 'Chappan bhog' (56 dishes), further distributed among other devotees to break their fast.
+                                    After that, the worshippers rock the cradle and sing prayers and devotional songs. People believe that any wish made while swinging the cradle comes true. Then, the devotees offer the lord panchamrit and Chappan bhog (56 dishes), further distributed among other devotees to break their fast.
                                     <br />
-                                    #Trivia- Every year, about eight lakh devotees visit Mathura and Vrindavan to participate in the Janmashtami festival, offer prayers, and witness the spectacular celebration of Lord Krishna's birth.
+                                    #Trivia- Every year, about eight lakh devotees visit Mathura and Vrindavan to participate in the Janmashtami festival, offer prayers, and witness the spectacular celebration of Lord Krishna&apos;s birth.
                                 </p>
                                 <p>
                                     <strong>Holi Celebration:</strong> Holi is one of the most well-known festivals of Mathura. The occasion is celebrated as the most colourful day in Mathura and lasts for several days. It begins on Phalgun Amavasya and gains prominence on Ekadashi, decking the entire city with its vibrant hues.
 
-                                    During Holi, folk and local singers sing devotional and specialised songs in Mathura's Krishna Janmasthan Temple. Moreover, on the eve of Holika Dahan, artists perform a unique theatrical performance that represents the classic tale of Holika and Prahalad.
+                                    During Holi, folk and local singers sing devotional and specialised songs in Mathura&apos;s Krishna Janmasthan Temple. Moreover, on the eve of Holika Dahan, artists perform a unique theatrical performance that represents the classic tale of Holika and Prahalad.
                                 </p>
                                 <p>
-                                    <strong>Basant Panchmi:</strong> The Mathuravasis (people of Mathura) celebrate Basant Panchmi in a unique style at Krishna Janmasthan Temple. The temple's trust bedecks the idol of Lord Krishna with yellow and golden attire with glittering embellishments.
+                                    <strong>Basant Panchmi:</strong> The Mathuravasis (people of Mathura) celebrate Basant Panchmi in a unique style at Krishna Janmasthan Temple. The temple&apos;s trust bedecks the idol of Lord Krishna with yellow and golden attire with glittering embellishments.
 
-                                    All of Krishna's temples, as well as the entire city, are painted yellow. The yellow light lends a special touch to the celebration. Every temple in Mathura serves a special bhog of 'kheer' packed with saffron and yellow rice.
+                                    All of Krishna&apos;s temples, as well as the entire city, are painted yellow. The yellow light lends a special touch to the celebration. Every temple in Mathura serves a special bhog of &apos;kheer&apos; packed with saffron and yellow rice.
 
                                     People come to experience the joy of the festival and see the eye-catching decorations of the temples of Mathura.
                                 </p>
@@ -158,37 +158,37 @@ const ShriKrishnaJanmabhoomi = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
                                 <h2>Cuisines to Try Near the Shri Krishna Janmasthan Temple</h2>
                                 <p>Mathura Ke Pede, a type of sweet dessert created from condensed milk, is a local speciality. Other dishes include Kachori, Jalebi, Chaat, Panipuri, Samosa, Dhokla, Aloo Tikki, and Lassi. There are also traditional North Indian dishes available.
 
                                     Brijwasi Mithaiwale is the most famous restaurant near the Shri Krishna Janmasthan Temple. Dosa Plaza and Zaika are other places to delight your taste buds.
 
-                                    The best dessert places are Baskin Robbins, Giani's Ice cream Parlour, and the Chocolate room.
+                                    The best dessert places are Baskin Robbins, Giani&apos;s Ice cream Parlour, and the Chocolate room.
 
                                     All are within a km of the temple.</p>
                                 <h2>Why Visit Shri Krishna Janmabhoomi?</h2>
                                 <p>
-                                    Whether you're a spiritual seeker or a history enthusiast, Shri Krishna Janmabhoomi offers a unique experience. The
+                                    Whether you&apos;re a spiritual seeker or a history enthusiast, Shri Krishna Janmabhoomi offers a unique experience. The
                                     divine atmosphere, coupled with the rich cultural heritage, makes it a must-visit destination for everyone. Feel the
-                                    resonance of Krishna's eternal teachings and immerse yourself in the essence of bhakti.
+                                    resonance of Krishna&apos;s eternal teachings and immerse yourself in the essence of bhakti.
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps?ll=27.502326,77.683687&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=4911790846997250528"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Dive into the sacred heritage of Mathura!
                                         <span style={{ color: 'green' }}>Embrace the Divine!</span>

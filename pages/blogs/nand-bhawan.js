@@ -127,7 +127,7 @@ Besides splendid and spacious rooms, pilgrims here are allured by the red sandst
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>Nearby Attractions and Cuisines</h2>
@@ -137,19 +137,19 @@ Besides splendid and spacious rooms, pilgrims here are allured by the red sandst
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps?ll=27.679047,77.378755&z=10&t=m&hl=en-US&gl=US&mapclient=embed&q=Shri+Nandbaba+Temple,+Nandgaon"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Experience the divine charm of Mathura Vrindavan Darshan! 
                                         <span style={{ color: 'green' }}> Embrace the Spiritual Essence!</span>

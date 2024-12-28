@@ -103,7 +103,7 @@ const ShriVishramGhatMathura = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
                                 <h2>Why Visit Shri Vishram Ghat?</h2>
                                 <p>
@@ -111,19 +111,19 @@ const ShriVishramGhatMathura = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps/place/Vishram+Ghat/@27.5047661,77.6760588,15z/data=!4m10!1m2!2m1!1svishram+ghat+mathura!3m6!1s0x39737108626b579b:0x5b8c8709ea36eaf8!8m2!3d27.5047661!4d77.6863585!15sChR2aXNocmFtIGdoYXQgbWF0aHVyYVoWIhR2aXNocmFtIGdoYXQgbWF0aHVyYZIBFXJlbGlnaW91c19kZXN0aW5hdGlvbuABAA!16s%2Fm%2F0660s2q?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Immerse Yourself in the Serenity of Vishram Ghat!
                                         <span style={{ color: 'green' }}>Reconnect with Divinity!</span>

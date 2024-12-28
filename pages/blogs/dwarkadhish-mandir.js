@@ -63,7 +63,7 @@ const ShriDwarkadhishTemple = () => {
                                     Established in 1814 by Seth Gokuldas Parikh, a treasurer of the Gwalior State, the temple is an embodiment of devotion
                                     and artistry. Dedicated to Lord Krishna as Dwarkadhish (King of Dwarka), it represents the amalgamation of Gujarat
                                     and Braj traditions. The temple continues to be a spiritual haven for millions of devotees from around the world.
-                                    An array of beautiful ceiling paintings showcasing the various aspects of the Lord's life and the beautiful Rajasthani architectural designs and carving makes the complex look even more magnanimous. The Dwarkadhish temple is currently managed by the followers of Vaishnava sect (started by Mahaprabhu Vallabhacharya) and is a centre for lots of interesting activities all year round especially during the Shravan months when the Lord&apos;s Idol is placed inside a Hindola a (type of a swing set). Other important festivals celebrated are Holi, Diwali and Janmashtami.
+                                    An array of beautiful ceiling paintings showcasing the various aspects of the Lord&apos;s life and the beautiful Rajasthani architectural designs and carving makes the complex look even more magnanimous. The Dwarkadhish temple is currently managed by the followers of Vaishnava sect (started by Mahaprabhu Vallabhacharya) and is a centre for lots of interesting activities all year round especially during the Shravan months when the Lord&apos;s Idol is placed inside a Hindola a (type of a swing set). Other important festivals celebrated are Holi, Diwali and Janmashtami.
                                 </p>
 
                                 <h2>Architectural Grandeur</h2>
@@ -71,7 +71,7 @@ const ShriDwarkadhishTemple = () => {
                                 Built by a staunch devotee of Lord Krishna, Seth Gokul Das Parikh in 1814, Dwarkadhish temple is famous for its architecture and paintings. The temple complex has quite a large premise. The main building is magnificently carved in Rajasthani style entrance with a few steep steps leading to the main courtyard. In the centre of the yard are three rows of richly carved pillars supporting a beautiful painted ceiling. The paintings depict the life story of Lord Krishna.
                                     The Shri Dwarkadhish Temple is a stunning example of Rajasthani architectural brilliance. The temple features a
                                     magnificent gateway and intricately carved pillars, which lead to the sanctum housing the exquisite idol of Lord Krishna.
-                                    Painted ceilings depicting scenes from Krishna's life add to the temple&apos;s allure, making it a masterpiece of devotional art.
+                                    Painted ceilings depicting scenes from Krishna&apos;s life add to the temple&apos;s allure, making it a masterpiece of devotional art.
                                 </p>
 
                                 <Image
@@ -145,11 +145,11 @@ const ShriDwarkadhishTemple = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
                                 <h2>Cuisines to Try Near the Temple</h2>
                                 <p>
-                                    Don't miss the local specialties like Mathura Pede, Jalebi, and Kachori, along with North Indian delicacies. Nearby
+                                    Don&apos;t miss the local specialties like Mathura Pede, Jalebi, and Kachori, along with North Indian delicacies. Nearby
                                     eateries such as Brijwasi Mithaiwala and Zaika offer delicious food, ensuring a wholesome culinary experience.
                                 </p>
 
@@ -161,19 +161,19 @@ const ShriDwarkadhishTemple = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps/place/ShriDwarkadhish+Temple,+Mathura/data=!4m2!3m1!1s0x0:0xbf31462debe58532?sa=X&ved=1t:2428&ictx=111"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Experience the divine aura of Shri Dwarkadhish Temple!
                                         <span style={{ color: 'green' }}>Embrace the Eternal Bliss!</span>

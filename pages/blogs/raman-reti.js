@@ -11,7 +11,7 @@ const RamanRetiMathura = () => {
             <Head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Explore Raman Reti in Mathura, a sacred site associated with Lord Krishna's divine pastimes. Discover its tranquil ambiance and spiritual significance for devotees worldwide." />
+                <meta name="description" content="Explore Raman Reti in Mathura, a sacred site associated with Lord Krishna&apos;s divine pastimes. Discover its tranquil ambiance and spiritual significance for devotees worldwide." />
                 <meta name="keywords" content="Mathura, Raman Reti, Lord Krishna, spiritual site, Mathura tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
@@ -70,11 +70,11 @@ const RamanRetiMathura = () => {
                                 <p>
                                     The area around Raman Reti is home to many notable ashrams and temples:
                                     <br />
-                                    <strong>Nand Baba Temple:</strong> Dedicated to Nand Baba, Krishna's foster father, this temple is a prominent attraction.
+                                    <strong>Nand Baba Temple:</strong> Dedicated to Nand Baba, Krishna&apos;s foster father, this temple is a prominent attraction.
                                     <br />
                                     <strong>Santanu Ashram:</strong> A hub for spiritual practices and meditation.
                                     <br />
-                                    <strong>Jatipura Temple:</strong> Known for its tranquil ambiance and significance in Krishna's lore.
+                                    <strong>Jatipura Temple:</strong> Known for its tranquil ambiance and significance in Krishna&apos;s lore.
                                 </p>
                                 <Image
                                     src="https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-01-23-768x528.jpg"
@@ -121,28 +121,28 @@ const RamanRetiMathura = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>Why Visit Raman Reti?</h2>
                                 <p>
-                                    Whether for spiritual growth, peaceful reflection, or a glimpse into Krishna's playful pastimes, Raman Reti offers a unique blend of divinity and tranquility. Visit this sacred site to immerse yourself in the timeless tales of Krishna and rejuvenate your soul.
+                                    Whether for spiritual growth, peaceful reflection, or a glimpse into Krishna&apos;s playful pastimes, Raman Reti offers a unique blend of divinity and tranquility. Visit this sacred site to immerse yourself in the timeless tales of Krishna and rejuvenate your soul.
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps/place/Shri+Raman+Bihariji+Mandir/@27.427686,77.7282041,17z/data=!3m1!4b1!4m6!3m5!1s0x39737776098b93a5:0xe08c877460c5e690!8m2!3d27.427686!4d77.7282041!16s%2Fg%2F11bxg0ghjb?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Discover the spiritual essence of Mathura!
                                         <span style={{ color: 'green' }}>Experience the Divine!</span>

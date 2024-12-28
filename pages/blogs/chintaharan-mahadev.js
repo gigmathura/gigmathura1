@@ -114,7 +114,7 @@ const ChintaharanMahadev = () => {
                                 <h2>How to Reach Chintaharan Mahadev?</h2>
                                 <p><strong>Nearest Bus Stop:</strong> Mathura Bus Stand is approximately 4 kilometers away from the temple.</p>
                                 <p><strong>Nearest Railway Station:</strong> Mathura Junction, located around 3.5 kilometers away, provides convenient access.</p>
-                                <p><strong>Nearest Airport:</strong> Agra Airport is the closest, about 65 kilometers away. Delhi's Indira Gandhi International Airport is around 150 kilometers away.
+                                <p><strong>Nearest Airport:</strong> Agra Airport is the closest, about 65 kilometers away. Delhi&apos;s Indira Gandhi International Airport is around 150 kilometers away.
                                 </p>
 
                                 <p>
@@ -122,7 +122,7 @@ const ChintaharanMahadev = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>Local Delicacies to Relish</h2>
@@ -138,19 +138,19 @@ const ChintaharanMahadev = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps/place/chintaharan+mahadev+mathura/data=!4m2!3m1!1s0x3973717b42e405bd:0xd6bf5cb1a13b8d28?sa=X&ved=1t:155783&ictx=111"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Experience the divine serenity of Mathura!
                                         <span style={{ color: 'green' }}>Find Peace!</span>

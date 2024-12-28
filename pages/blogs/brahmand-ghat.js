@@ -11,7 +11,7 @@ const BrahmandGateGokul = () => {
             <Head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Explore the majestic Brahmand Gate in Gokul, Mathura. Learn about its history, architecture, and spiritual essence in the heart of Krishna's Leela Bhoomi." />
+                <meta name="description" content="Explore the majestic Brahmand Gate in Gokul, Mathura. Learn about its history, architecture, and spiritual essence in the heart of Krishna&apos;s Leela Bhoomi." />
                 <meta name="keywords" content="Mathura, Brahmand Gate, Gokul, Krishna Leela, temples in Mathura, Krishna architecture, Mathura tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
@@ -61,7 +61,7 @@ const BrahmandGateGokul = () => {
 
                                 <h2>Historical and Mythological Significance</h2>
                                 <p>
-                                    The Brahmand Gate is rooted in the profound lore of Lord Krishna's childhood. According to Srimad Bhagavatam,
+                                    The Brahmand Gate is rooted in the profound lore of Lord Krishna&apos;s childhood. According to Srimad Bhagavatam,
                                     when Krishna consumed dirt during his playful activities, Yashoda Mata scolded him. Upon asking him to open his
                                     mouth, she witnessed the entire cosmos:- the universe, celestial bodies, and realms of existence within Krishna&apos;s
                                     tiny mouth. This divine vision overwhelmed Yashoda with awe and love.
@@ -92,7 +92,7 @@ const BrahmandGateGokul = () => {
                                 <h2>Festivals and Events</h2>
                                 <p>
                                     <strong>Janmashtami:</strong> The Brahmand Gate becomes the centerpiece during Krishna Janmashtami celebrations.
-                                    The entire area is adorned with lights and flowers, with cultural performances reenacting Krishna's divine plays.
+                                    The entire area is adorned with lights and flowers, with cultural performances reenacting Krishna&apos;s divine plays.
                                 </p>
                                 <p>
                                     <strong>Gokulashtami:</strong> Unique to Gokul, this festival celebrates Krishna&apos;s childhood days with fervor.
@@ -124,7 +124,7 @@ const BrahmandGateGokul = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>Cuisine to Relish Nearby</h2>
@@ -141,19 +141,19 @@ const BrahmandGateGokul = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps/place/Brahmand+Ghat/@27.4170609,77.744754,17z/data=!3m1!4b1!4m6!3m5!1s0x397377ec3da0d4e9:0x9d8c591532e2edb0!8m2!3d27.4170609!4d77.744754!16s%2Fg%2F11vhtg1y1_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Witness Krishna&apos;s Cosmic Leelas!
                                         <span style={{ color: 'green' }}>Feel the Divine!</span>

@@ -11,7 +11,7 @@ const BhooteshwarMahadev = () => {
             <Head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Bhuteshwar Mahadev Mandir is a famous Hindu temple located in Mathura, dedicated to Lord Shiva. It is also a Shaktipeeth where Mata Sati's ringlet fell when she performed Sati." />
+                <meta name="description" content="Bhuteshwar Mahadev Mandir is a famous Hindu temple located in Mathura, dedicated to Lord Shiva. It is also a Shaktipeeth where Mata Sati&apos;s ringlet fell when she performed Sati." />
                 <meta name="keywords" content="Mathura, Bhooteshwar Mahadev, temples in Mathura,bhooteshwar mahadev mathura,bhooteshwar, Shiva temples, India tourism" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
@@ -64,7 +64,7 @@ const BhooteshwarMahadev = () => {
                                     The temple derives its name from its legendary role as the protector against malevolent spirits. It is believed
                                     that Lord Shiva, in his form as Bhooteshwar, safeguards the city and its residents from any harm. This rich
                                     mythological significance makes it an unmissable destination for devotees visiting Mathura.
-                                    According to mythology, Mathura was established when Shatrughan slew the demon Madhu. Shatrughan, Sri Ram's younger brother, founded Mathura after the demon's murder. The Bhuteshwar Temple in Mathura has been around for thousands of years and renders a beautiful persona to the cityscape.
+                                    According to mythology, Mathura was established when Shatrughan slew the demon Madhu. Shatrughan, Sri Ram&apos;s younger brother, founded Mathura after the demon&apos;s murder. The Bhuteshwar Temple in Mathura has been around for thousands of years and renders a beautiful persona to the cityscape.
                                 </p>
 
                                 <h2>Architectural Beauty</h2>
@@ -110,7 +110,7 @@ const BhooteshwarMahadev = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
                                 <h2>Why Visit Bhooteshwar Mahadev?</h2>
                                 <p>
@@ -121,19 +121,19 @@ const BhooteshwarMahadev = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://www.google.com/maps?ll=27.499863,77.668444&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=4911790846997250528"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Discover the best of Mathura&apos;s spiritual treasures!
                                         <span style={{ color: 'green' }}>Don&apos;t Miss Out!</span>

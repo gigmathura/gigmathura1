@@ -66,7 +66,7 @@ const ShriRadhaRamanTemple = () => {
 
                                     Gopala Bhatta took a bath in Nepal&apos;s famed Kali-Gandaki River. To his surprise, numerous Shaligrama Shilas entered his water pot after dipping it in the river. He threw these shilas back into the river only to see them return as he replenished his water pot.
 
-                                    Gopala Bhatta Gosvami discovered a total of twelve such Shaligrama Shilas. Legend has it that a wealthy man once came to Vrindavan and donated various clothing and jewellery for Gopala Bhatta&apos;s Shaligramas. Gopala Bhatta, on the other hand, couldn't employ them for his round-shaped Shaligramas. Thus, he asked the donor to donate them to someone else. However, the donor refused, and Gopala Bhatta kept them with his Shilas.
+                                    Gopala Bhatta Gosvami discovered a total of twelve such Shaligrama Shilas. Legend has it that a wealthy man once came to Vrindavan and donated various clothing and jewellery for Gopala Bhatta&apos;s Shaligramas. Gopala Bhatta, on the other hand, couldn&apos;t employ them for his round-shaped Shaligramas. Thus, he asked the donor to donate them to someone else. However, the donor refused, and Gopala Bhatta kept them with his Shilas.
                                     After administering naivedya to his Shaligrama shilas on the day of Purnima, Gopala Bhatta laid them to rest in the evening, covering them with a wicker basket. Gopala Bhatta took a short nap late in the evening. He went to the Yamuna river in the early morning to bathe. When he returned from his bath, he revealed the Shaligramas to conduct puja, and among them was a Krishna Deity playing the flute. Only eleven shilas and a Deity remained.
 
                                     The magnificent three-fold bending shape of tri-bhangananda Krishna had emerged as the "Damodara Shila."
@@ -133,7 +133,7 @@ const ShriRadhaRamanTemple = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>Why Visit Shri Radha Raman Temple?</h2>
@@ -143,19 +143,19 @@ const ShriRadhaRamanTemple = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://maps.app.goo.gl/hhzHUwbPhDMtcwse6"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Dive into the sacred heritage of Vrindavan!
                                         <span style={{ color: 'green' }}>Embrace the Divine!</span>

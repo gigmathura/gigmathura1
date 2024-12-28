@@ -116,7 +116,7 @@ const NidhivanVrindavan = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>How to Reach Nidhivan?</h2>
@@ -125,19 +125,19 @@ const NidhivanVrindavan = () => {
                                 <p><strong>Nearest Airport:</strong> Agra Airport is about 70 kilometers away, and Delhi&apos;s Indira Gandhi International Airport is 160 kilometers away.</p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://maps.app.goo.gl/R7iJc1yjYqPK7rwk6"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Immerse yourself in the divine aura of Nidhivan!
                                         <span style={{ color: 'green' }}>Plan Your Journey Today!</span>

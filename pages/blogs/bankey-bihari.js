@@ -65,8 +65,8 @@ const ShriBankeyBihariVrindavan = () => {
                                 <p>
                                     The story of Banke Bihari Ji starts with Swami Haridas, a respected holy man born in 1478 A.D. in Haridaspur close to Aligarh, Uttar Pradesh. People think Swami Haridas was Lalita Sakhi, a good friend of Lord Krishna, in human form. As a kid, he loved to meditate and focus on spiritual things staying away from worldly stuff even after he got married.
                                     Swami Haridas ended up living in Vrindavan, which was a thick forest back then. He picked a quiet place now called Nidhivan, to meditate and write songs praising Lord Krishna. His strong faith and beautiful music made many people want to learn from him.
-                                    Swami Haridas's students felt curious about his godly experiences. They asked if they could join him at his private meditation place in Nidhivan. As they walked in, a dazzling light blinded them. Swami Haridas noticed they were struggling. He asked the Lord to show up in a milder form. The Lord listened. Krishna and Radharani then appeared in their godly shapes. Their beauty captivated everyone there.
-                                    The divine couple's combined beauty had such an overwhelming effect that Swami Haridas asked them to join into one form. He thought mortal eyes couldn't handle their brilliance. The couple granted his wish and changed into the single black idol we now know as Banke Bihari Ji.
+                                    Swami Haridas&apos;s students felt curious about his godly experiences. They asked if they could join him at his private meditation place in Nidhivan. As they walked in, a dazzling light blinded them. Swami Haridas noticed they were struggling. He asked the Lord to show up in a milder form. The Lord listened. Krishna and Radharani then appeared in their godly shapes. Their beauty captivated everyone there.
+                                    The divine couple&apos;s combined beauty had such an overwhelming effect that Swami Haridas asked them to join into one form. He thought mortal eyes couldn&apos;t handle their brilliance. The couple granted his wish and changed into the single black idol we now know as Banke Bihari Ji.
                                 </p>
 
                                 <h2>Architectural Beauty</h2>
@@ -136,23 +136,23 @@ const ShriBankeyBihariVrindavan = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://maps.app.goo.gl/sjBFiBKti8TK8SBy9"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Dive into the sacred heritage of Vrindavan!
                                         <span style={{ color: 'green' }}>Embrace the Divine!</span>

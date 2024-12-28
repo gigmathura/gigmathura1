@@ -44,8 +44,8 @@ const ShriRangJiTemple = () => {
 
                             <div className={styles.blogSection}>
                                 <p>
-                                    Shri Rang Ji Temple, also known as Rangnath Ji Temple, stands as one of Vrindavan's most significant landmarks. 
-                                    Dedicated to Lord Ranganatha, a form of Lord Vishnu, the temple's striking Dravidian architecture sets it apart 
+                                    Shri Rang Ji Temple, also known as Rangnath Ji Temple, stands as one of Vrindavan&apos;s most significant landmarks. 
+                                    Dedicated to Lord Ranganatha, a form of Lord Vishnu, the temple&apos;s striking Dravidian architecture sets it apart 
                                     in the land of Braj. This sacred abode invites devotees to immerse themselves in divine serenity and culture.
                                 </p>
 
@@ -64,7 +64,7 @@ const ShriRangJiTemple = () => {
                                     towering gopurams (gateways), and a gold-plated Dhwaja Stambha (flag pole) that stands at a height of 50 feet. 
                                     Its design blends elements of both North and South Indian temple architecture, making it a unique spiritual monument. 
                                     The temple complex features vast corridors, sacred water tanks, and vibrant murals depicting scenes from 
-                                    Vishnu's incarnations.
+                                    Vishnu&apos;s incarnations.
                                 </p>
 
                                 <h2>Historical Significance</h2>
@@ -103,7 +103,7 @@ const ShriRangJiTemple = () => {
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
-                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<a href='/'>Click Here to know more</a>
+                                    your Mathura Darshan, ensuring you make the most of your pilgrimage.<Link href='/'>Click Here to know more</Link>
                                 </p>
 
                                 <h2>How to Reach Shri Rang Ji Temple?</h2>
@@ -119,19 +119,19 @@ const ShriRangJiTemple = () => {
                                 </p>
 
                                 <div className="text-center w-100">
-                                    <a
+                                    <Link
                                         href="https://maps.app.goo.gl/KDBFT8fJg4b8xcCE6"
                                         className="text-center w-100"
                                     >
                                         View On Map
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?{' '}
+                                    Planning a Visit?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
                                         Dive into the sacred heritage of Vrindavan!
                                         <span style={{ color: 'green' }}>Embrace the Divine!</span>
