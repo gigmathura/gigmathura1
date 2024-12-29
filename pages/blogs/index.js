@@ -154,6 +154,46 @@ export default function Allblogs() {
             "imageUrl": "https://anandamclarksinn.com/upload/96640.jpg",
             "description": "Nidhivan, a sacred forest in Vrindavan, is believed to be the place where Radha and Krishna perform their divine Raas Lila every night...",
             "link": "/blogs/nidhivan"
+        },
+        {
+            "id": 15,
+            "title": "Seesh Mahal",
+            "topic": "Places",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq1YGVt2GZGOgJ_r-1OCP9IsRJPri4xDJww&s",
+            "description": "Explore the exquisite beauty of Seesh Mahal, a marvel of architecture adorned with intricate glasswork and rich history.",
+            "link": "/blogs/seesh-mahal"
+        },
+        {
+            "id": 16,
+            "title": "Shri Vaishno Devi Dham",
+            "topic": "Places",
+            "imageUrl": "https://mathuravrindavantourism.co.in/images/places-to-visit/headers/vaishno-devi-dham-mathura-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+            "description": "Embark on a spiritual journey to Shri Vaishno Devi, a revered Hindu shrine nestled amidst the Trikuta mountains.",
+            "link": "/blogs/vaishnodevi-mandir"
+        },
+        {
+            "id": 17,
+            "title": "Prem Mandir",
+            "topic": "Places",
+            "imageUrl": "https://vrindavan.com/wp-content/uploads/2022/10/prem-mandir-vrindavan-1024x576.jpeg",
+            "description": "Witness the grandeur of Prem Mandir, a temple that celebrates divine love through magnificent sculptures and vibrant light shows.",
+            "link": "/blogs/prem-mandir"
+        },
+        {
+            "id": 18,
+            "title": "ISKCON Temple Vrindavan",
+            "topic": "Places",
+            "imageUrl": "https://luxevista.in/wp-content/uploads/2024/01/Sri-Sri-Krishna-Balaram-Mandir-ISKCON-Vrindavan.png",
+            "description": "Visit the serene ISKCON Temple in Vrindavan, a spiritual hub for devotees of Lord Krishna and a beacon of peace and devotion.",
+            "link": "/blogs/iskcon-mandir"
+        },
+        {
+            "id": 19,
+            "title": "Madan Mohan Temple",
+            "topic": "Places",
+            "imageUrl": "https://vrindavantemples.com/wp-content/uploads/2024/05/Shri-Radha-Madan-Mohan-ji-Temple-Vrindavan-Architectural-Marvel-1024x683.png",
+            "description": "Discover the historic Madan Mohan Temple, a cherished site that stands as a testament to the devotion of Lord Krishna's followers.",
+            "link": "/blogs/radha-madan-mohan"
         }
     ]
 

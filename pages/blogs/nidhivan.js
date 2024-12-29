@@ -50,7 +50,7 @@ const NidhivanVrindavan = () => {
                                 </p>
 
                                 <Image
-                                    src="https://anandamclarksinn.com/upload/96640.jpg"
+                                    src="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/seva-kunj-and-nidhuban-vrindavan-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg"
                                     className={`${styles.bounceLittle} img-fluid`}
                                     alt="Nidhivan Vrindavan"
                                     width={900}

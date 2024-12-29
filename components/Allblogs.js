@@ -121,8 +121,38 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                             <Blogcard
                                 title="Nidhivan"
                                 link="/blogs/nidhivan"
-                                images="https://anandamclarksinn.com/upload/96640.jpg"
+                                images="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/seva-kunj-and-nidhuban-vrindavan-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg"
                             />
+                            <Blogcard
+                                title="Seesh Mahal"
+                                link="/blogs/seesh-mahal"
+                                images="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq1YGVt2GZGOgJ_r-1OCP9IsRJPri4xDJww&s"
+                            />
+
+                            <Blogcard
+                                title="Shri Vaishno Devi Dham"
+                                link="/blogs/vaishnodevi-mandir"
+                                images="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/vaishno-devi-dham-mathura-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+                            />
+
+                            <Blogcard
+                                title="Prem Mandir"
+                                link="/blogs/prem-mandir"
+                                images="https://vrindavan.com/wp-content/uploads/2022/10/prem-mandir-vrindavan-1024x576.jpeg"
+                            />
+
+                            <Blogcard
+                                title="ISKCON Temple Vrindavan"
+                                link="/blogs/iskcon-mandir"
+                                images="https://luxevista.in/wp-content/uploads/2024/01/Sri-Sri-Krishna-Balaram-Mandir-ISKCON-Vrindavan.png"
+                            />
+
+                            <Blogcard
+                                title="Madan Mohan Temple"
+                                link="/blogs/radha-madan-mohan"
+                                images="https://vrindavantemples.com/wp-content/uploads/2024/05/Shri-Radha-Madan-Mohan-ji-Temple-Vrindavan-Architectural-Marvel-1024x683.png"
+                            />
+
 
                             {/* {allBlog.length > 0 ? (
                                 allBlog.map((blog) => (
