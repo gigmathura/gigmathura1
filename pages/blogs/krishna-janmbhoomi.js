@@ -154,7 +154,7 @@ const ShriKrishnaJanmabhoomi = () => {
                                 <p><strong>Nearest Railway Station:</strong> Mathura Junction is located around 3.2 kilometers away.</p>
                                 <p><strong>Nearest Airport:</strong> The nearest airport is in Agra, approximately 65 kilometers away. Delhi&apos;s Indira Gandhi International Airport is around 150 kilometers away.</p>
                                 <p>
-                                    If you&apos;re planning to visit Mathura, you can plan with us! We offer <strong>pre-planned packages</strong> that are fully customizable
+                                    If you&apos;re planning to visit Mathura, Vrindavan, Gokul; you can plan with us! We offer <strong>pre-planned packages</strong> that are fully customizable
                                     to suit your preferences. Either start from scratch with <strong>Sharavan, our Plan Bot,</strong> who will help you craft the best
                                     itinerary, or choose from budget-friendly accommodations including dharamshalas and affordable travel options like
                                     e-rickshaws. Additionally, we assign a <strong>dedicated SPOC</strong> (Single Point of Contact) who will be available 24/7 during
