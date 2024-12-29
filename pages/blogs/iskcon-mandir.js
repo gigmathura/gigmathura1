@@ -58,7 +58,7 @@ const IskconTempleVrindavan = () => {
 
                                 <h2>Spiritual Significance</h2>
                                 <p>
-                                    The ISKCON Temple serves as a beacon of spirituality and devotion. It promotes the teachings of the Bhagavad Gita and the Srimad Bhagavatam, emphasizing the importance of bhakti (devotion) in achieving spiritual enlightenment. Visitors often describe their experience at the temple as transformative, feeling a profound connection to Lord Krishna&apos;s eternal teachings.
+                                    The ISKCON Temple serves as a beacon of spirituality and devotion. It promotes the teachings of the Bhagavad Gita and the Srimad Bhagavatam, emphasizing the importance of bhakti (devotion) in achieving spiritual enlightenment. Visitors often describe their experience at the temple as transformative, feeling a profound connection to Lord Krishna&apos;h         s eternal teachings.
                                     <br />
                                     The temple&apos;s serene ambiance, paired with melodious kirtans and chants, provides an immersive spiritual experience. Pilgrims and tourists alike find solace in the temple&apos;s daily rituals and aarti ceremonies.
                                 </p>
