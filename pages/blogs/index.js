@@ -252,8 +252,8 @@ export default function Allblogs() {
                     {allBlogs.map((blog) => (
                         <div key={blog.id} className={`${styles.blogCard} ${styles.allblogcard}`} style={{ color: "black", cursor: "pointer" }} onClick={() => router.push(blog.link)}>
                             <div className={styles.allblogcardcorosaldiv}>
-                                <div className={styles.imageblog} style={{ background: "grey" }} >
-                                    <Image src={blog.imageUrl} alt={blog.title} width={400} height={200} objectFit='cover' loading="lazy" />
+                                <div className={styles.imageblog} style={{ background: "grey",overflow:"hidden" }} >
+                                    <img src={blog.imageUrl} alt={blog.title} style={{height:"100%",width:"100%"}}/>
                                 </div>
                             </div>
                             <div className={styles.allblogcarddesc}>
