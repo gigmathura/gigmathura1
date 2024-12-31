@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import placesData from '../data/placestovisit.json';
-import hotelData from '../data/hotels.json';
+// import hotelData from '../data/hotels.json';
 import cabData from '../data/cabs.json';
 import activityData from '../data/activity.json';
 import poojaData from '../data/pooja.json';
@@ -19,8 +19,28 @@ import itineraryData from "@/data/itinirary.json"; // Import itinerary data
 import Image from "next/image";
 import Link from "next/link";
 const deepClone = obj => JSON.parse(JSON.stringify(obj));
+export async function getStaticProps() {
+    try {
+        // 1. Establish MongoDB connection at build time
 
-export default function Planbot() {
+        // 2. Fetch hotel data from the API
+        const response = await fetch('http://localhost:3000/api/gethotels'); // Adjust the API URL if needed for production
+        const hotelData = await response.json();
+        return {
+            props: {
+                hotelData, // Pass the fetched hotel data as a prop
+            },
+            revalidate: 150, // Optional: Revalidate every 60 seconds
+        };
+    } catch (error) {
+        console.error("Error establishing fetching data:", error);
+
+        return {
+            notFound: true, // Handle the error gracefully
+        };
+    }
+}
+export default function Planbot({hotelData}) {
     const router = useRouter();
     const [step, setStep] = useState(0);
     const [chatHistory, setChatHistory] = useState([]);
@@ -1298,8 +1318,8 @@ export default function Planbot() {
                                 width: "100%",
                             }}
                         >
-                            {hotelData.hotels && hotelData.hotels.length > 0 ? (
-                                hotelData.hotels.map((hotel, index) => (
+                            {hotelData && hotelData.length > 0 ? (
+                                hotelData.map((hotel, index) => (
                                     <div
                                         key={index}
                                         className={`${styles.hotelhCard}`}

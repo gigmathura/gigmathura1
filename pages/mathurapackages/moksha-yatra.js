@@ -8,7 +8,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carous
 import Head from 'next/head';
 import packageObjectData from '../../data/moksha-yatra.json';
 import placesData from '../../data/placestovisit.json';
-import hotelData from '../../data/hotels.json'
+// import hotelData from '../../data/hotels.json'
 import cabData from '../../data/cabs.json'
 import activityData from '../../data/activity.json'
 import poojaData from '../../data/pooja.json'
@@ -20,21 +20,27 @@ import connectDb from '../../lib/mongodb.js';
 const deepClone = obj => JSON.parse(JSON.stringify(obj));
 export async function getStaticProps() {
     try {
-        // Establish MongoDB connection at build time
+        // 1. Establish MongoDB connection at build time
         await connectDb();
 
-        // Since you don't need to return anything, just return an empty object
+        // 2. Fetch hotel data from the API
+        const response = await fetch('http://localhost:3000/api/gethotels'); // Adjust the API URL if needed for production
+        const hotelData = await response.json();
         return {
-            props: {},
+            props: {
+                hotelData, // Pass the fetched hotel data as a prop
+            },
+            revalidate: 150, // Optional: Revalidate every 60 seconds
         };
     } catch (error) {
-        console.error("Error establishing database connection:", error);
+        console.error("Error establishing database connection or fetching data:", error);
+
         return {
-            notFound: true, // Optional: Handle the error gracefully if needed
+            notFound: true, // Handle the error gracefully
         };
     }
 }
-export default function Mokshayatra() {
+export default function Mokshayatra({hotelData}) {
     const [packageObject, setPackageObject] = useState(packageObjectData);
     const [isOverlayVisible, setIsOverlayVisible] = useState(false);
     const [isMobileOverlayVisible, setIsMobileOverlayVisible] = useState(false)
@@ -44,7 +50,7 @@ export default function Mokshayatra() {
     const [showFullHotelOverlay, setShowFullHotelOverlay] = useState(false);
     const [showAllHotelsOverlay, setShowAllHotelsOverlay] = useState(false);
     const [selectedHotel, setSelectedHotel] = useState(packageObject.accommodation[0]);
-    const [allHotels, setAllHotels] = useState(hotelData.hotels);
+    const [allHotels, setAllHotels] = useState(hotelData);
     const [allCabs, setAllCabs] = useState(cabData.cabs);
     const [showPoojaOverlay, setShowPoojaOverlay] = useState(false);
     const [poojaAvailable, setPoojaAvailable] = useState(poojaData.pooja)
@@ -466,7 +472,7 @@ export default function Mokshayatra() {
 
     const handleViewHotel = (hotelId) => {
         // Find the specific hotel by hotelId
-        const selectedHotel = hotelData.hotels.find(hotel => hotel.hotelId === hotelId);
+        const selectedHotel = hotelData.find(hotel => hotel.hotelId === hotelId);
 
         if (selectedHotel) {
             console.log("Selected Hotel:", selectedHotel);

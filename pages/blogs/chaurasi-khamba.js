@@ -12,7 +12,7 @@ const ChaurasiKhambaMandir = () => {
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta name="description" content="Discover the Chaurasi Khamba Mandir in Gokul, Mathura, a marvel of architectural elegance and deep spiritual significance." />
-                <meta name="keywords" content="Chaurasi Khamba Mandir, Gokul, Mathura temples, ancient Indian architecture, spiritual tourism, Krishna pilgrimage" />
+                <meta name="keywords" content="Chaurasi Khamba Mandir,Nand Bhawan gokul, Gokul, Mathura temples, ancient Indian architecture, spiritual tourism, Krishna pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Chaurasi Khamba Mandir Gokul</title>
@@ -44,7 +44,7 @@ const ChaurasiKhambaMandir = () => {
 
                             <div className={styles.blogSection}>
                                 <p>
-                                    The Chaurasi Khamba Mandir, situated in the tranquil town of Gokul, is an iconic spiritual and architectural site in Mathura.
+                                    The Chaurasi Khamba Mandir or the Nand Bhawan, situated in the tranquil town of Gokul, is an iconic spiritual and architectural site in Mathura.
                                     Named after its 84 intricately carved pillars, this ancient temple is a must-visit destination for devotees and history enthusiasts alike.
                                 </p>
 

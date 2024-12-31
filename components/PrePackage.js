@@ -51,7 +51,7 @@ export default function Prepackage(){
                     "Hanuman Gufa",
                     "Nageshwarnath",
                     "Naya Ghat",
-                ]} img="https://www.aryavrittravels.com/wp-content/uploads/2023/10/Ram-Mandir-Ayodhya-Tour.jpg" title="Student Enlightment" description ="Affordable Adventures" duration ='1N/2D' price="1200" link="/ayodhyapackages/student-enlightment"/>
+                ]} img="https://www.aryavrittravels.com/wp-content/uploads/2023/10/Ram-Mandir-Ayodhya-Tour.jpg" title="Student Enlightment" description ="Affordable Adventures" duration ='1N/2D' price="1200" link="/mathurapackages/student-enlightment"/>
                  <Packagecards 
                 items = {[
                     "Pickup & Drop",
@@ -71,7 +71,7 @@ export default function Prepackage(){
                     "Hanuman Gufa",
                     "Nageshwarnath",
                     "Naya Ghat",
-                ]} img="https://www.tirthayatra.org/wp-content/uploads/2021/08/Ayodhya-bhoomi-pujan.jpg" title="Moksha Yatra" description ="Elegance Redefined" duration ='2N/3D' price="9500" link="/ayodhyapackages/moksha-yatra"/>
+                ]} img="https://www.tirthayatra.org/wp-content/uploads/2021/08/Ayodhya-bhoomi-pujan.jpg" title="Moksha Yatra" description ="Elegance Redefined" duration ='2N/3D' price="9500" link="/mathurapackages/moksha-yatra"/>
          
 
          <Packagecards 
@@ -91,7 +91,7 @@ export default function Prepackage(){
                     "Hanuman Gufa",
                     "Nageshwarnath",
                     "Naya Ghat",
-                ]} img="https://www.abhibus.com/blog/wp-content/uploads/2023/11/Ayodhya-Ram-Mandir-History-Opening-Date-How-to-Reach.jpg" title="Tirth Essentials" description ="Value with Comfort" duration ='2N/3D' price="4200" link="/ayodhyapackages/tirth-essentials"/>
+                ]} img="https://www.abhibus.com/blog/wp-content/uploads/2023/11/Ayodhya-Ram-Mandir-History-Opening-Date-How-to-Reach.jpg" title="Tirth Essentials" description ="Value with Comfort" duration ='2N/3D' price="4200" link="/mathurapackages/tirth-essentials"/>
          
 
             </div>
