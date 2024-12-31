@@ -71,7 +71,12 @@ const HotelDetailsPage = ({ hotelData }) => {
     const handleClose = () => {
         setSelectedRoom(null); // Close the overlay without making any changes
     };
-
+    const handlePriceInput = (e) => {
+        const value = e.target.value;
+        // Allow only numbers by removing non-numeric characters
+        const numericValue = value.replace(/[^0-9]/g, '');
+        setNewPrice(numericValue); // Update the newPrice state with the numeric value
+    };
     return (
         <div>
             <div className='w-100 bg-dark d-flex justify-content-center align-items-center flex-column text-light'>
@@ -130,7 +135,7 @@ const HotelDetailsPage = ({ hotelData }) => {
                                                         id="price"
                                                         className="form-control"
                                                         value={newPrice}
-                                                        onChange={(e) => setNewPrice(e.target.value)}
+                                                        onChange={handlePriceInput}
                                                     />
                                                 </div>
                                                 <div className="mb-3">
