@@ -59,7 +59,7 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                 images="https://mathuravrindavantourism.co.in/images/places-to-visit/headers/bhuteshwar-mahadev-temple-mathura-header-mathura-tourism.jpg.jpg"
                             />
                             <Blogcard
-                                title="Shri Krishna Janmbhoomi"
+                                title="Krishna Janmbhoomi"
                                 link="/blogs/krishna-janmbhoomi"
                                 images="https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg"
                             />
