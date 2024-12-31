@@ -26,7 +26,7 @@ export async function getStaticProps() {
         await connectDb();
 
         // 2. Fetch hotel data from the API
-        const response = await fetch('http://localhost:3000/api/gethotels'); // Adjust the API URL if needed for production
+        const response = await fetch('https://gigmathura.vercel.app/api/gethotels'); // Adjust the API URL if needed for production
         const hotelData = await response.json();
         return {
             props: {
