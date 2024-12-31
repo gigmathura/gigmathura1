@@ -11,7 +11,7 @@ const CharanPahadi = () => {
             <Head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Explore the divine Charan Pahadi in Nandgaon, a sacred place associated with Lord Krishna's childhood and pastimes in Braj." />
+                <meta name="description" content="Explore the divine Charan Pahadi in Nandgaon, a sacred place associated with Lord Krishna&apos;s childhood and pastimes in Braj." />
                 <meta name="keywords" content="Charan Pahadi, Nandgaon, Krishna Leela, pilgrimage sites, Hindu mythology, Lord Krishna" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
@@ -64,7 +64,7 @@ const CharanPahadi = () => {
                                     where Lord Krishna performed his divine leelas (playful acts) as a child. The imprints of Krishna&apos;s feet on the rocks are believed to be
                                     eternal and are worshipped by devotees from around the world. This site is also closely associated with the bond between Krishna
                                     and the gopis (cowherd maidens) who often gathered here to rejoice in his divine presence.<br/>
-                                    The footprints of Shri Krishna are inscribed on the Charan hill (Nandishwar Hill) of Shri Nandgaon. At the time of cow herding, Shri Krishna climbed atop this Nandishwar mountain and played His flute to gather lakhs of cows. The rocks of this mountain were melted by the compassionate and sweet voice of the flute and the imprints of Krishn's Lotus Feet were marked here. Lord Shiva was pleased to see this and said to Shri Krishn "O Lord, I am blessed, Your footprints will remain like this till eternity."
+                                    The footprints of Shri Krishna are inscribed on the Charan hill (Nandishwar Hill) of Shri Nandgaon. At the time of cow herding, Shri Krishna climbed atop this Nandishwar mountain and played His flute to gather lakhs of cows. The rocks of this mountain were melted by the compassionate and sweet voice of the flute and the imprints of Krishna&apos;s Lotus Feet were marked here. Lord Shiva was pleased to see this and said to Shri Krishn &quot;O Lord, I am blessed, Your footprints will remain like this till eternity&quot;.
                                     The context of the footprints here has come twice in Shrimad Bhagwat, the first context is on the arrival of Akrur Ji, and the second is on the arrival of Uddhav Ji.
                                     When the supreme devotee Akrur was coming from Mathura to Nandgaon to take Krishna and Balram on the orders of Kansa, then on reaching Nandgaon, the footprints of Krishna were visible on the top of the hill, in the sand and everywhere. He started crying and rolled in the dust of these Lotus Feet after getting overwhelmed with ecstasy. Even today, the devotees get overwhelmed by seeing the footprints of Shri Krishna.
                                 </p>

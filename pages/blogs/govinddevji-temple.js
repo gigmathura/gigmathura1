@@ -69,7 +69,7 @@ const GovindJiTemple = () => {
 
                                 <h2>Architectural Splendor</h2>
                                 <p>
-                                    The temple&apos;s unique red sandstone structure is adorned with intricate carvings and geometric patterns that reflect a fusion of cultures. The sanctum sanctorum houses a mesmerizing idol of Lord Krishna, beautifully crafted to evoke devotion and awe. The original design featured spacious halls and arches, which now provide a glimpse into the grandeur of its past. The temple's ceiling, embellished with lotus motifs and floral patterns, narrates tales of divinity and artistry.
+                                    The temple&apos;s unique red sandstone structure is adorned with intricate carvings and geometric patterns that reflect a fusion of cultures. The sanctum sanctorum houses a mesmerizing idol of Lord Krishna, beautifully crafted to evoke devotion and awe. The original design featured spacious halls and arches, which now provide a glimpse into the grandeur of its past. The temple&apos;s ceiling, embellished with lotus motifs and floral patterns, narrates tales of divinity and artistry.
                                 </p>
 
                                 <Image
