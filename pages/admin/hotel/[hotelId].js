@@ -174,7 +174,7 @@ const HotelDetailsPage = ({ hotelData }) => {
 export async function getServerSideProps(context) {
     const { hotelId } = context.params;
     const response = await fetch(`https://gigmathura.vercel.app/api/gethoteldata?hotelId=${hotelId}`);
-    const data = await response.json00();
+    const data = await response.json();
     const hotelData = data.hotelData;
 
     return {
