@@ -40,20 +40,22 @@ setBtnText("Checking")
 
     return (
         <div style={{height:"100vh"}}>
-        <div className='d-flex justify-content-center align-items-center bg-dark h-100'>
-            <form onSubmit={handleSignIn} className='bg-light d-flex flex-column w-50 justify-content-center align-items-center'>
-            <h1>Sign In</h1>
+        <div className='d-flex justify-content-center align-items-center h-100' style={{background:"#fff0c9"}}>
+            <form onSubmit={handleSignIn} className='bg-light p-4 d-flex flex-column w-75 justify-content-center align-items-center rounded'>
+            <h1>Hotel Dashboard</h1>
                 <input
                     type="text"
                     placeholder="Hotel ID"
                     value={hotelId}
                     onChange={(e) => setHotelId(e.target.value)}
                     required
+                    className='w-100 mb-2 mt-2'
                 />
                 <input
                     type="password"
                     placeholder="Hotel PIN"
                     value={hotelPin}
+                    className='w-100'
                     onChange={(e) => setHotelPin(e.target.value)}
                     required
                 />
