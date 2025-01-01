@@ -28,7 +28,7 @@ export async function getStaticProps() {
         };
     }
 }
-export default function hotels({ hotelData }) {
+export default function Hotels({ hotelData }) {
     const [showFullHotelOverlay, setShowFullHotelOverlay] = useState(false);
     const [selectedHotel, setSelectedHotel] = useState(null);
     const [showFormOverlay, setShowFormOverlay] = useState(false);
