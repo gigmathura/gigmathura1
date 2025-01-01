@@ -144,11 +144,20 @@ export default function Studentenlightenment({hotelData}) {
 
     const handlePhoneInput = (e) => {
         const value = e.target.value;
-        // Allow only numbers by removing non-numeric characters
-        const numericValue = value.replace(/[^0-9]/g, '');
-        e.target.value = numericValue;
-        handleFormChange(e);  // Call handleFormChange to update the form data state
+    
+        // Allow only numbers and '+' at the beginning
+        const formattedValue = value.replace(/(?!^\+)[^\d]/g, ''); // Allow '+' only as the first character, remove others
+    
+        // Ensure the '+' is only at the start
+        if (formattedValue.indexOf('+') > 0) {
+            e.target.value = formattedValue.replace(/\+/g, ''); // Remove '+' if it's not the first character
+        } else {
+            e.target.value = formattedValue; // Set the sanitized value
+        }
+    
+        handleFormChange(e); // Call handleFormChange to update the form data state
     };
+    
     const handleNameInput = (e) => {
         let value = e.target.value;
         // Allow only alphabetic characters (both uppercase and lowercase)
@@ -1380,7 +1389,7 @@ export default function Studentenlightenment({hotelData}) {
                             </div>
 
                             <div className="mb-2">
-                                <label htmlFor="number" className="form-label m-0">Your Number</label>
+                                <label htmlFor="number" className="form-label m-0">Your Number (Along With Country Code)</label>
                                 <input
                                     type="tel"
                                     name="number"

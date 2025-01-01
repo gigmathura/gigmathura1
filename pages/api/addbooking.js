@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
             // Customer Email
             const mailOptions = {
-                from: 'gigayodhya@gmail.com',
+                from: 'gigmathura@gmail.com',
                 to: email,
                 subject: 'GIG Darshan Booking',
                 html:`
@@ -35,7 +35,7 @@ export default async function handler(req, res) {
                             <p>Oh, by the way, did you know you can plan your entire darshan with us? From customized itineraries to accommodations, transport, rituals, and more—we’ve got it all covered!</p>
 
                             <p>
-                                <a href="https://gigayodhya.in/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
+                                <a href="https://gigmathura.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
                             </p>
 
                             <h4 style="color: orange; margin-top: 20px;">Need Help?</h4>
@@ -56,7 +56,7 @@ export default async function handler(req, res) {
 
             // Info Email to Vendor
             const infomailOptions = {
-                from: 'gigayodhya@gmail.com',
+                from: 'gigmathura@gmail.com',
                 to: 'gigayodhyainfo@gmail.com',
                 subject: 'Booking',
                 html: `

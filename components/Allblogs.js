@@ -3,15 +3,43 @@ import styles from '../styles/Card.module.css';
 import { useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import { useRouter } from 'next/router';
+import Link from 'next/link.js';
 
 export default function Allblogs({ allBlog = [] }) {  // Default to empty array
     const router = useRouter();
     const [Lottie, setLottie] = useState(null);  // State to store Lottie instance
+    const [isHotelLoading, setHotelLoading] = useState(false);
+    const [isTravelLoading, setTravelLoading] = useState(false);
+    const [isPoojaLoading, setPoojaLoading] = useState(false);
+    const [isActivityLoading, setActivityLoading] = useState(false);
+    const [isBotLoading, setBotLoading] = useState(false);
+    const [isCompanionLoading, setCompanionLoading] = useState(false);
+
 
     const handleNavigation = () => {
         router.push('/planbot'); // Navigate to the createplan page
     };
-
+    const handleOfferingNavigation = (service) => {
+        if (service == "accomodation") {
+            setHotelLoading(true);
+            router.push('/hotels-in-mathura');
+        } else if (service == "travel") {
+            setTravelLoading(true);
+            router.push('/rental-cars-mathura');
+        } else if (service == "companion") {
+            setCompanionLoading(true);
+            router.push('/guide-in-mathura');
+        }else if (service == "pooja") {
+            setPoojaLoading(true);
+            router.push('/pooja-in-mathura');
+        }else if (service == "activity") {
+            setActivityLoading(true);
+            router.push('/activity-in-mathura');
+        }else if (service == "itinirary") {
+            setBotLoading(true);
+            router.push('/planbot');
+        }
+    }
     useEffect(() => {
         // Check if window/document is available (indicating we're in the browser)
         if (typeof window !== 'undefined' && typeof document !== 'undefined') {
@@ -209,10 +237,16 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                     />
                                 </h1>
                                 <div className={`${styles.offerings}`}>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard1}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard1}`} onClick={() => handleOfferingNavigation("accomodation")} style={{ cursor: "pointer" }}>
+                                        {isHotelLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{ fontSize: "14px", color: "white" }}>Picking Hotels for you...</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-hotel"></i>
                                         </div>
+
                                         <div className=" d-flex flex-column justify-content-center align-items-center mt-1">
                                             <h6 className={styles.headingAbout}>
                                                 Accomodation
@@ -221,8 +255,14 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                                 Dharmashalas to 4 Star Hotels
                                             </div>
                                         </div>
+
                                     </div>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard2}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard2}`} onClick={() => handleOfferingNavigation("travel")} style={{ cursor: "pointer" }}>
+                                        {isTravelLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{ fontSize: "14px", color: "white" }}>Loading Travel Options...</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-taxi"></i>
                                         </div>
@@ -235,7 +275,12 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard3}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard3}`} onClick={() => handleOfferingNavigation("itinirary")} style={{ cursor: "pointer" }}>
+                                    {isBotLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{fontSize:"14px",color:"white"}}>Loading PlanBot...</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-map" ></i>
                                         </div>
@@ -248,7 +293,12 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard4}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard4}`} onClick={() => handleOfferingNavigation("companion")} style={{ cursor: "pointer" }} >
+                                    {isCompanionLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{fontSize:"14px",color:"white"}}>Finding best companions...</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-user" ></i>
                                         </div>
@@ -261,7 +311,12 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard5}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard5}`} onClick={() => handleOfferingNavigation("activity")} style={{ cursor: "pointer" }}>
+                                    {isActivityLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{fontSize:"14px",color:"white"}}>Loading Activity Options...</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-gamepad" ></i>
                                         </div>
@@ -274,7 +329,12 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard6}`} >
+                                    <div className={`d-flex flex-column ${styles.aboutcard} ${styles.acard6}`} onClick={() => handleOfferingNavigation("pooja")} style={{ cursor: "pointer" }}>
+                                    {isPoojaLoading && (
+                                            <div className={styles.loadingOverlay}>
+                                                <p className='' style={{fontSize:"14px",color:"white"}}>Loading Pooja Options..</p>
+                                            </div>
+                                        )}
                                         <div className="d-flex justify-content-center align-items-center w-100 ">
                                             <i className="fa fa-fire" ></i>
                                         </div>

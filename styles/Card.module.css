@@ -4,7 +4,10 @@
     height: max-content;
     text-decoration: none;
 }
-
+.aboutcard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
 .blogCard:hover {
     cursor: pointer;
     transform: scale(1.02);
@@ -29,7 +32,21 @@
 .blogcardContainer::-webkit-scrollbar {
     display: none; /* Hide the scrollbar for WebKit browsers */
 }
-
+.loadingOverlay {
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    z-index: 1000;
+}
 /* Full Container Styles */
 
 

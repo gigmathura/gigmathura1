@@ -1,0 +1,45 @@
+.bookingcard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+}
+
+.bookingcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bookingheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.bookingheader h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.bookingdate {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.bookingcard p {
+    margin: 8px 0;
+    color: #444;
+}
+
+.bookingcard p strong {
+    color: #333;
+}
