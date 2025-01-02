@@ -218,6 +218,16 @@
 }
 
 @media (max-width: 800px) {
+    .form{
+        background-color: #fff;
+        color: black;
+        width: 97%;
+        padding: 15px;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
     .roomContainer {
         display: flex;
         width: 95%;

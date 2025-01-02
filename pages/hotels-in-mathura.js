@@ -69,8 +69,8 @@ export default function Hotels({ hotelData }) {
         number: '',
         email: '',
         noOfRooms: 1,
-        checkInDate:"",
-        checkOutDate:""
+        checkInDate: "",
+        checkOutDate: ""
     });
     const handleFormChange = (e) => {
         const { name, value } = e.target;
@@ -84,7 +84,7 @@ export default function Hotels({ hotelData }) {
     }
     const handleRoomInput = (e) => {
         let value = e.target.value;
-    
+
         // Allow only an empty value (to let the user delete) or a single digit between 1 and 9
         if (value === '' || /^[1-9]$/.test(value)) {
             e.target.value = value; // Update the input value
@@ -94,8 +94,8 @@ export default function Hotels({ hotelData }) {
             e.target.value = ''; // Clear invalid input
         }
     };
-    
-    
+
+
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
@@ -125,25 +125,25 @@ export default function Hotels({ hotelData }) {
     };
     const handlePhoneInput = (e) => {
         const value = e.target.value;
-    
+
         // Allow only numbers and '+' at the beginning
         const formattedValue = value.replace(/(?!^\+)[^\d]/g, ''); // Allow '+' only as the first character, remove others
-    
+
         // Ensure the '+' is only at the start
         if (formattedValue.indexOf('+') > 0) {
             e.target.value = formattedValue.replace(/\+/g, ''); // Remove '+' if it's not the first character
         } else {
             e.target.value = formattedValue; // Set the sanitized value
         }
-    
+
         handleFormChange(e); // Call handleFormChange to update the form data state
     };
-    
+
     return (
         <div>
             <Navbar />
             <div className='p-4'>
-                <h2 className='p-0 m-0 text-center'>Shortlisted Hotels For You</h2>
+                <h2 className='p-0 m-0 text-center mt-3'>Shortlisted Hotels For You</h2>
                 <p className='p-0 mt-0 mb-4 text-muted text-center '> Hotels here are handpicked for its <strong className='text-danger'>prime location</strong>, <strong style={{ color: "orange" }}>comfort</strong>, and <strong className='text-success'>convenience</strong></p>
                 <div className={styles.hotelGrid} >
                     {hotelData.map((hotel, index) => (
@@ -161,10 +161,19 @@ export default function Hotels({ hotelData }) {
                                 <h3 className='mb-0 p-0' >{hotel.name}</h3>
                                 <p className='m-0 text-muted' style={{ fontSize: "12px", paddingRight: "3px" }}>{hotel.location}</p>
                                 <p className='mt-1'>{rating(hotel.ratingValue)}({hotel.ratingValue}/5.0 Rating)</p>
-                                <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(hotel.startprice)} </span><span className='text-dark'>₹{hotel.startprice}</span></h5>
+                                <div className='d-flex mt-3 w-100 px-2 mb-1'>
+                                    <div className='w-75' style={{borderRight:"1px solid black",marginRight:"3px"}}> 
+                                <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(hotel.startprice)} </span><br/><span className='text-dark'>₹{hotel.startprice}</span></h5>
+
+                                    </div>
+                                <button className="btn btn-primary w-25" onClick={() => handleViewHotel(hotel.hotelId)}>
+                                View
+                                </button>
+                                </div>
+                                {/* <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(hotel.startprice)} </span><span className='text-dark'>₹{hotel.startprice}</span></h5>
                                 <button className="btn btn-primary w-100" onClick={() => handleViewHotel(hotel.hotelId)}>
                                     View details
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     ))}
@@ -244,12 +253,21 @@ export default function Hotels({ hotelData }) {
                                                     ))}
                                                 </ul>
                                             </div>
-                                            <div className='d-flex w-100 justify-content-between p-3 bg-light'>
+                                            <div className='d-flex mt-4 w-100 px-2 mb-1'>
+                                                <div className='w-75' style={{ borderRight: "1px solid black", marginRight: "3px" }}>
+                                                    <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(room.price)}  </span><br /><span className='text-dark'>₹{room.price}</span></h5>
+
+                                                </div>
+                                                <button className="btn btn-primary w-25" onClick={() => handleRoomSubmit(selectedHotel.hotelId, room)}>
+                                                    Select
+                                                </button>
+                                            </div>
+                                            {/* <div className='d-flex w-100 justify-content-between p-3 bg-light'>
                                                 <p className='text-danger'>Get At: <span style={{ textDecoration: "line-through" }}>{incprice(room.price)} </span><span className='text-dark'>₹{room.price}</span></p>
                                                 <button className="btn btn-primary" style={{ height: "max-content" }} onClick={() => handleRoomSubmit(selectedHotel.hotelId, room)}>
                                                     Select
                                                 </button>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     ))}
                                 </div>
@@ -283,7 +301,7 @@ export default function Hotels({ hotelData }) {
                                         value={formData.noOfRooms}
                                         onChange={handleRoomInput}
                                         className="form-control w-100 mb-1"
-                                        
+
                                         required
                                     />
                                 </div>
@@ -343,7 +361,7 @@ export default function Hotels({ hotelData }) {
                                 className="form-control mb-4"
                                 required
                             />
-                           
+
                             <button type="submit" className="btn btn-success w-100 mt-1" disabled={isSubmitting}>
                                 {isSubmitting ? 'Booking...' : 'Book Now'}
                             </button>

@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import styles from '../../../styles/HotelDashboard.module.css';
 
-const HotelDetailsPage = ({ hotelData,bookingsData }) => {
+const HotelDetailsPage = ({ hotelData, bookingsData }) => {
     const [rooms, setRooms] = useState(hotelData.rooms);
     const [selectedRoom, setSelectedRoom] = useState(null);
     const [newPrice, setNewPrice] = useState('');
@@ -102,14 +102,14 @@ const HotelDetailsPage = ({ hotelData,bookingsData }) => {
         const minutes = String(date.getMinutes()).padStart(2, '0');
         const seconds = String(date.getSeconds()).padStart(2, '0');
         const amPm = hours >= 12 ? 'PM' : 'AM';
-    
+
         // Convert to 12-hour format
         hours = hours % 12 || 12; // Converts 0 to 12 for midnight
         hours = String(hours).padStart(2, '0');
-    
+
         return `${hours}:${minutes}:${seconds} ${amPm}`;
     };
-    
+
     return (
         <div>
             <div className='w-100 bg-dark d-flex justify-content-center align-items-center flex-column text-light'>
@@ -224,7 +224,7 @@ const HotelDetailsPage = ({ hotelData,bookingsData }) => {
                     </div>}
                 {allbooking &&
                     <div>
-                                 <div className="mb-4 d-flex justify-content-center align-items-center">
+                        <div className="mb-4 d-flex justify-content-center align-items-center">
                             <input
                                 type="text"
                                 className="form-control"
@@ -237,7 +237,7 @@ const HotelDetailsPage = ({ hotelData,bookingsData }) => {
                             </button>
                         </div>
                         <h2>All Bookings</h2>
-               
+
                         {filteredBookings.length > 0 ? (
                             filteredBookings.map((booking) => (
                                 <div key={booking._id} className={styles.bookingcard}>

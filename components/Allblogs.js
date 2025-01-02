@@ -31,10 +31,10 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
             router.push('/guide-in-mathura');
         }else if (service == "pooja") {
             setPoojaLoading(true);
-            router.push('/pooja-in-mathura');
+            router.push('/poojabooking-in-mathura');
         }else if (service == "activity") {
             setActivityLoading(true);
-            router.push('/activity-in-mathura');
+            router.push('/activities-in-mathura');
         }else if (service == "itinirary") {
             setBotLoading(true);
             router.push('/planbot');
