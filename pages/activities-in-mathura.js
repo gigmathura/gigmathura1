@@ -21,10 +21,10 @@ export async function getStaticProps() {
             revalidate: 150, // Optional: Revalidate every 150 seconds
         };
     } catch (error) {
-        console.error("Error establishing database connection or fetching data:", error);
+        console.error("Error establishing database connection or", error);
 
         return {
-            notFound: true, // Handle the error gracefully
+            notFound: true, // Handle the error gracefull
         };
     }
 }
