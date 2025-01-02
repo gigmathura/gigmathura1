@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
             // Customer Email
             const mailOptions = {
-                from: 'gigmathura@gmail.com',
+                from: 'info@gigdarshan.com',
                 to: email,
                 subject: 'GIG Darshan Booking',
                 html:`
@@ -30,12 +30,12 @@ export default async function handler(req, res) {
                             <h3 style="color: orange;">Jai Shri Ram, ${capitalizedFirstName}!</h3>
                             <p>We’re thrilled to be part of your spiritual journey to <strong>Shri Ram Ki Nagri Ayodhya</strong>. Thank you for choosing <strong>GIG</strong> as your trusted companion!</p>
 
-                            <p>We’ve received your booking request and will connect with you shortly on WhatsApp (<strong>${number}</strong>) to confirm your details and finalize your plans.</p>
+                            <p>We’ve received your package booking request and will connect with you shortly on WhatsApp (<strong>${number}</strong>) to confirm your details and finalize your plans.</p>
 
                             <p>Oh, by the way, did you know you can plan your entire darshan with us? From customized itineraries to accommodations, transport, rituals, and more—we’ve got it all covered!</p>
 
                             <p>
-                                <a href="https://gigmathura.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
+                                <a href="https://gigdarshan.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
                             </p>
 
                             <h4 style="color: orange; margin-top: 20px;">Need Help?</h4>
@@ -56,9 +56,9 @@ export default async function handler(req, res) {
 
             // Info Email to Vendor
             const infomailOptions = {
-                from: 'gigmathura@gmail.com',
-                to: 'gigayodhyainfo@gmail.com',
-                subject: 'Booking',
+                from: 'info@gigdarshan.com',
+                to: 'admin@gigdarshan.com, adhyatmlynk@gmail.com',
+                subject: `Package Booking , Booking Id${bookingId}`,
                 html: `
                 <html>
                 <head></head>

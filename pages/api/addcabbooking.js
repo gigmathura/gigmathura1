@@ -7,6 +7,7 @@ export default async function handler(req, res) {
         try {
             await connectToDatabase(); // Connect to MongoDB
             const db = mongoose.connection.db; // Access the database instance
+            console.log("cab api fetch")
             const cabBookingCollection = db.collection('cabbooking');
             const cabCollection = db.collection('cabs');
             // console.log(req.body)
@@ -35,7 +36,7 @@ export default async function handler(req, res) {
             const capitalizedFirstName = name.charAt(0).toUpperCase() + name.slice(1);
             // Prepare emails
             const customerEmailOptions = {
-                from: 'gigmathura@gmail.com',
+                from: 'info@gigdarshan.com',
                 to: email,
                 subject: 'Cab Booking Confirmation',
                 html: `
@@ -50,7 +51,7 @@ export default async function handler(req, res) {
                         <p>Oh, by the way, did you know you can plan your entire darshan with us? From customized itineraries to accommodations, transport, rituals, pooja, exciting local activities and much more—we’ve got it all covered!</p>
 
                         <p>
-                            <a href="https://gigmathura.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
+                            <a href="https://gigdarshan.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
                         </p>
 
                         <h4 style="color: orange; margin-top: 20px;">Need Help?</h4>
@@ -104,8 +105,8 @@ export default async function handler(req, res) {
 //             };
 
             const adminEmailOptions = {
-                from: 'gigmathura@gmail.com',
-                to: 'adhyatmlynk@gmail.com',
+                from: 'info@gigdarshan.com',
+                to: 'admin@gigdarshan.com',
                 subject: `New Cab Booking , Booking Id:${bookingId}`,
                 html: `
                     <h3>New Cab Booking</h3>
@@ -148,6 +149,8 @@ export default async function handler(req, res) {
                 try {
                     await transporter.sendMail(mailOptions);
                     console.log(`Email sent to ${mailOptions.to}`);
+                    console.log(`Email sent to ${mailOptions.from}`);
+
                 } catch (error) {
                     console.error(`Failed to send email to ${mailOptions.to}:`, error);
                 }

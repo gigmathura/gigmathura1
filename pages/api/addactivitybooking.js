@@ -102,8 +102,8 @@ export default async function handler(req, res) {
 //             };
 
             const adminEmailOptions = {
-                from: 'gigmathura@gmail.com',
-                to: 'adhyatmlynk@gmail.com',
+                from: 'info@gigdarshan.com',
+                to: 'admin@gigdarshan.com, adhyatmlynk@gmail.com',
                 subject: `New activity Booking , Booking Id:${bookingId}`,
                 html: `
                     <h3>New activity Booking</h3>

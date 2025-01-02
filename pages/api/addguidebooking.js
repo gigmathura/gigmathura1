@@ -33,7 +33,7 @@ export default async function handler(req, res) {
             const capitalizedFirstName = name.charAt(0).toUpperCase() + name.slice(1);
             // Prepare emails
             const customerEmailOptions = {
-                from: 'gigmathura@gmail.com',
+                from: 'info@gigdarshan.com',
                 to: email,
                 subject: 'Guide Booking Confirmation',
                 html: `
@@ -48,7 +48,7 @@ export default async function handler(req, res) {
                         <p>Oh, by the way, did you know you can plan your entire darshan with us? From customized itineraries to accommodations, transport, rituals, pooja, exciting local activities and much more—we’ve got it all covered!</p>
 
                         <p>
-                            <a href="https://gigmathura.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
+                            <a href="https://gigdarshan.com/" style="background-color: orange; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Explore All Our Offerings</a>
                         </p>
 
                         <h4 style="color: orange; margin-top: 20px;">Need Help?</h4>
@@ -102,8 +102,8 @@ export default async function handler(req, res) {
 //             };
 
             const adminEmailOptions = {
-                from: 'gigmathura@gmail.com',
-                to: 'adhyatmlynk@gmail.com',
+                from: 'info@gigdarshan.com',
+                to: 'admin@gigdarshan.com, adhyatmlynk@gmail.com',
                 subject: `New Guide Booking , Booking Id:${bookingId}`,
                 html: `
                     <h3>New Guide Booking</h3>
