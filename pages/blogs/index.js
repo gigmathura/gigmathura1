@@ -42,6 +42,14 @@ export default function Allblogs() {
     // All Blogs Data
     const allBlogs = [
         {
+            "id": 20,
+            "title": "Places to Visit in Mathura",
+            "topic": "Blog",
+            "imageUrl": "https://www.blog.traveltoindia.org/wp-content/uploads/2024/06/explore-mathura-vrindavan-and-barsana.webp",
+            "description": `  Lord Krishna's birthplace, Mathura, is deeply significant both historically and spiritually. Located in Uttar Pradesh, this quaint city draws both pilgrims and tourists. There are a ton of things to do in Mathura and nearby Vrindavan, whether you&apos;re planning a quick getaway or a longer stay. The best places to visit in Mathura and Vrindavan will be discussed here, along with family-friendly locations, romantic getaways,`,
+            "link": "/blogs/places-to-visit-in-mathura"
+        },
+        {
             "id": 1,
             "title": "Bhooteshwar Mahadev",
             "topic": "Places",
@@ -209,14 +217,14 @@ export default function Allblogs() {
             <Head>
                 {/* Basic Meta Tags */}
                 <title>All Blogs - Explore Mathura&apos;s Treasures</title>
-                <meta name="description" content="Discover everything you can do in Ayodhya! Explore captivating blogs about Ayodhya&apos;s sacred landmarks, history, and culture. Plan your darshan with our expert guidance as your Local Rishtedars." />
-                <meta name="keywords" content="Places to visit in ayodhya,Ayodhya blogs, Ram Mandir, Hanuman Garhi, Kanak Bhawan, spiritual travel, Indian culture, heritage places, Ayodhya tourism" />
-                <meta name="author" content="GIG Ayodhya" />
+                <meta name="description" content="Discover everything you can do in Mathura! Explore captivating blogs about Mathura&apos;s sacred landmarks, history, and culture. Plan your darshan with our expert guidance as your Local Rishtedars." />
+                <meta name="keywords" content="Places to visit in mathura,mathura blogs spiritual travel, Indian culture, heritage places, Mathura tourism" />
+                <meta name="author" content="Things to do in Mathura" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
                 {/* Open Graph for Social Sharing */}
-                <meta property="og:title" content="Explore Ayodhya&apos;s Treasures" />
-                <meta property="og:description" content="Discover everything you can do in Ayodhya! Explore captivating blogs about Ayodhya&apos;s sacred landmarks, history, and culture. Plan your darshan with our expert guidance as your Local Rishtedars." />
+                <meta property="og:title" content="Explore Mathura&apos;s Treasures" />
+                <meta property="og:description" content="Discover everything you can do in Mathura! Explore captivating blogs about Mathura&apos;s sacred landmarks, history, and culture. Plan your darshan with our expert guidance as your Local Rishtedars." />
                 <meta property="og:image" content="/logo.png" /> {/* Replace with your feature image URL */}
                 <meta property="og:url" content="/logo.png" />
                 <meta property="og:type" content="website" />
