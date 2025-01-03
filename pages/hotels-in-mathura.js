@@ -6,6 +6,8 @@ import Image from "next/image";
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import styles from '../styles/Allhotel.module.css';
+import Head from "next/head";
+
 export async function getStaticProps() {
     try {
         // 1. Establish MongoDB connection at build time

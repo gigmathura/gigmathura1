@@ -5,6 +5,8 @@ import Link from "next/link";
 import styles from '../styles/Allhotel.module.css';
 import connectDb from '../lib/mongodb.js';
 import Image from "next/image";
+import Head from "next/head";
+
 export async function getStaticProps() {
     try {
         // 1. Establish MongoDB connection at build time

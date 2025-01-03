@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from '../styles/Allhotel.module.css';
 import Image from "next/image";
 import connectDb from '../lib/mongodb.js';
+import Head from "next/head";
 
 export async function getStaticProps() {
     try {

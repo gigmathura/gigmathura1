@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from '../styles/Allhotel.module.css';
 import Image from "next/image";
 import connectDb from '../lib/mongodb.js';
+import Head from "next/head";
 
 export async function getStaticProps() {
     try {
@@ -121,140 +122,172 @@ export default function Poojamathura({ poojaData }) {
         setPoojaDetail(pooja)
     }
     return (
-        <div>
-            <Navbar />
+        <>
+            <Head>
+                <title>Pooja Booking in Mathura - Simplify Your Spiritual Journey</title>
+                <meta
+                    name="description"
+                    content="Book pooja ceremonies in Mathura with ease. Experience seamless arrangements for your spiritual rituals in the holy city of Mathura."
+                />
+                <meta
+                    name="keywords"
+                    content="pooja booking in Mathura, book pooja in Mathura, spiritual services Mathura, Mathura temple pooja"
+                />
+                <meta
+                    property="og:title"
+                    content="Pooja Booking in Mathura - Simplify Your Spiritual Journey"
+                />
+                <meta
+                    property="og:description"
+                    content="Make your pooja bookings hassle-free in Mathura. Let us assist you in organizing your spiritual ceremonies with utmost devotion and care."
+                />
+                <meta
+                    property="og:image"
+                    content="/logo.png"
+                /> {/* Replace with the actual feature image URL */}
+                <meta
+                    property="og:url"
+                    content="https://www.gigdarshan.com/poojabooking-in-mathura"
+                />
+                <meta property="og:type" content="website" />
+            </Head>
+
+
             <div>
-                <h2 className='p-0 m-0 text-center mb-4 mt-3'>Pooja in Mathura</h2>
-                <div className={styles.hotelGrid} >
-                    {poojaData.map((pooja, index) => (
-                        <div key={index} className={`${styles.hotelCard} ${styles.allhotelcard}`} style={{ padding: "10px" }} >
-                            <div className={styles.allhotelcardcorosaldiv}>
+                <Navbar />
+                <div>
+                    <h2 className='p-0 m-0 text-center mb-4 mt-3'>Pooja in Mathura</h2>
+                    <div className={styles.hotelGrid} >
+                        {poojaData.map((pooja, index) => (
+                            <div key={index} className={`${styles.hotelCard} ${styles.allhotelcard}`} style={{ padding: "10px" }} >
+                                <div className={styles.allhotelcardcorosaldiv}>
 
-                                <div key={index} style={{ width: "100%", height: "100%", overflow: "hidden" }}>
-                                    <img src={pooja.img} alt={`Pooja Image`} style={{ width: "100%", height: "100%", overflow: "hidden" }} />
-                                </div>
-
-                            </div>
-                            <div className={styles.allhotelcarddesc}>
-                                <div className='d-flex justify-content-between w-100'>
-
-                                    <h5 className='mb-0 p-0' >{pooja.name}</h5>
-
+                                    <div key={index} style={{ width: "100%", height: "100%", overflow: "hidden" }}>
+                                        <img src={pooja.img} alt={`Pooja Image`} style={{ width: "100%", height: "100%", overflow: "hidden" }} />
+                                    </div>
 
                                 </div>
-                                {/* <div className='d-flex justify-content-around align-items-center w-100'>
+                                <div className={styles.allhotelcarddesc}>
+                                    <div className='d-flex justify-content-between w-100'>
+
+                                        <h5 className='mb-0 p-0' >{pooja.name}</h5>
+
+
+                                    </div>
+                                    {/* <div className='d-flex justify-content-around align-items-center w-100'>
                                     <div><i className="fa fa-user"></i>{cab.cabPerson} Seats</div>
                                     <div> <i className="fa fa-briefcase"></i>Luggage</div>
                                     <div className='d-flex justify-content-center align-items-center'><i className="fa fa-fan"></i>A/C</div>
                                 </div> */}
 
-                                <p className='m-0 mt-1 text-muted w-100' style={{ fontSize: "12px" }}>{truncateDescription(pooja.about, 100)}<span style={{ cursor: "pointer",color:"orange",textDecoration:"underline" ,fontWeight:"bold"}} onClick={() => handleDetail(pooja)}>More details</span></p>
+                                    <p className='m-0 mt-1 text-muted w-100' style={{ fontSize: "12px" }}>{truncateDescription(pooja.about, 100)}<span style={{ cursor: "pointer", color: "orange", textDecoration: "underline", fontWeight: "bold" }} onClick={() => handleDetail(pooja)}>More details</span></p>
 
-                                <div className='d-flex mt-4 w-100'>
-                                    <div className='w-75' style={{ borderRight: "1px solid black", marginRight: "3px" }}>
-                                        <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(pooja.price)} </span><br /><span className='text-dark'>₹{pooja.price}</span></h5>
+                                    <div className='d-flex mt-4 w-100'>
+                                        <div className='w-75' style={{ borderRight: "1px solid black", marginRight: "3px" }}>
+                                            <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(pooja.price)} </span><br /><span className='text-dark'>₹{pooja.price}</span></h5>
 
+                                        </div>
+                                        <button className="btn btn-primary w-25" onClick={() => handleBook(pooja)}>
+                                            Book
+                                        </button>
                                     </div>
-                                    <button className="btn btn-primary w-25" onClick={() => handleBook(pooja)}>
-                                        Book
-                                    </button>
+
                                 </div>
+                            </div>
+                        ))}
+                    </div>
+                    {showFormOverlay && selectedPooja && (
+                        <div className={styles.overlay}>
+                            <form onSubmit={handleFormSubmit} className={styles.form} style={{ position: "relative" }}>
+                                <button onClick={() => setShowFormOverlay(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
+                                    Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                                <h3>Enter Your Details</h3>
+
+
+                                <label>Pooja Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    value={selectedPooja.name}
+                                    disabled
+                                    className="form-control mb-1"
+
+                                />
+
+
+
+                                <label>Your Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleFormChange}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <label>Your Number (Along Country Code)</label>
+                                <input
+                                    type="tel"
+                                    name="number"
+                                    value={formData.number}
+                                    onChange={(e) => {
+                                        handleFormChange(e);
+                                        handlePhoneInput(e);  // Ensure only numbers are entered
+                                    }}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <label>Your Email</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleFormChange}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <label>Date</label>
+                                <input
+                                    type="date"
+                                    name="date"
+                                    value={formData.date}
+                                    onChange={handleFormChange}
+                                    className="form-control w-100 mb-1"
+                                    required
+                                />
+
+
+                                <button type="submit" className="btn btn-success w-100 mt-2" disabled={isSubmitting}>
+                                    {isSubmitting ? 'Booking...' : 'Book Now'}
+                                </button>
+                            </form>
+
+                        </div>
+                    )}
+                    {showDetail && (
+                        <div className={styles.overlay}>
+                            <div className={styles.form} style={{ position: "relative" }}>
+                                <button onClick={() => setShowDetail(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
+                                    Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                                <h3 className='m-0'>{poojaDetail.name}</h3>
+                                <p className='m-0 text-muted'>{poojaDetail.location}</p>
+                                <p className='mt-3'>{poojaDetail.about}</p>
+                                <h6>Benefits</h6>
+                                <ul>
+                                    {poojaDetail.benefits.map((data, ind) => (
+                                        <li key={ind}>{data}</li>
+                                    ))}
+                                </ul>
 
                             </div>
+
                         </div>
-                    ))}
+                    )}
                 </div>
-                {showFormOverlay && selectedPooja && (
-                    <div className={styles.overlay}>
-                        <form onSubmit={handleFormSubmit} className={styles.form} style={{ position: "relative" }}>
-                            <button onClick={() => setShowFormOverlay(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
-                                Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                            <h3>Enter Your Details</h3>
-
-
-                            <label>Pooja Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                value={selectedPooja.name}
-                                disabled
-                                className="form-control mb-1"
-
-                            />
-
-
-
-                            <label>Your Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                value={formData.name}
-                                onChange={handleFormChange}
-                                className="form-control mb-1"
-                                required
-                            />
-                            <label>Your Number (Along Country Code)</label>
-                            <input
-                                type="tel"
-                                name="number"
-                                value={formData.number}
-                                onChange={(e) => {
-                                    handleFormChange(e);
-                                    handlePhoneInput(e);  // Ensure only numbers are entered
-                                }}
-                                className="form-control mb-1"
-                                required
-                            />
-                            <label>Your Email</label>
-                            <input
-                                type="email"
-                                name="email"
-                                value={formData.email}
-                                onChange={handleFormChange}
-                                className="form-control mb-1"
-                                required
-                            />
-                              <label>Date</label>
-                                    <input
-                                        type="date"
-                                        name="date"
-                                        value={formData.date}
-                                        onChange={handleFormChange}
-                                        className="form-control w-100 mb-1"
-                                        required
-                                    />
-                          
-
-                            <button type="submit" className="btn btn-success w-100 mt-2" disabled={isSubmitting}>
-                                {isSubmitting ? 'Booking...' : 'Book Now'}
-                            </button>
-                        </form>
-
-                    </div>
-                )}
-                {showDetail && (
-                    <div className={styles.overlay}>
-                        <div className={styles.form} style={{ position: "relative" }}>
-                            <button onClick={() => setShowDetail(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
-                                Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                            <h3 className='m-0'>{poojaDetail.name}</h3>
-                            <p className='m-0 text-muted'>{poojaDetail.location}</p>
-                            <p className='mt-3'>{poojaDetail.about}</p>
-                            <h6>Benefits</h6>
-                            <ul>
-                                {poojaDetail.benefits.map((data, ind) => (
-                                    <li key={ind}>{data}</li>
-                                ))}
-                            </ul>
-                           
-                        </div>
-
-                    </div>
-                )}
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     )
 }
