@@ -31,8 +31,8 @@ export async function getStaticProps() {
 export default function Activitymathura({ activityData }) {
     const incprice = (originalprice) => {
         let numericPrice = parseFloat(originalprice);
-        if(numericPrice==0){
-            return ;
+        if (numericPrice == 0) {
+            return;
         }
         let increasedPrice = numericPrice * 1.15;
         return increasedPrice.toFixed(2); // Round to 2 decimal places
@@ -54,7 +54,7 @@ export default function Activitymathura({ activityData }) {
         number: '',
         email: '',
         date: "",
-        noOfPerson:""
+        noOfPerson: ""
     });
     const handleFormSubmit = async (e) => {
         e.preventDefault();
@@ -125,155 +125,187 @@ export default function Activitymathura({ activityData }) {
         }
     };
     return (
-        <div>
-            <Navbar />
+        <>
+            <Head>
+                <title>Activities in Mathura - Explore Divine Experiences</title>
+                <meta
+                    name="description"
+                    content="Discover the best activities and experiences in Mathura. From spiritual journeys to cultural immersions, plan your perfect Mathura adventure."
+                />
+                <meta
+                    name="keywords"
+                    content="activities in Mathura, experiences in Mathura, Mathura tourism, things to do in Mathura"
+                />
+                <meta
+                    property="og:title"
+                    content="Activities in Mathura - Explore Divine Experiences"
+                />
+                <meta
+                    property="og:description"
+                    content="Immerse yourself in the divine and cultural experiences of Mathura. Explore temples, festivals, and local heritage for an unforgettable journey."
+                />
+                <meta
+                    property="og:image"
+                    content="/logo.png"
+                /> {/* Replace with the actual feature image URL */}
+                <meta
+                    property="og:url"
+                    content="https://www.gigdarshan.com/activities-in-mathura"
+                />
+                <meta property="og:type" content="website" />
+            </Head>
+
+
             <div>
-                <h2 className='p-0 m-0 text-center mb-4 mt-3'>Activities To Do in Mathura</h2>
-                <div className={styles.hotelGrid} >
-                    {activityData.map((activity, index) => (
-                        <div key={index} className={`${styles.hotelCard} ${styles.allhotelcard}`} style={{ padding: "10px" }} >
-                            <div className={styles.allhotelcardcorosaldiv}>
+                <Navbar />
+                <div>
+                    <h2 className='p-0 m-0 text-center mb-4 mt-3'>Activities To Do in Mathura</h2>
+                    <div className={styles.hotelGrid} >
+                        {activityData.map((activity, index) => (
+                            <div key={index} className={`${styles.hotelCard} ${styles.allhotelcard}`} style={{ padding: "10px" }} >
+                                <div className={styles.allhotelcardcorosaldiv}>
 
-                                <div key={index} style={{ width: "100%", height: "100%", overflow: "hidden" }}>
-                                    <img src={activity.img} alt={`Pooja Image`} style={{ width: "100%", height: "100%", overflow: "hidden" }} />
-                                </div>
-
-                            </div>
-                            <div className={styles.allhotelcarddesc}>
-                                <div className='d-flex justify-content-between w-100'>
-
-                                    <h5 className='mb-0 p-0' >{activity.name}</h5>
-
+                                    <div key={index} style={{ width: "100%", height: "100%", overflow: "hidden" }}>
+                                        <img src={activity.img} alt={`Pooja Image`} style={{ width: "100%", height: "100%", overflow: "hidden" }} />
+                                    </div>
 
                                 </div>
-                                {/* <div className='d-flex justify-content-around align-items-center w-100'>
+                                <div className={styles.allhotelcarddesc}>
+                                    <div className='d-flex justify-content-between w-100'>
+
+                                        <h5 className='mb-0 p-0' >{activity.name}</h5>
+
+
+                                    </div>
+                                    {/* <div className='d-flex justify-content-around align-items-center w-100'>
                                     <div><i className="fa fa-user"></i>{cab.cabPerson} Seats</div>
                                     <div> <i className="fa fa-briefcase"></i>Luggage</div>
                                     <div className='d-flex justify-content-center align-items-center'><i className="fa fa-fan"></i>A/C</div>
                                 </div> */}
 
-                                <p className='m-0 mt-1 text-muted w-100' style={{ fontSize: "12px" }}>{truncateDescription(activity.description, 100)}<span style={{ cursor: "pointer",color:"orange",textDecoration:"underline",fontWeight:"bold" }} onClick={() => handleDetail(activity)}> More details</span></p>
+                                    <p className='m-0 mt-1 text-muted w-100' style={{ fontSize: "12px" }}>{truncateDescription(activity.description, 100)}<span style={{ cursor: "pointer", color: "orange", textDecoration: "underline", fontWeight: "bold" }} onClick={() => handleDetail(activity)}> More details</span></p>
 
-                                <div className='d-flex mt-4 w-100'>
-                                    <div className='w-75' style={{ borderRight: "1px solid black", marginRight: "3px" }}>
-                                        <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(activity.price)} </span><br /><span className='text-dark'>₹{activity.price}</span></h5>
+                                    <div className='d-flex mt-4 w-100'>
+                                        <div className='w-75' style={{ borderRight: "1px solid black", marginRight: "3px" }}>
+                                            <h5 className='text-danger m-0 mb-1'>Starting At: <span style={{ textDecoration: "line-through" }}>{incprice(activity.price)} </span><br /><span className='text-dark'>₹{activity.price}</span></h5>
 
+                                        </div>
+                                        <button className="btn btn-primary w-25" onClick={() => handleBook(activity)}>
+                                            Book
+                                        </button>
                                     </div>
-                                    <button className="btn btn-primary w-25" onClick={() => handleBook(activity)}>
-                                        Book
-                                    </button>
+
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    {showFormOverlay && selectedActivity && (
+                        <div className={styles.overlay}>
+                            <form onSubmit={handleFormSubmit} className={styles.form} style={{ position: "relative" }}>
+                                <button onClick={() => setShowFormOverlay(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
+                                    Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                                <h3>Enter Your Details</h3>
+
+
+                                <label>Activity Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    value={selectedActivity.name}
+                                    disabled
+                                    className="form-control mb-1"
+
+                                />
+
+
+
+                                <label>Your Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleFormChange}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <label>Your Number (Along Country Code)</label>
+                                <input
+                                    type="tel"
+                                    name="number"
+                                    value={formData.number}
+                                    onChange={(e) => {
+                                        handleFormChange(e);
+                                        handlePhoneInput(e);  // Ensure only numbers are entered
+                                    }}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <label>Your Email</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleFormChange}
+                                    className="form-control mb-1"
+                                    required
+                                />
+                                <div className='d-flex w-100 justify-content-between'>
+                                    <div className='w-50'>
+                                        <label>Date</label>
+                                        <input
+                                            type="date"
+                                            name="date"
+                                            value={formData.date}
+                                            onChange={handleFormChange}
+                                            className="form-control w-100 mb-1"
+                                            required
+                                        />
+                                    </div>
+                                    <div className='w-50'>
+                                        <label>Number of People</label>
+                                        <input
+                                            type="number"
+                                            name="noOfPerson"
+                                            min="1"
+                                            max="9"
+                                            maxLength={1}
+                                            value={formData.noOfPerson}
+                                            onChange={handleDayInput}
+                                            className="form-control w-100 mb-1"
+
+                                            required
+                                        />
+                                    </div>
                                 </div>
 
-                            </div>
+
+                                <button type="submit" className="btn btn-success w-100 mt-2" disabled={isSubmitting}>
+                                    {isSubmitting ? 'Booking...' : 'Book Now'}
+                                </button>
+                            </form>
+
                         </div>
-                    ))}
+                    )}
+                    {showDetail && (
+                        <div className={styles.overlay}>
+                            <div className={styles.form} style={{ position: "relative" }}>
+                                <button onClick={() => setShowDetail(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
+                                    Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+                                <h3 className='m-0'>{activityDetail.name}</h3>
+                                <p className='m-0 text-muted'>{activityDetail.location}</p>
+                                <p className='mt-3'>{activityDetail.description}</p>
+                                <h6>Timing:{activityDetail.timing} </h6>
+
+
+                            </div>
+
+                        </div>
+                    )}
                 </div>
-                {showFormOverlay && selectedActivity && (
-                    <div className={styles.overlay}>
-                        <form onSubmit={handleFormSubmit} className={styles.form} style={{ position: "relative" }}>
-                            <button onClick={() => setShowFormOverlay(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
-                                Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                            <h3>Enter Your Details</h3>
-
-
-                            <label>Activity Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                value={selectedActivity.name}
-                                disabled
-                                className="form-control mb-1"
-
-                            />
-
-
-
-                            <label>Your Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                value={formData.name}
-                                onChange={handleFormChange}
-                                className="form-control mb-1"
-                                required
-                            />
-                            <label>Your Number (Along Country Code)</label>
-                            <input
-                                type="tel"
-                                name="number"
-                                value={formData.number}
-                                onChange={(e) => {
-                                    handleFormChange(e);
-                                    handlePhoneInput(e);  // Ensure only numbers are entered
-                                }}
-                                className="form-control mb-1"
-                                required
-                            />
-                            <label>Your Email</label>
-                            <input
-                                type="email"
-                                name="email"
-                                value={formData.email}
-                                onChange={handleFormChange}
-                                className="form-control mb-1"
-                                required
-                            />
-                              <div className='d-flex w-100 justify-content-between'>
-                                <div className='w-50'>
-                                    <label>Date</label>
-                                    <input
-                                        type="date"
-                                        name="date"
-                                        value={formData.date}
-                                        onChange={handleFormChange}
-                                        className="form-control w-100 mb-1"
-                                        required
-                                    />
-                                </div>
-                                <div className='w-50'>
-                                    <label>Number of People</label>
-                                    <input
-                                        type="number"
-                                        name="noOfPerson"
-                                        min="1"
-                                        max="9"
-                                        maxLength={1}
-                                        value={formData.noOfPerson}
-                                        onChange={handleDayInput}
-                                        className="form-control w-100 mb-1"
-
-                                        required
-                                    />
-                                </div>
-                            </div>
-                           
-
-                            <button type="submit" className="btn btn-success w-100 mt-2" disabled={isSubmitting}>
-                                {isSubmitting ? 'Booking...' : 'Book Now'}
-                            </button>
-                        </form>
-
-                    </div>
-                )}
-                {showDetail && (
-                    <div className={styles.overlay}>
-                        <div className={styles.form} style={{ position: "relative" }}>
-                            <button onClick={() => setShowDetail(false)} className="btn btn-outline-danger mt-3" style={{ position: "absolute", top: "2px", right: "7px" }}>
-                                Back <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                            </button>
-                            <h3 className='m-0'>{activityDetail.name}</h3>
-                            <p className='m-0 text-muted'>{activityDetail.location}</p>
-                            <p className='mt-3'>{activityDetail.description}</p>
-                            <h6>Timing:{activityDetail.timing} </h6>
-                      
-                           
-                        </div>
-
-                    </div>
-                )}
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     )
 }

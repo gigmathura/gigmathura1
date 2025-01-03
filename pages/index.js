@@ -26,25 +26,48 @@ export default function Home({ allBlog }) {
   return (
     <>
       <Head>
-        <title>GIG Mathura</title>
-        <meta name="description" content="Mathura Travel Management Company" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Gigdarshan - Your All-in-One Mathura Travel Planner</title>
+        <meta
+          name="description"
+          content="Plan your Mathura darshan with GigDarshan. Plan your entire Mathura journey effortlessly with our PlanBot. Explore hotels, rental cars, activities, packages, and more."
+        />
+        <meta
+          name="keywords"
+          content="Mathura travel, plan Mathura darshan, Mathura packages, Mathura hotels, Mathura rental cars, Mathura tourism, PlanBot for darshan"
+        />
+        <meta
+          property="og:title"
+          content="Gigdarshan - Plan Your Mathura Darshan with Ease"
+        />
+        <meta
+          property="og:description"
+          content="Let PlanBot handle your Mathura darshan planning. Get the best deals on hotels, rental cars, activities, and personalized travel packages."
+        />
+        <meta
+          property="og:image"
+          content="/logo.png"
+        /> {/* Replace with your feature image URL */}
+        <meta
+          property="og:url"
+          content="https://www.gigdarshan.com/"
+        />
+        <meta property="og:type" content="website" />
       </Head>
+
       <Navbar />
 
       <div
         className={`${geistSans.variable} ${geistMono.variable}`}
       >
-        <Allblogs allBlog={allBlog}/>
-        <Prepackage/>
-        <Whyus/>
+        <Allblogs allBlog={allBlog} />
+        <Prepackage />
+        <Whyus />
         <div className={`mt-3 ${styles.rediv}`}>
-          <Review/>
-          <Enquiry/>
+          <Review />
+          <Enquiry />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

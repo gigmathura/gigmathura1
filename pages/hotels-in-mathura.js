@@ -140,6 +140,18 @@ export default function Hotels({ hotelData }) {
     };
 
     return (
+        <>  
+        <Head>
+        <title>Hotels in Mathura</title>
+        <meta name="description" content="Find the best hotels in Mathura for your next trip. Comfort and luxury at affordable prices." />
+        <meta name="keywords" content="hotel in Mathura, stay in Mathura, Mathura hotels" />
+        <meta property="og:title" content="Hotels in Mathura - Your Perfect Stay" />
+        <meta property="og:description" content="Find the best hotels in Mathura for your next trip. Comfort and luxury at affordable prices." />
+        <meta property="og:image" content="/logo.png" /> {/* Replace with your feature image URL */}
+        <meta property="og:url" content="https://www.gigdarshan.com/hotels-in-mathura" />
+        <meta property="og:type" content="website" />
+        </Head>
+
         <div>
             <Navbar />
             <div className='p-4'>
@@ -373,5 +385,6 @@ export default function Hotels({ hotelData }) {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
