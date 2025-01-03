@@ -63,7 +63,7 @@ export default function Footer() {
                     to its rich cultural heritage. Join us for a seamless
                     pilgrimage experience.
                     <br />
-                    <span style={{ color: "orange", fontSize: "4vmin" }}>Jai Siya Ram!</span>
+                    <span style={{ color: "orange", fontSize: "4vmin" }}>Jai Radha Krishna!</span>
                   </p>
                 </div>
 
@@ -127,7 +127,7 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 style={{ border: "none" }}
-                href="#!"
+                href="mailto:support@gigdarshan.com"
                 role="button"
               >
                 <i className="fa fa-envelope" style={{ fontSize: "36px", color: "grey" }}></i>
