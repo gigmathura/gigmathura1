@@ -133,20 +133,21 @@ const BhooteshwarMahadev = () => {
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?
+                                    Planning Your Holy Trip?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
-                                        Discover the best of Mathura&apos;s spiritual treasures!
-                                        <span style={{ color: 'green' }}>Don&apos;t Miss Out!</span>
+                                        Don&apos;t stress—everything you need is just a click away! 
+                                        <span style={{ color: 'green' }}> See our exclusive offerings.</span>
                                         <span style={{ color: 'red' }}>
                                             <br />
-                                            YOUR JOURNEY BEGINS HERE!
+                                            Personalize your Darshan for FREE!
                                         </span>
                                     </p>
                                 </div>
                                 <Link href="/" className="btn btn-danger">
-                                    Plan Now!
+                                    Plan Your Darshan Now!
                                 </Link>
                             </div>
+
                             <hr />
                         </div>
                     </div>

@@ -149,20 +149,21 @@ Besides splendid and spacious rooms, pilgrims here are allured by the red sandst
                             <hr />
                             <div className={`${styles.share} text-center d-flex align-items-center justify-content-center flex-column`}>
                                 <div className="mr-3">
-                                    Planning a Visit?
+                                    Planning Your Holy Trip?
                                     <p className="text-muted m-0 text-center mb-2" style={{ fontSize: '2vmin' }}>
-                                        Experience the divine charm of Mathura Vrindavan Darshan! 
-                                        <span style={{ color: 'green' }}> Embrace the Spiritual Essence!</span>
+                                        Don&apos;t stress—everything you need is just a click away! 
+                                        <span style={{ color: 'green' }}> See our exclusive offerings.</span>
                                         <span style={{ color: 'red' }}>
                                             <br />
-                                            BEGIN YOUR JOURNEY NOW!
+                                            Personalize your Darshan for FREE!
                                         </span>
                                     </p>
                                 </div>
                                 <Link href="/" className="btn btn-danger">
-                                    Plan Now!
+                                    Plan Your Darshan Now!
                                 </Link>
                             </div>
+
                             <hr />
                         </div>
                     </div>
