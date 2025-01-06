@@ -243,11 +243,11 @@ export default function Hotels({ hotelData }) {
                                 <div className={`mb-5 ${styles.roomContainer}`} >
                                     {selectedHotel.rooms.map((room, index) => (
                                         <div key={index} className={styles.roomcard}>
-                                            <div style={{ width: "100%", height: "200px", background: "#bdbaba" }}>
+                                            <div style={{ width: "100%", height: "250px", background: "#bdbaba" }}>
                                                 <Carousel interval={2500} pause={false} autoPlay infiniteLoop>
                                                     {room.img.map((roomImg, idx) => (
-                                                        <div key={idx} style={{ width: "100%", height: "200px", background: "grey" }}>
-                                                            <Image src={roomImg} alt={`Room ${idx}`} width={200} height={200} />
+                                                        <div key={idx} style={{ width: "100%", height: "250px", background: "grey" }}>
+                                                            <Image src={roomImg} alt={`Room ${idx}`} width={200} height={250} />
                                                         </div>
                                                     ))}
                                                 </Carousel>

@@ -548,6 +548,7 @@
     .fhdescription{
         width: 100%;
         display: flex;
+        margin-top: 18px;
         flex-direction: column;
         justify-content: center;
         align-items: center;

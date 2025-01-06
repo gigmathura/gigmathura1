@@ -52,6 +52,8 @@ export default function Home({ allBlog }) {
           content="https://www.gigdarshan.com/"
         />
         <meta property="og:type" content="website" />
+        
+        <link rel="canonical" href="https://www.gigdarshan.com" />
       </Head>
 
       <Navbar />
