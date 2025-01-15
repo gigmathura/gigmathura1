@@ -28,13 +28,13 @@ export default function Allblogs({ allBlog = [] }) {  // Default to empty array
             router.push('/rental-cars-mathura');
         } else if (service == "companion") {
             setCompanionLoading(true);
-            router.push('/guide-in-mathura');
+            router.push('/guides-in-mathura');
         }else if (service == "pooja") {
             setPoojaLoading(true);
             router.push('/poojabooking-in-mathura');
         }else if (service == "activity") {
             setActivityLoading(true);
-            router.push('/activities-in-mathura');
+            router.push('/activities-to-do-in-mathura');
         }else if (service == "itinirary") {
             setBotLoading(true);
             router.push('/planbot');
