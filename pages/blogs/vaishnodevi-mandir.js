@@ -14,6 +14,7 @@ const VaishnoDeviMandir = () => {
                 <meta name="description" content="Explore Vaishno Devi Mandir in Vrindavan, a sacred temple dedicated to Goddess Vaishno Devi. Learn about its significance, history, and devotional offerings." />
                 <meta name="keywords" content="Vaishno Devi Mandir, Vrindavan temple, Hindu pilgrimage, Vrindavan tourism, Goddess Vaishno Devi temple, spiritual travel" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/vaishnodevi-mandir" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Vaishno Devi Mandir Vrindavan</title>
             </Head>

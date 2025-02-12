@@ -14,6 +14,7 @@ const RamanRetiMathura = () => {
                 <meta name="description" content="Explore Raman Reti in Mathura, a sacred site associated with Lord Krishna&apos;s divine pastimes. Discover its tranquil ambiance and spiritual significance for devotees worldwide." />
                 <meta name="keywords" content="Mathura, Raman Reti, Lord Krishna, spiritual site, Mathura tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/raman-reti" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Raman Reti Mathura</title>
             </Head>

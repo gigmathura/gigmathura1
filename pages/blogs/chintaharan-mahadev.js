@@ -14,6 +14,7 @@ const ChintaharanMahadev = () => {
                 <meta name="description" content="Explore the sacred Chintaharan Mahadev Temple in Mathura. Learn about its history, spiritual significance, and divine architecture." />
                 <meta name="keywords" content="Chintaharan Mahadev, Mathura temples, Hindu pilgrimage, Shiva temple, Mathura tourism" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/chintaharan-mahadev" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Chintaharan Mahadev Mathura</title>
             </Head>

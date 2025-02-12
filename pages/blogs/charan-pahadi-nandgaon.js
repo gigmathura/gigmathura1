@@ -14,6 +14,7 @@ const CharanPahadi = () => {
                 <meta name="description" content="Explore the divine Charan Pahadi in Nandgaon, a sacred place associated with Lord Krishna&apos;s childhood and pastimes in Braj." />
                 <meta name="keywords" content="Charan Pahadi, Nandgaon, Krishna Leela, pilgrimage sites, Hindu mythology, Lord Krishna" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/charan-pahadi-nandgaon" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Charan Pahadi - Sacred Steps of Divinity</title>
             </Head>

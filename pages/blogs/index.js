@@ -49,6 +49,7 @@ export default function Allblogs() {
             "description": `  Lord Krishna's birthplace, Mathura, is deeply significant both historically and spiritually. Located in Uttar Pradesh, this quaint city draws both pilgrims and tourists. There are a ton of things to do in Mathura and nearby Vrindavan, whether you&apos;re planning a quick getaway or a longer stay. The best places to visit in Mathura and Vrindavan will be discussed here, along with family-friendly locations, romantic getaways,`,
             "link": "/blogs/places-to-visit-in-mathura"
         },
+    
         {
             "id": 1,
             "title": "Bhooteshwar Mahadev",
@@ -89,7 +90,7 @@ export default function Allblogs() {
             "topic": "Places",
             "imageUrl": "https://www.brijwale.com/wp-content/uploads/2021/01/DSC_0143.jpg",
             "description": "Nand Bhawan Temple holds immense importance as the residence of Nanda Maharaj, where Lord Krishna spent his childhood...",
-            "link": "/blogs/nand-bhawan"
+            "link": "/blogs/nand-bhawan-nandgaon"
         },
         {
             "id": 6,
@@ -199,9 +200,55 @@ export default function Allblogs() {
             "id": 19,
             "title": "Madan Mohan Temple",
             "topic": "Places",
-            "imageUrl": "https://vrindavantemples.com/wp-content/uploads/2024/05/Shri-Radha-Madan-Mohan-ji-Temple-Vrindavan-Architectural-Marvel-1024x683.png",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a8/81/dd/madan-mohan-temple.jpg?w=1200&h=-1&s=1",
             "description": "Discover the historic Madan Mohan Temple, a cherished site that stands as a testament to the devotion of Lord Krishna's followers.",
             "link": "/blogs/radha-madan-mohan"
+        },
+        {
+            "id": 23,
+            "title": "Gowardhan Parvat",
+            "topic": "Places",
+            "imageUrl": "https://shrimathuraji.com/wp-content/uploads/2024/05/Goverdhan-Parikrama-4.jpg",
+            "description": `Gowardhan Parvat, also known as Govardhan Hill, is a prominent pilgrimage site in the Braj region of Uttar Pradesh, India.
+                                    Associated with the divine pastimes of Lord Krishna, this sacred hill holds a special place in Hindu mythology and devotion.
+                                    It is a must-visit for devotees seeking spiritual fulfillment`,
+            "link": "/blogs/gowardhan-parvat"
+        },
+        {
+            "id": 21,
+            "title": "Charan Pahadi",
+            "topic": "Places",
+            "imageUrl": "https://i.ytimg.com/vi/41KdAVkMsrw/maxresdefault.jpg",
+            "description": `  Charan Pahadi, located in Nandgaon, Uttar Pradesh, is a spiritually significant site in the Braj region. This sacred hill
+                                    is revered by devotees as the place where Lord Krishna imprinted his divine footprints during his playful and miraculous pastimes.
+                                    Surrounded by breathtaking landscapes, it holds immense religious importance and is a must-visit for those on a spiritual journey.
+`,
+            "link": "/blogs/charan-pahadi-nandgaon"
+        },
+        {
+            "id": 22,
+            "title": "GovindDev Ji Temple",
+            "topic": "Places",
+            "imageUrl": "https://www.trawell.in/admin/images/upload/941139133Vrindavan_Govind_Dev_Temple_Main.jpg",
+            "description": `Nestled in the sacred town of Vrindavan, Govind Ji Temple stands as a testimony to devotion and architectural brilliance. Dedicated to Lord Krishna, this temple is not just a place of worship but also a marvel of 16th-century design that attracts thousands of pilgrims every year.`,
+            "link": "/blogs/govinddevji-temple"
+        },
+        {
+            "id": 24,
+            "title": "Kusum Sarovar",
+            "topic": "Places",
+            "imageUrl": "https://pbs.twimg.com/media/FCY-ovhUUAMDGup.jpg",
+            "description": `Situated on the sacred Govardhan Hill in Mathura, Kusum Sarovar is a beautiful and serene reservoir steeped in mythological and historical significance. This enchanting site is believed to be a place where Radha and Krishna spent divine moments together amidst the fragrant groves of flowers.
+`,
+            "link": "/blogs/kusum-sarovar-gowardhan"
+        },
+        {
+            "id": 25,
+            "title": "Radha Rani Barsana",
+            "topic": "Places",
+            "imageUrl": "https://asoulwindow.com/wp-content/uploads/2022/03/Shri-Radha-Rani-Mahal-Barsana-Uttar-Pradesh-1024x768.jpg",
+            "description": `Nestled amidst the lush green hills of Barsana, Radha Rani Temple is one of the most revered shrines dedicated to Goddess Radha. This sacred site attracts thousands of devotees every year who seek blessings and wish to connect with the divine love of Radha and Krishna.`,
+            "link": "/blogs/radharani-barsana"
         }
     ]
 
@@ -228,7 +275,7 @@ export default function Allblogs() {
                 <meta property="og:image" content="/logo.png" /> {/* Replace with your feature image URL */}
                 <meta property="og:url" content="/logo.png" />
                 <meta property="og:type" content="website" />
-
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs" />
 
                 {/* Favicon */}
 

@@ -14,6 +14,7 @@ const ShriRangJiTemple = () => {
                 <meta name="description" content="Explore Shri Rang Ji Temple, a magnificent South Indian temple in Vrindavan. Discover its history, architecture, and cultural significance." />
                 <meta name="keywords" content="Vrindavan, Shri Rang Ji Temple, South Indian temples, Vrindavan tourism, Hindu pilgrimage, Rangnath Ji Temple, Vishnu temple" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/rangji-maharaj" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Rang Ji Temple Vrindavan</title>
             </Head>

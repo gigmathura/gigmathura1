@@ -14,6 +14,7 @@ const GowardhanParvat = () => {
                 <meta name="description" content="Discover the spiritual and historical significance of Gowardhan Parvat, a sacred site in Braj, associated with Lord Krishna's divine pastimes." />
                 <meta name="keywords" content="Gowardhan Parvat, Braj, Mathura, Krishna Leela, Parikrama, pilgrimage sites, Hindu mythology, Lord Krishna" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/gowardhan-parvat" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Gowardhan Parvat - A Divine Mountain</title>
             </Head>

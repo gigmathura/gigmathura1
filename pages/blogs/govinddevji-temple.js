@@ -14,7 +14,9 @@ const GovindJiTemple = () => {
                 <meta name="description" content="Explore Govind dev Ji Temple in Vrindavan, a magnificent monument dedicated to Lord Krishna. Discover its rich history, architecture, and spiritual significance." />
                 <meta name="keywords" content="Vrindavan, Govind Ji Temple, Krishna temple, Vrindavan tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/govinddevji-temple" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
+
                 <title>Govind dev Ji Temple Vrindavan</title>
             </Head>
 

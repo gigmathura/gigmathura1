@@ -14,6 +14,7 @@ const RadhaRaniTempleBarsana = () => {
                 <meta name="description" content="Discover the divine beauty of Radha Rani Temple in Barsana, the sacred abode of Radha Rani. Explore its history, architecture, and spiritual significance." />
                 <meta name="keywords" content="Barsana, Radha Rani Temple, temples in Barsana, Radha Krishna temples, Barsana tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/radharani-barsana" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Radha Rani Temple Barsana</title>
             </Head>

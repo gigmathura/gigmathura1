@@ -15,6 +15,8 @@ const BhooteshwarMahadev = () => {
                 <meta name="keywords" content="Mathura, Bhooteshwar Mahadev, temples in Mathura,bhooteshwar mahadev mathura,bhooteshwar, Shiva temples, India tourism" />
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/bhooteshwar-mahadev" />
+
                 <title>Bhooteshwar Mahadev Temple Mathura</title>
             </Head>
 

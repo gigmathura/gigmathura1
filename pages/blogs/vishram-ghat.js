@@ -14,6 +14,7 @@ const ShriVishramGhatMathura = () => {
                 <meta name="description" content="Discover Shri Vishram Ghat, the serene and sacred ghat on the banks of Yamuna River in Mathura. Learn about its spiritual and historical significance." />
                 <meta name="keywords" content="Mathura, Vishram Ghat, Yamuna River, temples in Mathura, Hindu pilgrimage, Mathura tourism" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/vishram-ghat" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Vishram Ghat Mathura</title>
             </Head>

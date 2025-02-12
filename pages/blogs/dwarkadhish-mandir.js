@@ -14,6 +14,7 @@ const ShriDwarkadhishTemple = () => {
                 <meta name="description" content="Explore Shri Dwarkadhish Temple in Mathura, a monumental center of devotion to Lord Krishna. Discover its history, art, and spiritual significance." />
                 <meta name="keywords" content="Mathura, Dwarkadhish Temple, Lord Krishna temple, Mathura tourism, Hindu pilgrimage, Dwarka Mathura" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/dwarkadhish-mandir" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Dwarkadhish Temple Mathura</title>
             </Head>

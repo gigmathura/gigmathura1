@@ -14,6 +14,7 @@ const IskconTempleVrindavan = () => {
                 <meta name="description" content="Explore ISKCON Temple Vrindavan, a hub of spirituality and devotion. Learn about its architectural beauty, festivals, and cultural significance." />
                 <meta name="keywords" content="Vrindavan, ISKCON Temple, Krishna Balram temple, Vrindavan tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/iskcon-mandir" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>ISKCON Temple Vrindavan</title>
             </Head>

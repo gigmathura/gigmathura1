@@ -14,6 +14,7 @@ const Mathura = () => {
                 <meta name="description" content="Explore the best places to visit in Mathura and Vrindavan, including top tourist spots for families, couples, and unique experiences beyond temples. Plan your trip today!" />
                 <meta name="keywords" content="Places to visit in Mathura, Places to visit in Mathura Vrindavan, Places to visit in Mathura in 1 day, Places to visit in Vrindavan, Top 5 tourist places in Mathura, Places to visit in Mathura with family, Places to visit in Mathura for couples, Places to visit in Mathura except temples" />
                 <meta name="author" content="Places to visit in Mathura, Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/places-to-visit-in-mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Places to Visit in Mathura</title>
             </Head>

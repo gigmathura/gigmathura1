@@ -14,6 +14,7 @@ const ShriRadhaVallabhJiTemple = () => {
                 <meta name="description" content="Explore Shri Radha Vallabh Ji Temple in Vrindavan, a treasure of devotion to Radha and Krishna. Discover its serene atmosphere and rich traditions." />
                 <meta name="keywords" content="Vrindavan, Shri Radha Vallabh Ji Temple, Radha Krishna temple, Vrindavan tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/radha-vallabh" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Radha Vallabh Ji Temple Vrindavan</title>
             </Head>

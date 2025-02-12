@@ -16,6 +16,7 @@ const BrahmandGateGokul = () => {
                 <meta name="author" content="GIG Mathura" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Brahmand Gate, Gokul Mathura</title>
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/brahmand-ghat" />
             </Head>
 
             <Navbar />

@@ -14,6 +14,7 @@ const ShriKrishnaJanmabhoomi = () => {
                 <meta name="description" content="Explore Shri Krishna Janmabhoomi, the birthplace of Lord Krishna in Mathura. Discover its history, architecture, and spiritual significance for devotees worldwide." />
                 <meta name="keywords" content="Mathura, Shri Krishna Janmabhoomi, Krishna birthplace, temples in Mathura, Krishna Janmasthan, Mathura tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/krishna-janmbhoomi" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Krishna Janmabhoomi Mathura</title>
             </Head>

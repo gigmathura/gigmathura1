@@ -14,6 +14,7 @@ const ChaurasiKhambaMandir = () => {
                 <meta name="description" content="Discover the Chaurasi Khamba Mandir in Gokul, Mathura, a marvel of architectural elegance and deep spiritual significance." />
                 <meta name="keywords" content="Chaurasi Khamba Mandir,Nand Bhawan gokul, Gokul, Mathura temples, ancient Indian architecture, spiritual tourism, Krishna pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/chaurasi-khamba" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Chaurasi Khamba Mandir Gokul</title>
             </Head>

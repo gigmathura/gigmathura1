@@ -14,6 +14,7 @@ const PremMandirVrindavan = () => {
                 <meta name="description" content="Explore the grandeur of Prem Mandir Vrindavan, a divine symbol of love and devotion. Discover its architecture, spiritual importance, and mesmerizing evening shows." />
                 <meta name="keywords" content="Vrindavan, Prem Mandir, Radha Krishna, Hindu temple, Vrindavan tourism, spiritual destination, Indian architecture" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/prem-mandir" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Prem Mandir Vrindavan</title>
             </Head>

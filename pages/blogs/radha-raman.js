@@ -14,6 +14,7 @@ const ShriRadhaRamanTemple = () => {
                 <meta name="description" content="Explore Shri Radha Raman Temple in Vrindavan, a spiritual landmark renowned for its divine idol of Lord Krishna and intricate architectural beauty." />
                 <meta name="keywords" content="Vrindavan, Shri Radha Raman Temple, Radha Raman, temples in Vrindavan, Radha Krishna, Hindu pilgrimage" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/radha-raman" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Shri Radha Raman Temple Vrindavan</title>
             </Head>

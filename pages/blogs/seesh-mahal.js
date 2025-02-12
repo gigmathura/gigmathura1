@@ -14,6 +14,7 @@ const SeeshMahalVrindavan = () => {
                 <meta name="description" content="Discover the Seesh Mahal in Vrindavan, a unique masterpiece known for its intricate mirror work and spiritual aura. Explore its history, architecture, and cultural significance." />
                 <meta name="keywords" content="Vrindavan, Seesh Mahal, mirror palace, temples in Vrindavan, Vrindavan tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/seesh-mahal" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Seesh Mahal Vrindavan</title>
             </Head>

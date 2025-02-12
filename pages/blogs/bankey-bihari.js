@@ -15,6 +15,7 @@ const ShriBankeyBihariVrindavan = () => {
                 <meta name="keywords" content="Vrindavan, Bankey Bihari Temple, Lord Krishna, Vrindavan temples, Hindu pilgrimage, Banke Bihari Darshan" />
                 <meta name="author" content="GIG Vrindavan" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/bankey-bihari" />
                 <title>Shri Bankey Bihari Vrindavan</title>
             </Head>
 

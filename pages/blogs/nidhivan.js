@@ -14,6 +14,7 @@ const NidhivanVrindavan = () => {
                 <meta name="description" content="Explore Nidhivan, the mystical and sacred grove of Vrindavan, where divine legends of Lord Krishna and Radha come alive. Discover its spiritual significance and unique stories." />
                 <meta name="keywords" content="Vrindavan, Nidhivan, Lord Krishna, Radha, temples in Vrindavan, Krishna leela, Vrindavan tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/nidhivan" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Nidhivan Vrindavan</title>
             </Head>

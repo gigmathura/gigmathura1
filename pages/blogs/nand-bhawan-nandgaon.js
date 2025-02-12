@@ -14,6 +14,7 @@ const NandBhawanMandir = () => {
                 <meta name="description" content="Explore Nand Bhawan Mandir in Gokul, Mathura, the historical residence of Nanda Baba and the divine childhood abode of Lord Krishna." />
                 <meta name="keywords" content="Mathura, Nand Bhawan Mandir, Krishna childhood, temples in Gokul, Nanda Baba, Mathura tourism, Hindu pilgrimage" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/nand-bhawan-nandgaon" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Nand Bhawan Nandgaon</title>
             </Head>

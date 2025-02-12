@@ -14,6 +14,7 @@ const MadanMohanTemple = () => {
                 <meta name="description" content="Explore the historic and spiritually significant Madan Mohan Temple in Vrindavan. Learn about its history, architecture, and cultural importance." />
                 <meta name="keywords" content="Vrindavan, Madan Mohan Temple, temples in Vrindavan, Hindu pilgrimage, Madan Mohan history" />
                 <meta name="author" content="GIG Vrindavan" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/radha-madan-mohan" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Radha Madan Mohan Temple Vrindavan</title>
             </Head>
@@ -50,7 +51,7 @@ const MadanMohanTemple = () => {
                                 </p>
 
                                 <Image
-                                    src="https://vrindavantemples.com/wp-content/uploads/2024/05/Shri-Radha-Madan-Mohan-ji-Temple-Vrindavan-Architectural-Marvel-1024x683.png"
+                                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a8/81/dd/madan-mohan-temple.jpg?w=1200&h=-1&s=1"
                                     className={`${styles.bounceLittle} img-fluid`}
                                     alt="Madan Mohan Temple"
                                     width={900}

@@ -14,6 +14,7 @@ const KusumSarovar = () => {
                 <meta name="description" content="Explore the serene Kusum Sarovar in Govardhan. Learn about its history, spiritual significance, and mesmerizing architecture." />
                 <meta name="keywords" content="Kusum Sarovar, Govardhan, Mathura temples, Hindu pilgrimage, Radha Krishna, Mathura tourism" />
                 <meta name="author" content="GIG Mathura" />
+                <link rel="canonical" href="https://www.gigdarshan.com/blogs/kusum-sarovar-gowardhan" />
                 <link rel="icon" href="/assets/images/favicon.ico" type="image/gif" />
                 <title>Kusum Sarovar Govardhan</title>
             </Head>
