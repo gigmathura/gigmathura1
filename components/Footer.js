@@ -103,7 +103,7 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 style={{ border: "none" }}
-                href="#!"
+                href="https://www.facebook.com/share/1MZ9aaJBgP/"
                 role="button"
               >
                 <i className="fa fa-facebook-f" style={{ fontSize: "36px", color: "blue" }}></i>
@@ -111,7 +111,7 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 style={{ border: "none" }}
-                href="#!"
+                href="https://wa.me/7505866498"
                 role="button"
               >
                 <i className="fa fa-whatsapp" style={{ fontSize: "36px", color: "green" }}></i>
@@ -119,7 +119,7 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 style={{ border: "none" }}
-                href="#!"
+                href="https://www.instagram.com/gigdarshan?igsh=a2R1Y3NrZjFtMm5s"
                 role="button"
               >
                 <i className="fa fa-instagram" style={{ fontSize: "36px", color: "red" }}></i>
@@ -127,7 +127,7 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 style={{ border: "none" }}
-                href="mailto:support@gigdarshan.com"
+                href="mailto:info@gigdarshan.com"
                 role="button"
               >
                 <i className="fa fa-envelope" style={{ fontSize: "36px", color: "grey" }}></i>

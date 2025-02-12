@@ -40,7 +40,7 @@ const [allReview] = useState([
     },   {
         id: 4,
         name: 'Sanjay Sahu',
-        review: 'The trip was well organized, and the guides were knowledgeable.',
+        review: 'What a experience, they have planned it to the minute , i had a lot of fun and ease.',
         imageUrl: 'https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129416.jpg', // Placeholder image
       },   {
         id: 5,
