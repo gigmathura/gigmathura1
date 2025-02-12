@@ -150,7 +150,9 @@ export default function Poojamathura({ poojaData }) {
                     content="https://www.gigdarshan.com/poojabooking-in-mathura"
                 />
                 <meta property="og:type" content="website" />
+
             </Head>
+        <link rel="canonical" href="https://www.gigdarshan.com/poojabooking-in-mathura" />
 
 
             <div>

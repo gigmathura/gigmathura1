@@ -136,6 +136,8 @@ export default function Rentalcarsmathura({ cabData }) {
                     content="https://www.gigdarshan.com/rental-cars-mathura"
                 />
                 <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://www.gigdarshan.com/rental-cars-mathura" />
+
             </Head>
 
             <div>

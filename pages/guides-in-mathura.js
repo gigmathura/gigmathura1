@@ -149,6 +149,8 @@ export default function Guidemathura() {
                     content="https://www.gigdarshan.com/guides-in-mathura"
                 />
                 <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.gigdarshan.com/guides-in-mathura" />
+
             </Head>
 
 

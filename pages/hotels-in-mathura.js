@@ -151,6 +151,8 @@ export default function Hotels({ hotelData }) {
         <meta property="og:description" content="Find the best hotels in Mathura for your next trip. Comfort and luxury at affordable prices." />
         <meta property="og:image" content="/logo.png" /> {/* Replace with your feature image URL */}
         <meta property="og:url" content="https://www.gigdarshan.com/hotels-in-mathura" />
+        <link rel="canonical" href="https://www.gigdarshan.com/hotels-in-mathura" />
+
         <meta property="og:type" content="website" />
         </Head>
 

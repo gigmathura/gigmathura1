@@ -153,6 +153,8 @@ export default function Activitymathura({ activityData }) {
                     property="og:url"
                     content="https://www.gigdarshan.com/activities-in-mathura"
                 />
+        <link rel="canonical" href="https://www.gigdarshan.com/activities-in-mathura" />
+
                 <meta property="og:type" content="website" />
             </Head>
 
