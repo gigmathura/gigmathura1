@@ -14,6 +14,38 @@
   margin-left: 10px;
 }
 
+.filterButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 5px;
+  margin-top: 0;
+}
+.filterButtons button.active {
+  border:1px solid #9DC0E4 ;
+  border-radius:3px;
+  cursor: pointer;
+  color:#5aacfd; 
+  font-size: 15px;
+ padding: 0 6px;
+  height: max-content;
+   width: max-content;
+   background: #bad3ec;
+   margin-right: 10px;
+}
+.filterButtons button.inactive { border:1px solid #9DC0E4 ;
+   border-radius:3px;
+   margin-right: 10px;
+
+  cursor: pointer;
+   color:#9DC0E4; 
+   font-size: 13px;
+  padding: 0 6px;
+   height: max-content;
+    width: max-content;
+    background: #EDF2F7;
+  }
+
 
 .itinerarycircledivpara{
   /* font-size:2.5vmin; */
@@ -25,6 +57,9 @@
   margin-right: 15px;
 }
 @media (min-width: 801px){
+  .filterButtonsMob{
+    display: none;
+  }
   .abovemaincontainer {
     min-height: 100vh;
 }
@@ -48,6 +83,7 @@
       flex: 3;
       color: white;
       height: auto;
+      margin-top: 30px;
       max-width: 900px;
       /* Dynamic height */
   }   
@@ -117,6 +153,9 @@ margin-bottom: 10px;
 }
 }
 @media (max-width: 800px){
+  .filterButtonsDesk{
+    display: none;
+  }
   .itinerarycircledivpara{
     font-size:4vmin;
     margin-top:2px

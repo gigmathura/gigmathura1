@@ -31,7 +31,7 @@ export default function Allblogs() {
         };
     }, []);
 
-
+    const [activeButton, setActiveButton] = useState('All');
     const truncateDescription = (description, maxLength) => {
         if (description.length > maxLength) {
             return description.substring(0, maxLength) + "...";
@@ -49,7 +49,7 @@ export default function Allblogs() {
             "description": `  Lord Krishna's birthplace, Mathura, is deeply significant both historically and spiritually. Located in Uttar Pradesh, this quaint city draws both pilgrims and tourists. There are a ton of things to do in Mathura and nearby Vrindavan, whether you&apos;re planning a quick getaway or a longer stay. The best places to visit in Mathura and Vrindavan will be discussed here, along with family-friendly locations, romantic getaways,`,
             "link": "/blogs/places-to-visit-in-mathura"
         },
-    
+
         {
             "id": 1,
             "title": "Bhooteshwar Mahadev",
@@ -251,6 +251,10 @@ export default function Allblogs() {
             "link": "/blogs/radharani-barsana"
         }
     ]
+    const filteredBlogs = allBlogs.filter(blog => {
+        if (activeButton === 'All') return true;
+        return blog.topic === activeButton;
+    });
 
     useEffect(() => {
         // Adjust the height of `abovemaincontainer` to match `maincontainer`
@@ -284,6 +288,7 @@ export default function Allblogs() {
 
             <Navbar />
             <hr />
+
             <div className="share text-center d-flex align-items-center justify-content-center flex-column">
                 <div className="mr-3">Didnt <span style={{ color: "red" }}> Planned?</span>
                     <p className='text-muted m-0 text-center mb-2' style={{ fontSize: "2vmin" }}>Plan Your Full Darshan With Us! You Should See What We Are <span style={{ color: "green" }}> Offering!</span></p>
@@ -294,21 +299,69 @@ export default function Allblogs() {
             </div>
             <hr />
 
+            <div className={`${styles.filterButtons} ${styles.filterButtonsMob}`} style={{ position: "" }}>
+
+                <button
+                    className={activeButton === 'All' ? styles.active : styles.inactive}
+                    onClick={() => setActiveButton('All')}
+                >
+                    All
+                </button>
+                <button
+                    className={activeButton === 'Places' ? styles.active : styles.inactive}
+                    onClick={() => setActiveButton('Places')}
+
+                >
+                    Places
+                </button>
+                <button
+                    className={activeButton === 'Blog' ? styles.active : styles.inactive}
+                    onClick={() => setActiveButton('Blog')}
+
+                >
+                    Blog
+                </button>
+            </div>
             {/* Above Main Content */}
             <div
                 ref={aboveMainContainerRef}
                 className={styles.abovemaincontainer}
             ></div>
             {/* Main Content */}
+
             <div ref={mainContainerRef} className={styles.maincontainer}>
                 {/* Package Overview Section */}
                 {/* <h2 className='text-dark mx-2'>All Blogs</h2> */}
+
                 <div className={styles.packageoverview}>
-                    {allBlogs.map((blog) => (
+                    <div className={`${styles.filterButtons} ${styles.filterButtonsDesk}`} style={{ position: "" }}>
+
+                        <button
+                            className={activeButton === 'All' ? styles.active : styles.inactive}
+                            onClick={() => setActiveButton('All')}
+                        >
+                            All
+                        </button>
+                        <button
+                            className={activeButton === 'Places' ? styles.active : styles.inactive}
+                            onClick={() => setActiveButton('Places')}
+
+                        >
+                            Places
+                        </button>
+                        <button
+                            className={activeButton === 'Blog' ? styles.active : styles.inactive}
+                            onClick={() => setActiveButton('Blog')}
+
+                        >
+                            Blog
+                        </button>
+                    </div>
+                    {filteredBlogs.map((blog) => (
                         <div key={blog.id} className={`${styles.blogCard} ${styles.allblogcard}`} style={{ color: "black", cursor: "pointer" }} onClick={() => router.push(blog.link)}>
                             <div className={styles.allblogcardcorosaldiv}>
-                                <div className={styles.imageblog} style={{ background: "grey",overflow:"hidden" }} >
-                                    <img src={blog.imageUrl} alt={blog.title} style={{height:"100%",width:"100%"}}/>
+                                <div className={styles.imageblog} style={{ background: "grey", overflow: "hidden" }} >
+                                    <img src={blog.imageUrl} alt={blog.title} style={{ height: "100%", width: "100%" }} />
                                 </div>
                             </div>
                             <div className={styles.allblogcarddesc}>
@@ -377,7 +430,7 @@ export default function Allblogs() {
                         <h4 style={{ padding: "15px", color: "black", margin: "0" }}><span><i className="fa fa-comments"></i></span> Need help?</h4>
                         <div style={{ paddingLeft: "15px", paddingBottom: "15px" }}>
                             <a href="tel:7505866498" style={{ textDecoration: "none", color: "black" }}>Call Us At:7505866498</a><br />
-                            <a href="mailto:gigayodhya@gmail.com" style={{ textDecoration: "none", color: "black" }}>Mail Us At:gigmathuraa@gmail.com</a>
+                            <a href="mailto:info@gigdarshan.com" style={{ textDecoration: "none", color: "black" }}>Mail Us At:info@gigdarshan.com</a>
                         </div>
 
                     </div>
