@@ -42,7 +42,7 @@
       "link": "/blogs/nand-bhawan-nandgaon",
       "area": 1,
       "priority": "mustvisit",
-      "location": "Mathura, Uttar Pradesh"
+      "location": "Nandgaon, Uttar Pradesh"
     },
     {
       "pid": 6,
@@ -55,9 +55,9 @@
     },
     {
       "pid": 7,
-      "name": "Brahmand Ghat",
-      "img": "https://s3-ap-southeast-1.amazonaws.com/images.brajrasik.org/630f410176f34f0009b100fa.jpeg",
-      "link": "/blogs/brahmand-ghat",
+      "name": "VaishnoDevi Mandir",
+      "img": "https://mathuravrindavantourism.co.in/images/places-to-visit/headers/vaishno-devi-dham-mathura-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+      "link": "/blogs/vaishnodevi-mandir",
       "area": 1,
       "priority": "mustvisit",
       "location": "Mathura, Uttar Pradesh"
@@ -109,18 +109,18 @@
     },
     {
       "pid": 13,
-      "name": "Govardhan Parikrama",
-      "img": "https://1.bp.blogspot.com/-AVQjBlaXa9U/XlQa7ozz_XI/AAAAAAAAHi8/2SBzO1CdFaU-7u6s5CHNISzkm44DQ5F9QCLcBGAsYHQ/s1600/govardhan1.jpg",
-      "link": "/blogs/govardhan-parikrama",
+      "name": "Govardhan Parvat",
+      "img": "https://shrimathuraji.com/wp-content/uploads/2024/05/Goverdhan-Parikrama-4.jpg",
+      "link": "/blogs/govardhan-parvat",
       "area": 1,
       "priority": "mustvisit",
       "location": "Govardhan, Uttar Pradesh"
     },
     {
       "pid": 14,
-      "name": "Radha Kund",
-      "img": "https://www.radheradheje.com/wp-content/uploads/2020/01/5.jpg",
-      "link": "/blogs/radha-kund",
+      "name": "Radha Madan Mohan Temple",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a8/81/dd/madan-mohan-temple.jpg?w=1200&h=-1&s=1",
+      "link": "/blogs/radha-madan-mohan",
       "area": 1,
       "priority": "mustvisit",
       "location": "Govardhan, Uttar Pradesh"
@@ -128,62 +128,62 @@
     {
       "pid": 15,
       "name": "Barsana Shriji Temple",
-      "img": "https://www.jagranimages.com/images/28_08_2022-barsana_temple2_22945940.jpg",
-      "link": "/blogs/barsana-shriji-temple",
+      "img": "https://asoulwindow.com/wp-content/uploads/2022/03/Shri-Radha-Rani-Mahal-Barsana-Uttar-Pradesh-1024x768.jpg",
+      "link": "/blogs/radharani-barsana",
       "area": 1,
       "priority": "mustvisit",
       "location": "Barsana, Uttar Pradesh"
     },
     {
       "pid": 16,
-      "name": "Kusum Sarovar",
-      "img": "https://4.bp.blogspot.com/-FGjWjkrDTbc/U9Cc2-L81UI/AAAAAAAAYCI/Oj1d83lCvvs/s1600/Bringing+water+from+Kusum+Sarovar+to+offer+Govardhana%252C+with+Sadhu+baba+at+Radha-Kunda+%25282%2529.jpg",
-      "link": "/blogs/kusum-sarovar",
+      "name": "Charan Pahadi",
+      "img": "https://i.ytimg.com/vi/41KdAVkMsrw/maxresdefault.jpg",
+      "link": "/blogs/charan-pahadi-nandgaon",
       "area": 1,
       "priority": "mustvisit",
-      "location": "Govardhan, Uttar Pradesh"
+      "location": "Nandgaon, Uttar Pradesh"
     },
     {
         "pid": 17,
-        "name": "Radha Kund",
-        "img": "https://www.holydham.com/wp-content/uploads/2016/04/Radha-Kund.jpg",
-        "link": "/blogs/radha-kund",
+        "name": "Radha Raman",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Radha_Raman_Temple_2.jpg",
+        "link": "/blogs/radha-raman",
         "area": 2,
         "priority": "mustvisit",
-        "location": "Govardhan, Uttar Pradesh"
+        "location": "Vrindavan, Uttar Pradesh"
       },
       {
         "pid": 18,
         "name": "Kusum Sarovar",
         "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kusum_Sarovar_%28Mat%2C_Uttar_Pradesh%2C_India%29.jpg",
-        "link": "/blogs/kusum-sarovar",
+        "link": "/blogs/kusum-sarovar-gowardhan",
         "area": 2,
         "priority": "mustvisit",
         "location": "Govardhan, Uttar Pradesh"
       },
       {
         "pid": 19,
-        "name": "Mansi Ganga",
-        "img": "https://www.trawell.in/admin/images/upload/159872562Govardhan_Mansi_Ganga_Main.jpg",
-        "link": "/blogs/mansi-ganga",
+        "name": "ISKCON Temple",
+        "img": "https://luxevista.in/wp-content/uploads/2024/01/Sri-Sri-Krishna-Balaram-Mandir-ISKCON-Vrindavan.png",
+        "link": "/blogs/iskcon-mandir",
         "area": 2,
         "priority": "mustvisit",
         "location": "Govardhan, Uttar Pradesh"
       },
       {
         "pid": 20,
-        "name": "Nand Bhavan",
-        "img": "https://www.tourmyindia.com/states/uttarpradesh/images/nand-bhavan-mathura1.jpg",
-        "link": "/blogs/nand-bhavan",
-        "area": 3,
+        "name": "Seesh Mahal",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq1YGVt2GZGOgJ_r-1OCP9IsRJPri4xDJww&s",
+        "link": "/blogs/seesh-mahal",
+        "area": 2,
         "priority": "mustvisit",
-        "location": "Nandgaon, Uttar Pradesh"
+        "location": "Vrindavan, Uttar Pradesh"
       },
       {
         "pid": 21,
-        "name": "Ter Kadamb",
-        "img": "https://www.tourmyindia.com/states/uttarpradesh/images/ter-kadamba-mathura1.jpg",
-        "link": "/blogs/ter-kadamb",
+        "name": "Radha Vallabh",
+        "img": "https://cdn1.prayagsamagam.com/media/2023/05/06161805/Shri-Radha-Vallabh-Temple-Vrindavan-4.webp",
+        "link": "/blogs/radha-vallabh",
         "area": 3,
         "priority": "mustvisit",
         "location": "Nandgaon, Uttar Pradesh"
@@ -200,8 +200,8 @@
       {
         "pid": 23,
         "name": "Raman Reti (Gokul)",
-        "img": "https://www.tourmyindia.com/states/uttarpradesh/images/raman-reti-mathura1.jpg",
-        "link": "/blogs/raman-reti-gokul",
+        "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+        "link": "/blogs/raman-reti",
         "area": 4,
         "priority": "mustvisit",
         "location": "Gokul, Uttar Pradesh"
@@ -217,12 +217,12 @@
       },
       {
         "pid": 25,
-        "name": "Raskhan Samadhi",
-        "img": "https://static.langimg.com/photo/imgsize-139067,msid-92464478/navbharat-times.jpg",
-        "link": "/blogs/raskhan-samadhi",
+        "name": "Rangnath Temple",
+        "img": "https://thetravelcurry.com/wp-content/uploads/2019/09/DSC_1249-polarr.jpg",
+        "link": "/blogs/rangji-maharaj",
         "area": 4,
         "priority": "mustvisit",
-        "location": "Gokul, Uttar Pradesh"
+        "location": "Vrindavan, Uttar Pradesh"
       }
   ]
   
