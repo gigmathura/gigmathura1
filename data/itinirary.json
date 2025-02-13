@@ -4,24 +4,24 @@
             {
                 "day": "Day 1",
                 "places": [
-                    {
-                        "pid": 1,
-                        "name": "Ram Mandir",
-                        "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                        "link": "/blogs/ram-mandir",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 2,
-                        "name": "Hanuman Garhi",
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                        "link": "/blogs/hanuman-garhi",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 2,
+                    "name": "Shri Krishna Janmbhoomi",
+                    "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                    "link": "/blogs/krishna-janmbhoomi",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 8,
+                    "name": "Shri Dwarkadish Mandir",
+                    "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                    "link": "/blogs/dwarkadhish-mandir",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  }
                 ]
             }
         ],
@@ -29,33 +29,25 @@
             {
                 "day": "Day 1",
                 "places": [
-                    {
-                        "pid": 1,
-                        "name": "Ram Mandir",
-                        "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                        "link": "/blogs/ram-mandir",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 2,
-                        "name": "Hanuman Garhi",
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                        "link": "/blogs/hanuman-garhi",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 5,
-                        "name": "Saryu River Ghats",
-                        "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
-                        "link": "/blogs/saryu-ghat",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 2,
+                    "name": "Shri Krishna Janmbhoomi",
+                    "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                    "link": "/blogs/krishna-janmbhoomi",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 1,
+                    "name": "Bhooteshwar Mahadev",
+                    "img": "https://mathuravrindavantourism.co.in/images/places-to-visit/headers/bhuteshwar-mahadev-temple-mathura-header-mathura-tourism.jpg",
+                    "link": "/blogs/bhooteshwar-mahadev",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  }
+
                 ]
             }
         ],
@@ -63,65 +55,65 @@
             {
                 "day": "Day 1",
                 "places": [
-                    {
-                        "pid": 1,
-                        "name": "Ram Mandir",
-                        "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                        "link": "/blogs/ram-mandir",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 2,
-                        "name": "Hanuman Garhi",
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                        "link": "/blogs/hanuman-garhi",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 3,
-                        "name": "Dashrath Mahal",
-                        "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
-                        "link": "/blogs/dashrath-mahal",
-                        "area": 1,
-                        "priority": "worthvisit",
-                        "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 2,
+                    "name": "Shri Krishna Janmbhoomi",
+                    "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                    "link": "/blogs/krishna-janmbhoomi",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 8,
+                    "name": "Shri Dwarkadish Mandir",
+                    "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                    "link": "/blogs/dwarkadhish-mandir",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 3,
+                    "name": "Raman Reti",
+                    "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                    "link": "/blogs/raman-reti",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  }
                 ]
             },
             {
                 "day": "Day 2",
                 "places": [
-                    {
-                        "pid": 5,
-                        "name": "Saryu River Ghats",
-                        "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
-                        "link": "/blogs/saryu-ghat",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 4,
-                        "name": "Kanak Bhawan",
-                        "img": "https://www.trawell.in/admin/images/upload/599531656Kanak_Bhawan.jpg",
-                        "link": "/blogs/kanak-bhawan",
-                        "area": 1,
-                        "priority": "worthvisit",
-                        "location": "Kanak Bhawan, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 7,
-                        "name": "Naya Ghat",
-                        "img": "https://cdnimg.prabhatkhabar.com/wp-content/uploads/Prabhatkhabar/2024-01/1be85ee3-650e-476a-94db-dc94af5a8c2c/WhatsApp_Image_2024_01_03_at_2_37_43_PM__2_.jpeg",
-                        "link": "/blogs/naya-ghat",
-                        "area": 1,
-                        "priority": "canvisit",
-                        "location": "Naya Ghat, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 10,
+                    "name": "Shri Bankey Bihari",
+                    "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                    "link": "/blogs/bankey-bihari",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 11,
+                    "name": "Prem Mandir",
+                    "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                    "link": "/blogs/prem-mandir",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 12,
+                    "name": "Nidhivan",
+                    "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                    "link": "/blogs/nidhivan",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  }
                 ]
             }
         ],
@@ -129,65 +121,65 @@
             {
                 "day": "Day 1",
                 "places": [
-                    {
-                        "pid": 1,
-                        "name": "Ram Mandir",
-                        "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                        "link": "/blogs/ram-mandir",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 2,
-                        "name": "Hanuman Garhi",
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                        "link": "/blogs/hanuman-garhi",
-                        "area": 1,
-                        "priority": "mustvisit",
-                        "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 3,
-                        "name": "Dashrath Mahal",
-                        "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
-                        "link": "/blogs/dashrath-mahal",
-                        "area": 1,
-                        "priority": "worthvisit",
-                        "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 2,
+                    "name": "Shri Krishna Janmbhoomi",
+                    "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                    "link": "/blogs/krishna-janmbhoomi",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 8,
+                    "name": "Shri Dwarkadish Mandir",
+                    "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                    "link": "/blogs/dwarkadhish-mandir",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 3,
+                    "name": "Raman Reti",
+                    "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                    "link": "/blogs/raman-reti",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Mathura, Uttar Pradesh"
+                  }
                 ]
             },
             {
                 "day": "Day 2",
                 "places": [
-                    {
-                        "pid": 9,
-                        "name": "Valmiki Ramayana Bhavan",
-                        "img": "https://images.news18.com/ibnkhabar/uploads/2022/08/Valmiki-Temple-1.jpg",
-                        "link": "/blogs/valmiki-ramayana-bhavan",
-                        "area": 2,
-                        "priority": "mustvisit",
-                        "location": "Valmiki Ramayana Bhavan, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 10,
-                        "name": "Guptar Ghat",
-                        "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Guptar-Ghat-Ayodhya-India.jpg",
-                        "link": "/blogs/guptar-ghat",
-                        "area": 2,
-                        "priority": "mustvisit",
-                        "location": "Guptar Ghat, Ayodhya, Uttar Pradesh"
-                    },
-                    {
-                        "pid": 11,
-                        "name": "Mani Parvat",
-                        "img": "https://nowayodhya.com/wp-content/uploads/2020/08/83885575_125422215640888_911637908434190336_o.jpg",
-                        "link": "/blogs/mani-parvat",
-                        "area": 2,
-                        "priority": "worthvisit",
-                        "location": "Mani Parvat, Ayodhya, Uttar Pradesh"
-                    }
+                  {
+                    "pid": 10,
+                    "name": "Shri Bankey Bihari",
+                    "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                    "link": "/blogs/bankey-bihari",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 11,
+                    "name": "Prem Mandir",
+                    "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                    "link": "/blogs/prem-mandir",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  },
+                  {
+                    "pid": 12,
+                    "name": "Nidhivan",
+                    "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                    "link": "/blogs/nidhivan",
+                    "area": 1,
+                    "priority": "mustvisit",
+                    "location": "Vrindavan, Uttar Pradesh"
+                  }
                 ]
             }
         ],
@@ -196,31 +188,40 @@
               "day": "Day 1",
               "places": [
                 {
-                  "pid": 1,
-                  "name": "Ram Mandir",
-                  "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                  "link": "/blogs/ram-mandir",
+                  "pid": 2,
+                  "name": "Shri Krishna Janmbhoomi",
+                  "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                  "link": "/blogs/krishna-janmbhoomi",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
-                  "pid": 2,
-                  "name": "Hanuman Garhi",
-                  "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                  "link": "/blogs/hanuman-garhi",
+                  "pid": 8,
+                  "name": "Shri Dwarkadish Mandir",
+                  "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                  "link": "/blogs/dwarkadhish-mandir",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
                   "pid": 3,
-                  "name": "Dashrath Mahal",
-                  "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
-                  "link": "/blogs/dashrath-mahal",
+                  "name": "Raman Reti",
+                  "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                  "link": "/blogs/raman-reti",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 20,
+                  "name": "Nand Bhavan",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/nand-bhavan-mathura1.jpg",
+                  "link": "/blogs/nand-bhavan",
+                  "area": 3,
+                  "priority": "mustvisit",
+                  "location": "Nandgaon, Uttar Pradesh"
                 }
               ]
             },
@@ -228,31 +229,31 @@
               "day": "Day 2",
               "places": [
                 {
-                  "pid": 4,
-                  "name": "Kanak Bhawan",
-                  "img": "https://www.trawell.in/admin/images/upload/599531656Kanak_Bhawan.jpg",
-                  "link": "/blogs/kanak-bhawan",
-                  "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Kanak Bhawan, Ayodhya, Uttar Pradesh"
-                },
-                {
-                  "pid": 5,
-                  "name": "Saryu River Ghats",
-                  "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
-                  "link": "/blogs/saryu-ghat",
+                  "pid": 10,
+                  "name": "Shri Bankey Bihari",
+                  "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                  "link": "/blogs/bankey-bihari",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
+                  "location": "Vrindavan, Uttar Pradesh"
                 },
                 {
-                  "pid": 6,
-                  "name": "Nageshwarnath Temple",
-                  "img": "https://ayodhyadhaam.in/images/NAGESHWAR%20NATH%20TEMPLE.jpeg",
-                  "link": "/blogs/nageshwarnath-temple",
+                  "pid": 11,
+                  "name": "Prem Mandir",
+                  "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                  "link": "/blogs/prem-mandir",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Nageshwarnath Temple, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
+                },
+                {
+                  "pid": 12,
+                  "name": "Nidhivan",
+                  "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                  "link": "/blogs/nidhivan",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 }
               ]
             }
@@ -262,22 +263,49 @@
               "day": "Day 1",
               "places": [
                 {
-                  "pid": 1,
-                  "name": "Ram Mandir",
-                  "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                  "link": "/blogs/ram-mandir",
+                  "pid": 2,
+                  "name": "Shri Krishna Janmbhoomi",
+                  "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                  "link": "/blogs/krishna-janmbhoomi",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
-                  "pid": 2,
-                  "name": "Hanuman Garhi",
-                  "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                  "link": "/blogs/hanuman-garhi",
+                  "pid": 8,
+                  "name": "Shri Dwarkadish Mandir",
+                  "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                  "link": "/blogs/dwarkadhish-mandir",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 3,
+                  "name": "Raman Reti",
+                  "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                  "link": "/blogs/raman-reti",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 20,
+                  "name": "Nand Bhavan",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/nand-bhavan-mathura1.jpg",
+                  "link": "/blogs/nand-bhavan",
+                  "area": 3,
+                  "priority": "mustvisit",
+                  "location": "Nandgaon, Uttar Pradesh"
+                },
+                {
+                  "pid": 22,
+                  "name": "Brahmand Ghat",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/brahmand-ghat-mathura1.jpg",
+                  "link": "/blogs/brahmand-ghat",
+                  "area": 4,
+                  "priority": "mustvisit",
+                  "location": "Gokul, Uttar Pradesh"
                 }
               ]
             },
@@ -285,22 +313,31 @@
               "day": "Day 2",
               "places": [
                 {
-                  "pid": 3,
-                  "name": "Dashrath Mahal",
-                  "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
-                  "link": "/blogs/dashrath-mahal",
+                  "pid": 10,
+                  "name": "Shri Bankey Bihari",
+                  "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                  "link": "/blogs/bankey-bihari",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 },
                 {
-                  "pid": 4,
-                  "name": "Kanak Bhawan",
-                  "img": "https://www.trawell.in/admin/images/upload/599531656Kanak_Bhawan.jpg",
-                  "link": "/blogs/kanak-bhawan",
+                  "pid": 11,
+                  "name": "Prem Mandir",
+                  "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                  "link": "/blogs/prem-mandir",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Kanak Bhawan, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
+                },
+                {
+                  "pid": 12,
+                  "name": "Nidhivan",
+                  "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                  "link": "/blogs/nidhivan",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 }
               ]
             },
@@ -308,31 +345,40 @@
               "day": "Day 3",
               "places": [
                 {
-                  "pid": 5,
-                  "name": "Saryu River Ghats",
-                  "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
-                  "link": "/blogs/saryu-ghat",
+                  "pid": 13,
+                  "name": "Govardhan Parikrama",
+                  "img": "https://1.bp.blogspot.com/-AVQjBlaXa9U/XlQa7ozz_XI/AAAAAAAAHi8/2SBzO1CdFaU-7u6s5CHNISzkm44DQ5F9QCLcBGAsYHQ/s1600/govardhan1.jpg",
+                  "link": "/blogs/govardhan-parikrama",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
+                  "location": "Govardhan, Uttar Pradesh"
                 },
                 {
-                  "pid": 6,
-                  "name": "Nageshwarnath Temple",
-                  "img": "https://ayodhyadhaam.in/images/NAGESHWAR%20NATH%20TEMPLE.jpeg",
-                  "link": "/blogs/nageshwarnath-temple",
+                  "pid": 14,
+                  "name": "Radha Kund",
+                  "img": "https://www.radheradheje.com/wp-content/uploads/2020/01/5.jpg",
+                  "link": "/blogs/radha-kund",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Nageshwarnath Temple, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
                 },
                 {
-                  "pid": 7,
-                  "name": "Naya Ghat",
-                  "img": "https://cdnimg.prabhatkhabar.com/wp-content/uploads/Prabhatkhabar/2024-01/1be85ee3-650e-476a-94db-dc94af5a8c2c/WhatsApp_Image_2024_01_03_at_2_37_43_PM__2_.jpeg",
-                  "link": "/blogs/naya-ghat",
+                  "pid": 15,
+                  "name": "Barsana Shriji Temple",
+                  "img": "https://www.jagranimages.com/images/28_08_2022-barsana_temple2_22945940.jpg",
+                  "link": "/blogs/barsana-shriji-temple",
                   "area": 1,
-                  "priority": "canvisit",
-                  "location": "Naya Ghat, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Barsana, Uttar Pradesh"
+                },
+                {
+                  "pid": 16,
+                  "name": "Kusum Sarovar",
+                  "img": "https://4.bp.blogspot.com/-FGjWjkrDTbc/U9Cc2-L81UI/AAAAAAAAYCI/Oj1d83lCvvs/s1600/Bringing+water+from+Kusum+Sarovar+to+offer+Govardhana%252C+with+Sadhu+baba+at+Radha-Kunda+%25282%2529.jpg",
+                  "link": "/blogs/kusum-sarovar",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
                 }
               ]
             }
@@ -342,31 +388,49 @@
               "day": "Day 1",
               "places": [
                 {
-                  "pid": 1,
-                  "name": "Ram Mandir",
-                  "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                  "link": "/blogs/ram-mandir",
+                  "pid": 2,
+                  "name": "Shri Krishna Janmbhoomi",
+                  "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                  "link": "/blogs/krishna-janmbhoomi",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
-                  "pid": 2,
-                  "name": "Hanuman Garhi",
-                  "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                  "link": "/blogs/hanuman-garhi",
+                  "pid": 8,
+                  "name": "Shri Dwarkadish Mandir",
+                  "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                  "link": "/blogs/dwarkadhish-mandir",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
                   "pid": 3,
-                  "name": "Dashrath Mahal",
-                  "img": "https://www.visitayodhyadham.com/wp-content/uploads/2024/01/dashrath-mahal-visit-ayodhya-dham-e1704393540692.jpg",
-                  "link": "/blogs/dashrath-mahal",
+                  "name": "Raman Reti",
+                  "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                  "link": "/blogs/raman-reti",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Dashrath Mahal, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 20,
+                  "name": "Nand Bhavan",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/nand-bhavan-mathura1.jpg",
+                  "link": "/blogs/nand-bhavan",
+                  "area": 3,
+                  "priority": "mustvisit",
+                  "location": "Nandgaon, Uttar Pradesh"
+                },
+                {
+                  "pid": 22,
+                  "name": "Brahmand Ghat",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/brahmand-ghat-mathura1.jpg",
+                  "link": "/blogs/brahmand-ghat",
+                  "area": 4,
+                  "priority": "mustvisit",
+                  "location": "Gokul, Uttar Pradesh"
                 }
               ]
             },
@@ -374,32 +438,56 @@
               "day": "Day 2",
               "places": [
                 {
-                  "pid": 4,
-                  "name": "Kanak Bhawan",
-                  "img": "https://www.trawell.in/admin/images/upload/599531656Kanak_Bhawan.jpg",
-                  "link": "/blogs/kanak-bhawan",
+                  "pid": 10,
+                  "name": "Shri Bankey Bihari",
+                  "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                  "link": "/blogs/bankey-bihari",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Kanak Bhawan, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 },
                 {
-                  "pid": 6,
-                  "name": "Nageshwarnath Temple",
-                  "img": "https://ayodhyadhaam.in/images/NAGESHWAR%20NATH%20TEMPLE.jpeg",
-                  "link": "/blogs/nageshwarnath-temple",
+                  "pid": 11,
+                  "name": "Prem Mandir",
+                  "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                  "link": "/blogs/prem-mandir",
                   "area": 1,
-                  "priority": "worthvisit",
-                  "location": "Nageshwarnath Temple, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 },
                 {
-                  "pid": 7,
-                  "name": "Naya Ghat",
-                  "img": "https://cdnimg.prabhatkhabar.com/wp-content/uploads/Prabhatkhabar/2024-01/1be85ee3-650e-476a-94db-dc94af5a8c2c/WhatsApp_Image_2024_01_03_at_2_37_43_PM__2_.jpeg",
-                  "link": "/blogs/naya-ghat",
+                  "pid": 12,
+                  "name": "Nidhivan",
+                  "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                  "link": "/blogs/nidhivan",
                   "area": 1,
-                  "priority": "canvisit",
-                  "location": "Naya Ghat, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "places": [
+                {
+                  "pid": 13,
+                  "name": "Govardhan Parikrama",
+                  "img": "https://1.bp.blogspot.com/-AVQjBlaXa9U/XlQa7ozz_XI/AAAAAAAAHi8/2SBzO1CdFaU-7u6s5CHNISzkm44DQ5F9QCLcBGAsYHQ/s1600/govardhan1.jpg",
+                  "link": "/blogs/govardhan-parikrama",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
+                },
+                {
+                  "pid": 15,
+                  "name": "Barsana Shriji Temple",
+                  "img": "https://www.jagranimages.com/images/28_08_2022-barsana_temple2_22945940.jpg",
+                  "link": "/blogs/barsana-shriji-temple",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Barsana, Uttar Pradesh"
+                }
+              
               ]
             }
           ],
@@ -408,31 +496,49 @@
               "day": "Day 1",
               "places": [
                 {
-                  "pid": 1,
-                  "name": "Ram Mandir",
-                  "img": "https://www.aljazeera.com/wp-content/uploads/2024/01/AP24021340859855-1705847861.jpg?resize=1920%2C1440",
-                  "link": "/blogs/ram-mandir",
-                  "area": 1,
-                  "priority": "mustvisit",
-                  "location": "Ram Mandir, Ayodhya, Uttar Pradesh"
-                },
-                {
                   "pid": 2,
-                  "name": "Hanuman Garhi",
-                  "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hanuman_Garhi_Temple%2C_a_major_religious_site_in_Ayodhya_utter_pradesh.jpg",
-                  "link": "/blogs/hanuman-garhi",
+                  "name": "Shri Krishna Janmbhoomi",
+                  "img": "https://static.langimg.com/photo/imgsize-196426,msid-92701315/navbharat-times.jpg",
+                  "link": "/blogs/krishna-janmbhoomi",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Hanuman Garhi, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
                 },
                 {
-                  "pid": 5,
-                  "name": "Saryu River Ghats",
-                  "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Saryu-Ghat-Ayodhya-India.jpg",
-                  "link": "/blogs/saryu-ghat",
+                  "pid": 8,
+                  "name": "Shri Dwarkadish Mandir",
+                  "img": "https://apnayatra.com/wp-content/uploads/2023/06/Dwarkadhish-Temple-Mathura6.jpg",
+                  "link": "/blogs/dwarkadhish-mandir",
                   "area": 1,
                   "priority": "mustvisit",
-                  "location": "Saryu River Ghats, Ayodhya, Uttar Pradesh"
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 3,
+                  "name": "Raman Reti",
+                  "img": "https://faujitoursandtravels.com/wp-content/uploads/2024/09/2022-11-15-1.jpg",
+                  "link": "/blogs/raman-reti",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Mathura, Uttar Pradesh"
+                },
+                {
+                  "pid": 20,
+                  "name": "Nand Bhavan",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/nand-bhavan-mathura1.jpg",
+                  "link": "/blogs/nand-bhavan",
+                  "area": 3,
+                  "priority": "mustvisit",
+                  "location": "Nandgaon, Uttar Pradesh"
+                },
+                {
+                  "pid": 22,
+                  "name": "Brahmand Ghat",
+                  "img": "https://www.tourmyindia.com/states/uttarpradesh/images/brahmand-ghat-mathura1.jpg",
+                  "link": "/blogs/brahmand-ghat",
+                  "area": 4,
+                  "priority": "mustvisit",
+                  "location": "Gokul, Uttar Pradesh"
                 }
               ]
             },
@@ -440,22 +546,31 @@
               "day": "Day 2",
               "places": [
                 {
-                  "pid": 9,
-                  "name": "Valmiki Ramayana Bhavan",
-                  "img": "https://images.news18.com/ibnkhabar/uploads/2022/08/Valmiki-Temple-1.jpg",
-                  "link": "/blogs/valmiki-ramayana-bhavan",
-                  "area": 2,
+                  "pid": 10,
+                  "name": "Shri Bankey Bihari",
+                  "img": "https://brijkerasiya.org/wp-content/uploads/2024/07/banke-bihari-temple.jpg",
+                  "link": "/blogs/bankey-bihari",
+                  "area": 1,
                   "priority": "mustvisit",
-                  "location": "Valmiki Ramayana Bhavan, Ayodhya, Uttar Pradesh"
+                  "location": "Vrindavan, Uttar Pradesh"
                 },
                 {
-                  "pid": 10,
-                  "name": "Guptar Ghat",
-                  "img": "https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/Guptar-Ghat-Ayodhya-India.jpg",
-                  "link": "/blogs/guptar-ghat",
-                  "area": 2,
+                  "pid": 11,
+                  "name": "Prem Mandir",
+                  "img": "https://media.assettype.com/freepressjournal%2Fimport%2F2017%2F10%2FPrem-Mandir-Vrindavan.jpg",
+                  "link": "/blogs/prem-mandir",
+                  "area": 1,
                   "priority": "mustvisit",
-                  "location": "Guptar Ghat, Ayodhya, Uttar Pradesh"
+                  "location": "Vrindavan, Uttar Pradesh"
+                },
+                {
+                  "pid": 12,
+                  "name": "Nidhivan",
+                  "img": "https://i.ytimg.com/vi/HXEKczHfdJ8/maxresdefault.jpg",
+                  "link": "/blogs/nidhivan",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Vrindavan, Uttar Pradesh"
                 }
               ]
             },
@@ -463,22 +578,40 @@
               "day": "Day 3",
               "places": [
                 {
-                  "pid": 11,
-                  "name": "Mani Parvat",
-                  "img": "https://nowayodhya.com/wp-content/uploads/2020/08/83885575_125422215640888_911637908434190336_o.jpg",
-                  "link": "/blogs/mani-parvat",
-                  "area": 2,
-                  "priority": "worthvisit",
-                  "location": "Mani Parvat, Ayodhya, Uttar Pradesh"
+                  "pid": 13,
+                  "name": "Govardhan Parikrama",
+                  "img": "https://1.bp.blogspot.com/-AVQjBlaXa9U/XlQa7ozz_XI/AAAAAAAAHi8/2SBzO1CdFaU-7u6s5CHNISzkm44DQ5F9QCLcBGAsYHQ/s1600/govardhan1.jpg",
+                  "link": "/blogs/govardhan-parikrama",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
                 },
                 {
-                  "pid": 8,
-                  "name": "Birla Mandir",
-                  "img": "https://www.nativeplanet.com/photos/325x244x100/2019/01/photo-92-155031-1.jpg",
-                  "link": "/blogs/birla-mandir",
+                  "pid": 14,
+                  "name": "Radha Kund",
+                  "img": "https://www.radheradheje.com/wp-content/uploads/2020/01/5.jpg",
+                  "link": "/blogs/radha-kund",
                   "area": 1,
-                  "priority": "canvisit",
-                  "location": "Birla Mandir, Ayodhya, Uttar Pradesh"
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
+                },
+                {
+                  "pid": 15,
+                  "name": "Barsana Shriji Temple",
+                  "img": "https://www.jagranimages.com/images/28_08_2022-barsana_temple2_22945940.jpg",
+                  "link": "/blogs/barsana-shriji-temple",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Barsana, Uttar Pradesh"
+                },
+                {
+                  "pid": 16,
+                  "name": "Kusum Sarovar",
+                  "img": "https://4.bp.blogspot.com/-FGjWjkrDTbc/U9Cc2-L81UI/AAAAAAAAYCI/Oj1d83lCvvs/s1600/Bringing+water+from+Kusum+Sarovar+to+offer+Govardhana%252C+with+Sadhu+baba+at+Radha-Kunda+%25282%2529.jpg",
+                  "link": "/blogs/kusum-sarovar",
+                  "area": 1,
+                  "priority": "mustvisit",
+                  "location": "Govardhan, Uttar Pradesh"
                 }
               ]
             }
