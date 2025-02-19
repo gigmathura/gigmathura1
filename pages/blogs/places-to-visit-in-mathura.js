@@ -59,18 +59,19 @@ const Mathura = () => {
 
                                 <h2>Top 5 Tourist Places in Mathura</h2>
                                 <ol>
-                                    <li>Shri Krishna Janmabhoomi Temple</li>
-                                    <li>Dwarkadhish Temple</li>
-                                    <li>Vishram Ghat</li>
-                                    <li>Kusum Sarovar</li>
-                                    <li>Govardhan Hill</li>
-                                </ol>
+   <li><a href="https://www.gigdarshan.com/blogs/krishna-janmbhoomi" target="_blank">Shri Krishna Janmabhoomi Temple</a></li>
+   <li><a href="https://www.gigdarshan.com/blogs/dwarkadhish-mandir" target="_blank">Dwarkadhish Temple</a></li>
+   <li><a href="https://www.gigdarshan.com/blogs/vishram-ghat" target="_blank">Vishram Ghat</a></li>
+   <li><a href="https://www.gigdarshan.com/blogs/kusum-sarovar-gowardhan" target="_blank">Kusum Sarovar</a></li>
+   <li><a href="https://www.gigdarshan.com/blogs/gowardhan-parvat" target="_blank">Govardhan Parvat</a></li>
+</ol>
+
 
                                 <h2>Places to Visit in Mathura in 1 Day</h2>
                                 <p>If you have limited time, u can prefer this schedule:</p>
                                 <ul>
-                                    <li>Start your day at Shri Krishna Janmabhoomi Temple</li>
-                                    <li>Visit Dwarkadhish Temple and Vishram Ghat.</li>
+                                    <li>Start your day at <a href="https://www.gigdarshan.com/blogs/krishna-janmbhoomi" target="_blank">Shri Krishna Janmabhoomi</a></li>
+                                    <li>Visit <a href="https://www.gigdarshan.com/blogs/dwarkadhish-mandir" target="_blank">Dwarkadhish Temple</a> and <a href="https://www.gigdarshan.com/blogs/vishram-ghat" target="_blank">Vishram Ghat</a>.</li>
                                     <li>End your day with an evening aarti at the Yamuna River.</li>
                                 </ul>
                                 <Image
@@ -84,8 +85,8 @@ const Mathura = () => {
                                 <h2>Places to Visit in Mathura for Couples</h2>
                                 <p>For couples seeking a romantic and spiritual retreat:</p>
                                 <ul>
-                                    <li>Kusum Sarovar: Known for its picturesque setting and serene vibe.</li>
-                                    <li>Prem Mandir: Stroll through the illuminated gardens and enjoy its romantic ambiance.</li>
+                                    <li><a href="https://www.gigdarshan.com/blogs/kusum-sarovar-gowardhan" target="_blank">Kusum Sarovar</a>: Known for its picturesque setting and serene vibe.</li>
+                                    <li><a href="https://www.gigdarshan.com/blogs/prem-mandir" target="_blank">Prem Mandir</a>: Stroll through the illuminated gardens and enjoy its romantic ambiance.</li>
 
                                 </ul>
 
