@@ -778,11 +778,17 @@
         justify-content: center;
         align-items: center;
     }
+    .textcenter{
+        text-align: center;
+        
+    }
 
     .fhdescription h2 {
         text-align: center;
     }
-
+    .fhdescription p {
+        text-align: center !important;
+    }
     .fhImageDescription {
         height: max-content;
         display: flex;

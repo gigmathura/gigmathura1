@@ -117,8 +117,7 @@
 
     .fullhoteloverlayContentContainer {
         background: white;
-        height: 90%;
-        width: 90%;
+      
         /* border-radius:30px; */
         /* margin-top: 30px; */
 
@@ -278,13 +277,15 @@
     }
     .fullhoteloverlayContentContainer {
         background: white;
-        height: 95%;
-        width: 95%;
+        /* height: 95%;
+        width: 95%; */
+        width: 100%;
         border-radius: 10px;
         overflow: hidden;
         /* border-radius:30px;
           margin-top: 30px; */
     }
+    .overlayk{}
     .hotelGrid{
         display:flex;
         flex-direction:column;
